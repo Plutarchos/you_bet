@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-15T17:50:40.971789",
+  "generated_at": "2026-01-15T17:58:57.611145",
   "matches": [
     {
       "id": 126,
@@ -11,125 +11,111 @@
         {
           "bookmaker": "888sport",
           "bookmaker_key": "sport888",
-          "home": 2.0,
-          "draw": 3.1,
-          "away": 3.5
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 3.9,
-          "draw": 3.0,
-          "away": 2.05
+          "home": 3.4,
+          "draw": 2.75,
+          "away": 2.25
         },
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.14,
-          "draw": 3.4,
-          "away": 4.0
+          "home": 4.0,
+          "draw": 3.1,
+          "away": 2.3
         },
         {
           "bookmaker": "Betway",
           "bookmaker_key": "betway",
-          "home": 1.91,
-          "draw": 3.4,
-          "away": 3.8
+          "home": 3.75,
+          "draw": 2.88,
+          "away": 2.15
         },
         {
           "bookmaker": "Casumo",
           "bookmaker_key": "casumo",
-          "home": 1.93,
-          "draw": 3.1,
-          "away": 4.2
+          "home": 4.1,
+          "draw": 2.7,
+          "away": 2.17
         },
         {
           "bookmaker": "Coral",
           "bookmaker_key": "coral",
-          "home": 1.75,
-          "draw": 3.4,
-          "away": 4.4
+          "home": 3.9,
+          "draw": 2.8,
+          "away": 2.1
         },
         {
           "bookmaker": "Grosvenor",
           "bookmaker_key": "grosvenor",
-          "home": 1.91,
-          "draw": 3.05,
-          "away": 4.1
+          "home": 4.0,
+          "draw": 2.65,
+          "away": 2.14
         },
         {
           "bookmaker": "Ladbrokes",
           "bookmaker_key": "ladbrokes_uk",
-          "home": 1.85,
-          "draw": 3.3,
-          "away": 4.0
+          "home": 4.2,
+          "draw": 2.87,
+          "away": 2.0
         },
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 1.89,
-          "draw": 3.05,
-          "away": 4.1
+          "home": 4.0,
+          "draw": 2.63,
+          "away": 2.12
         },
         {
           "bookmaker": "LiveScore Bet",
           "bookmaker_key": "livescorebet",
-          "home": 1.92,
-          "draw": 3.1,
-          "away": 4.1
+          "home": 4.1,
+          "draw": 2.65,
+          "away": 2.14
         },
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 2.06,
-          "draw": 3.4,
-          "away": 4.3
+          "home": 4.1,
+          "draw": 3.1,
+          "away": 2.26
         },
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 1.8,
-          "draw": 3.25,
-          "away": 4.2
+          "home": 4.0,
+          "draw": 3.0,
+          "away": 2.0
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 3.6,
-          "draw": 3.2,
-          "away": 2.1
+          "home": 4.0,
+          "draw": 3.1,
+          "away": 2.05
         },
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.02,
-          "draw": 3.25,
-          "away": 4.1
+          "home": 3.9,
+          "draw": 2.98,
+          "away": 2.28
         },
         {
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
-          "home": 1.92,
-          "draw": 3.1,
-          "away": 4.1
-        },
-        {
-          "bookmaker": "William Hill",
-          "bookmaker_key": "williamhill",
-          "home": 3.7,
-          "draw": 3.0,
-          "away": 2.05
+          "home": 4.1,
+          "draw": 2.65,
+          "away": 2.14
         }
       ],
       "best_odds": {
-        "home": 3.9,
-        "draw": 3.4,
-        "away": 4.4
+        "home": 4.2,
+        "draw": 3.1,
+        "away": 2.3
       },
       "avg_odds": {
-        "home": 2.27,
-        "draw": 3.19,
-        "away": 3.69
+        "home": 3.97,
+        "draw": 2.85,
+        "away": 2.15
       }
     },
     {
@@ -149,9 +135,9 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.78,
+          "home": 2.8,
           "draw": 3.3,
-          "away": 2.92
+          "away": 2.9
         },
         {
           "bookmaker": "Betfair Sportsbook",
@@ -179,7 +165,7 @@
           "bookmaker_key": "casumo",
           "home": 2.55,
           "draw": 3.2,
-          "away": 2.75
+          "away": 2.7
         },
         {
           "bookmaker": "Coral",
@@ -193,7 +179,7 @@
           "bookmaker_key": "grosvenor",
           "home": 2.55,
           "draw": 3.2,
-          "away": 2.75
+          "away": 2.7
         },
         {
           "bookmaker": "Ladbrokes",
@@ -206,22 +192,22 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 2.55,
-          "draw": 3.15,
-          "away": 2.75
+          "draw": 3.2,
+          "away": 2.7
         },
         {
           "bookmaker": "LiveScore Bet",
           "bookmaker_key": "livescorebet",
           "home": 2.55,
           "draw": 3.15,
-          "away": 2.75
+          "away": 2.7
         },
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 2.78,
+          "home": 2.8,
           "draw": 3.3,
-          "away": 2.92
+          "away": 2.9
         },
         {
           "bookmaker": "Paddy Power",
@@ -240,9 +226,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.76,
-          "draw": 3.25,
-          "away": 2.9
+          "home": 2.78,
+          "draw": 3.3,
+          "away": 2.88
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -256,7 +242,7 @@
           "bookmaker_key": "virginbet",
           "home": 2.55,
           "draw": 3.2,
-          "away": 2.75
+          "away": 2.7
         },
         {
           "bookmaker": "William Hill",
@@ -267,14 +253,14 @@
         }
       ],
       "best_odds": {
-        "home": 2.78,
+        "home": 2.8,
         "draw": 3.3,
-        "away": 2.92
+        "away": 2.9
       },
       "avg_odds": {
         "home": 2.6,
-        "draw": 3.13,
-        "away": 2.77
+        "draw": 3.14,
+        "away": 2.75
       }
     },
     {
@@ -292,16 +278,9 @@
           "away": 2.38
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 3.0,
-          "draw": 3.3,
-          "away": 2.38
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 3.35,
+          "home": 3.4,
           "draw": 3.25,
           "away": 2.48
         },
@@ -330,8 +309,8 @@
           "bookmaker": "Casumo",
           "bookmaker_key": "casumo",
           "home": 3.15,
-          "draw": 3.2,
-          "away": 2.32
+          "draw": 3.1,
+          "away": 2.35
         },
         {
           "bookmaker": "Coral",
@@ -344,8 +323,8 @@
           "bookmaker": "Grosvenor",
           "bookmaker_key": "grosvenor",
           "home": 3.15,
-          "draw": 3.2,
-          "away": 2.32
+          "draw": 3.1,
+          "away": 2.35
         },
         {
           "bookmaker": "Ladbrokes",
@@ -358,15 +337,15 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 3.1,
-          "draw": 3.15,
-          "away": 2.3
+          "draw": 3.1,
+          "away": 2.32
         },
         {
           "bookmaker": "LiveScore Bet",
           "bookmaker_key": "livescorebet",
-          "home": 3.1,
-          "draw": 3.15,
-          "away": 2.28
+          "home": 3.15,
+          "draw": 3.1,
+          "away": 2.32
         },
         {
           "bookmaker": "Matchbook",
@@ -406,9 +385,9 @@
         {
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
-          "home": 3.1,
-          "draw": 3.15,
-          "away": 2.28
+          "home": 3.15,
+          "draw": 3.1,
+          "away": 2.32
         },
         {
           "bookmaker": "William Hill",
@@ -419,14 +398,14 @@
         }
       ],
       "best_odds": {
-        "home": 3.35,
-        "draw": 3.3,
+        "home": 3.4,
+        "draw": 3.25,
         "away": 2.48
       },
       "avg_odds": {
-        "home": 3.1,
-        "draw": 3.16,
-        "away": 2.34
+        "home": 3.12,
+        "draw": 3.13,
+        "away": 2.35
       }
     },
     {
@@ -440,6 +419,13 @@
           "bookmaker": "888sport",
           "bookmaker_key": "sport888",
           "home": 1.6,
+          "draw": 4.0,
+          "away": 4.8
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.57,
           "draw": 4.0,
           "away": 4.8
         },
@@ -570,8 +556,8 @@
       },
       "avg_odds": {
         "home": 1.59,
-        "draw": 4.19,
-        "away": 4.98
+        "draw": 4.18,
+        "away": 4.97
       }
     },
     {
@@ -734,18 +720,11 @@
           "away": 1.61
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 6.0,
-          "draw": 3.9,
-          "away": 1.57
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 6.6,
           "draw": 4.0,
-          "away": 1.66
+          "away": 1.65
         },
         {
           "bookmaker": "Betfair Sportsbook",
@@ -815,7 +794,7 @@
           "bookmaker_key": "matchbook",
           "home": 6.6,
           "draw": 4.0,
-          "away": 1.66
+          "away": 1.65
         },
         {
           "bookmaker": "Paddy Power",
@@ -836,7 +815,7 @@
           "bookmaker_key": "smarkets",
           "home": 6.6,
           "draw": 3.95,
-          "away": 1.65
+          "away": 1.64
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -863,11 +842,11 @@
       "best_odds": {
         "home": 6.6,
         "draw": 4.0,
-        "away": 1.66
+        "away": 1.65
       },
       "avg_odds": {
-        "home": 5.76,
-        "draw": 3.84,
+        "home": 5.75,
+        "draw": 3.83,
         "away": 1.58
       }
     },
@@ -1271,7 +1250,7 @@
           "bookmaker_key": "smarkets",
           "home": 1.96,
           "draw": 3.6,
-          "away": 4.4
+          "away": 4.5
         },
         {
           "bookmaker": "Virgin Bet",
@@ -1296,7 +1275,7 @@
       "avg_odds": {
         "home": 1.88,
         "draw": 3.44,
-        "away": 4.12
+        "away": 4.13
       }
     },
     {
@@ -1311,6 +1290,13 @@
           "bookmaker_key": "sport888",
           "home": 1.4,
           "draw": 4.6,
+          "away": 6.5
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.36,
+          "draw": 4.75,
           "away": 6.5
         },
         {
@@ -1386,7 +1372,7 @@
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 1.44,
+          "home": 1.45,
           "draw": 5.4,
           "away": 7.8
         },
@@ -1407,7 +1393,7 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.42,
+          "home": 1.43,
           "draw": 5.3,
           "away": 7.6
         },
@@ -1434,14 +1420,14 @@
         }
       ],
       "best_odds": {
-        "home": 1.44,
+        "home": 1.45,
         "draw": 5.4,
         "away": 7.8
       },
       "avg_odds": {
         "home": 1.4,
-        "draw": 4.87,
-        "away": 6.67
+        "draw": 4.86,
+        "away": 6.66
       }
     },
     {
@@ -1456,6 +1442,13 @@
           "bookmaker_key": "sport888",
           "home": 1.14,
           "draw": 7.5,
+          "away": 17.0
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.12,
+          "draw": 7.0,
           "away": 17.0
         },
         {
@@ -1496,9 +1489,9 @@
         {
           "bookmaker": "Coral",
           "bookmaker_key": "coral",
-          "home": 1.14,
-          "draw": 9.0,
-          "away": 17.0
+          "home": 1.17,
+          "draw": 8.0,
+          "away": 15.0
         },
         {
           "bookmaker": "Grosvenor",
@@ -1510,9 +1503,9 @@
         {
           "bookmaker": "Ladbrokes",
           "bookmaker_key": "ladbrokes_uk",
-          "home": 1.13,
-          "draw": 9.0,
-          "away": 17.0
+          "home": 1.17,
+          "draw": 8.0,
+          "away": 13.0
         },
         {
           "bookmaker": "LeoVegas",
@@ -1553,7 +1546,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 1.15,
-          "draw": 9.2,
+          "draw": 9.8,
           "away": 23.98
         },
         {
@@ -1584,9 +1577,9 @@
         "away": 25.0
       },
       "avg_odds": {
-        "home": 1.13,
-        "draw": 8.01,
-        "away": 18.28
+        "home": 1.14,
+        "draw": 7.88,
+        "away": 17.89
       }
     },
     {
@@ -1601,13 +1594,6 @@
           "bookmaker_key": "sport888",
           "home": 3.4,
           "draw": 3.7,
-          "away": 1.95
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 3.4,
-          "draw": 4.0,
           "away": 1.95
         },
         {
@@ -1685,7 +1671,7 @@
           "bookmaker_key": "matchbook",
           "home": 3.8,
           "draw": 4.0,
-          "away": 2.02
+          "away": 2.04
         },
         {
           "bookmaker": "Paddy Power",
@@ -1736,8 +1722,8 @@
         "away": 2.04
       },
       "avg_odds": {
-        "home": 3.55,
-        "draw": 3.78,
+        "home": 3.56,
+        "draw": 3.76,
         "away": 1.95
       }
     },
@@ -2212,6 +2198,13 @@
           "away": 2.2
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 3.2,
+          "draw": 3.25,
+          "away": 2.25
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.25,
@@ -2357,6 +2350,13 @@
           "away": 2.3
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.88,
+          "draw": 3.5,
+          "away": 2.3
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.0,
@@ -2483,7 +2483,7 @@
       },
       "avg_odds": {
         "home": 2.81,
-        "draw": 3.44,
+        "draw": 3.45,
         "away": 2.34
       }
     },
@@ -3040,13 +3040,6 @@
           "away": 1.4
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 7.0,
-          "draw": 4.5,
-          "away": 1.4
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 8.2,
@@ -3172,7 +3165,7 @@
         "away": 1.47
       },
       "avg_odds": {
-        "home": 7.26,
+        "home": 7.27,
         "draw": 4.55,
         "away": 1.41
       }
@@ -3556,7 +3549,7 @@
           "bookmaker_key": "smarkets",
           "home": 2.26,
           "draw": 3.65,
-          "away": 3.25
+          "away": 3.3
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -3636,9 +3629,9 @@
         {
           "bookmaker": "Casumo",
           "bookmaker_key": "casumo",
-          "home": 2.5,
+          "home": 2.4,
           "draw": 3.75,
-          "away": 2.6
+          "away": 2.65
         },
         {
           "bookmaker": "Coral",
@@ -3664,16 +3657,16 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 2.45,
+          "home": 2.38,
           "draw": 3.7,
-          "away": 2.55
+          "away": 2.63
         },
         {
           "bookmaker": "LiveScore Bet",
           "bookmaker_key": "livescorebet",
-          "home": 2.4,
+          "home": 2.32,
           "draw": 3.65,
-          "away": 2.5
+          "away": 2.6
         },
         {
           "bookmaker": "Matchbook",
@@ -3700,7 +3693,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 2.46,
-          "draw": 3.9,
+          "draw": 3.95,
           "away": 2.74
         },
         {
@@ -3713,9 +3706,9 @@
         {
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
-          "home": 2.43,
-          "draw": 3.65,
-          "away": 2.5
+          "home": 2.35,
+          "draw": 3.7,
+          "away": 2.6
         },
         {
           "bookmaker": "William Hill",
@@ -3731,9 +3724,9 @@
         "away": 2.8
       },
       "avg_odds": {
-        "home": 2.4,
-        "draw": 3.72,
-        "away": 2.63
+        "home": 2.38,
+        "draw": 3.73,
+        "away": 2.65
       }
     },
     {
@@ -3991,7 +3984,7 @@
           "bookmaker_key": "smarkets",
           "home": 2.52,
           "draw": 3.55,
-          "away": 2.92
+          "away": 2.94
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -4038,13 +4031,6 @@
           "bookmaker_key": "sport888",
           "home": 1.67,
           "draw": 3.9,
-          "away": 4.6
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.7,
-          "draw": 4.0,
           "away": 4.6
         },
         {
@@ -4121,7 +4107,7 @@
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
           "home": 1.77,
-          "draw": 4.0,
+          "draw": 4.1,
           "away": 5.1
         },
         {
@@ -4175,7 +4161,7 @@
       "avg_odds": {
         "home": 1.69,
         "draw": 3.93,
-        "away": 4.68
+        "away": 4.69
       }
     },
     {
@@ -4191,13 +4177,6 @@
           "home": 1.22,
           "draw": 6.0,
           "away": 11.0
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.22,
-          "draw": 6.5,
-          "away": 13.0
         },
         {
           "bookmaker": "Betfair",
@@ -4326,7 +4305,7 @@
       },
       "avg_odds": {
         "home": 1.22,
-        "draw": 6.41,
+        "draw": 6.4,
         "away": 12.92
       }
     },
@@ -4342,13 +4321,6 @@
           "bookmaker_key": "sport888",
           "home": 2.7,
           "draw": 3.0,
-          "away": 2.7
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.7,
-          "draw": 3.2,
           "away": 2.7
         },
         {
@@ -4478,8 +4450,8 @@
       },
       "avg_odds": {
         "home": 2.67,
-        "draw": 3.11,
-        "away": 2.76
+        "draw": 3.1,
+        "away": 2.77
       }
     },
     {
@@ -4495,13 +4467,6 @@
           "home": 2.15,
           "draw": 3.2,
           "away": 3.3
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.15,
-          "draw": 3.4,
-          "away": 3.4
         },
         {
           "bookmaker": "Betfair",
@@ -4647,13 +4612,6 @@
           "home": 1.7,
           "draw": 3.8,
           "away": 4.5
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.7,
-          "draw": 3.9,
-          "away": 4.75
         },
         {
           "bookmaker": "Betfair",
@@ -4817,7 +4775,7 @@
         {
           "bookmaker": "Betfair Sportsbook",
           "bookmaker_key": "betfair_sb_uk",
-          "home": 3.25,
+          "home": 3.2,
           "draw": 2.88,
           "away": 2.0
         },
@@ -4882,21 +4840,21 @@
           "bookmaker_key": "matchbook",
           "home": 3.55,
           "draw": 3.55,
-          "away": 2.24
+          "away": 2.26
         },
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
           "home": 3.4,
           "draw": 3.3,
-          "away": 2.1
+          "away": 2.15
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 3.4,
-          "draw": 3.3,
-          "away": 2.1
+          "home": 3.3,
+          "draw": 3.25,
+          "away": 2.15
         },
         {
           "bookmaker": "Smarkets",
@@ -4933,9 +4891,9 @@
         "away": 2.3
       },
       "avg_odds": {
-        "home": 3.24,
+        "home": 3.23,
         "draw": 3.34,
-        "away": 2.17
+        "away": 2.18
       }
     },
     {
@@ -5266,7 +5224,7 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.75,
+          "home": 1.74,
           "draw": 4.2,
           "away": 4.8
         },
@@ -5558,7 +5516,7 @@
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.55,
           "draw": 3.4,
-          "away": 2.26
+          "away": 2.28
         },
         {
           "bookmaker": "Betfair Sportsbook",
@@ -5626,9 +5584,9 @@
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 3.6,
+          "home": 3.55,
           "draw": 3.45,
-          "away": 2.28
+          "away": 2.3
         },
         {
           "bookmaker": "Paddy Power",
@@ -5649,7 +5607,7 @@
           "bookmaker_key": "smarkets",
           "home": 3.55,
           "draw": 3.4,
-          "away": 2.22
+          "away": 2.24
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -5674,12 +5632,12 @@
         }
       ],
       "best_odds": {
-        "home": 3.6,
+        "home": 3.55,
         "draw": 3.45,
-        "away": 2.28
+        "away": 2.3
       },
       "avg_odds": {
-        "home": 3.34,
+        "home": 3.33,
         "draw": 3.21,
         "away": 2.18
       }
@@ -5799,7 +5757,7 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.18,
+          "home": 2.16,
           "draw": 3.35,
           "away": 3.6
         },
@@ -5849,6 +5807,13 @@
           "home": 2.05,
           "draw": 3.4,
           "away": 3.25
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.05,
+          "draw": 3.6,
+          "away": 3.3
         },
         {
           "bookmaker": "Betfair",
@@ -5996,6 +5961,13 @@
           "away": 1.91
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 3.9,
+          "draw": 3.5,
+          "away": 1.91
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 4.0,
@@ -6090,7 +6062,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 3.95,
-          "draw": 3.45,
+          "draw": 3.4,
           "away": 1.91
         },
         {
@@ -6121,7 +6093,7 @@
         "away": 1.95
       },
       "avg_odds": {
-        "home": 3.82,
+        "home": 3.83,
         "draw": 3.38,
         "away": 1.91
       }
@@ -6138,6 +6110,13 @@
           "bookmaker_key": "sport888",
           "home": 2.62,
           "draw": 3.0,
+          "away": 2.62
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.62,
+          "draw": 3.25,
           "away": 2.62
         },
         {
@@ -6286,6 +6265,13 @@
           "away": 2.75
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.6,
+          "draw": 3.0,
+          "away": 2.88
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.64,
@@ -6411,7 +6397,7 @@
         "away": 2.96
       },
       "avg_odds": {
-        "home": 2.67,
+        "home": 2.66,
         "draw": 2.99,
         "away": 2.73
       }
@@ -6428,6 +6414,13 @@
           "bookmaker_key": "sport888",
           "home": 2.6,
           "draw": 3.0,
+          "away": 2.7
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.55,
+          "draw": 3.3,
           "away": 2.7
         },
         {
@@ -6576,6 +6569,13 @@
           "away": 2.9
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.38,
+          "draw": 3.2,
+          "away": 3.0
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.44,
@@ -6721,6 +6721,13 @@
           "away": 3.1
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.25,
+          "draw": 3.3,
+          "away": 3.12
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.3,
@@ -6839,7 +6846,7 @@
         "away": 3.4
       },
       "avg_odds": {
-        "home": 2.18,
+        "home": 2.19,
         "draw": 3.38,
         "away": 3.17
       }
@@ -6856,6 +6863,13 @@
           "bookmaker_key": "sport888",
           "home": 3.25,
           "draw": 3.1,
+          "away": 2.15
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 3.4,
+          "draw": 3.25,
           "away": 2.15
         },
         {
@@ -6932,7 +6946,7 @@
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
           "home": 3.4,
-          "draw": 3.3,
+          "draw": 3.35,
           "away": 2.3
         },
         {
@@ -6953,7 +6967,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 3.4,
-          "draw": 3.15,
+          "draw": 3.25,
           "away": 2.26
         },
         {
@@ -6985,7 +6999,7 @@
       },
       "avg_odds": {
         "home": 3.33,
-        "draw": 3.21,
+        "draw": 3.22,
         "away": 2.15
       }
     },
@@ -7004,11 +7018,18 @@
           "away": 3.3
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.0,
+          "draw": 3.5,
+          "away": 3.6
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.08,
           "draw": 3.6,
-          "away": 3.55
+          "away": 3.6
         },
         {
           "bookmaker": "Betway",
@@ -7122,9 +7143,9 @@
         "away": 3.65
       },
       "avg_odds": {
-        "home": 2.03,
+        "home": 2.02,
         "draw": 3.45,
-        "away": 3.41
+        "away": 3.42
       }
     },
     {
@@ -7142,9 +7163,16 @@
           "away": 5.5
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.5,
+          "draw": 4.1,
+          "away": 6.5
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.53,
+          "home": 1.52,
           "draw": 4.1,
           "away": 6.8
         },
@@ -7260,9 +7288,9 @@
         "away": 7.0
       },
       "avg_odds": {
-        "home": 1.55,
-        "draw": 3.94,
-        "away": 5.77
+        "home": 1.54,
+        "draw": 3.95,
+        "away": 5.81
       }
     },
     {
@@ -7284,7 +7312,7 @@
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.35,
           "draw": 3.3,
-          "away": 2.26
+          "away": 2.18
         },
         {
           "bookmaker": "Betway",
@@ -7345,9 +7373,9 @@
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 3.4,
+          "home": 3.45,
           "draw": 3.4,
-          "away": 2.26
+          "away": 2.22
         },
         {
           "bookmaker": "Paddy Power",
@@ -7393,14 +7421,14 @@
         }
       ],
       "best_odds": {
-        "home": 3.4,
+        "home": 3.45,
         "draw": 3.4,
         "away": 2.28
       },
       "avg_odds": {
-        "home": 3.25,
+        "home": 3.26,
         "draw": 3.2,
-        "away": 2.2
+        "away": 2.19
       }
     },
     {
@@ -7420,7 +7448,7 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.68,
+          "home": 2.7,
           "draw": 3.35,
           "away": 2.56
         },
@@ -7490,7 +7518,7 @@
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 2.7,
+          "home": 2.72,
           "draw": 3.35,
           "away": 2.56
         },
@@ -7511,7 +7539,7 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.64,
+          "home": 2.66,
           "draw": 3.3,
           "away": 2.54
         },
@@ -7538,7 +7566,7 @@
         }
       ],
       "best_odds": {
-        "home": 2.7,
+        "home": 2.72,
         "draw": 3.5,
         "away": 2.6
       },
@@ -8276,7 +8304,7 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.57,
+          "home": 1.58,
           "draw": 3.95,
           "away": 6.2
         },
@@ -8514,7 +8542,7 @@
           "bookmaker_key": "smarkets",
           "home": 1.8,
           "draw": 3.95,
-          "away": 4.2
+          "away": 4.3
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -8546,7 +8574,7 @@
       "avg_odds": {
         "home": 1.81,
         "draw": 3.48,
-        "away": 4.2
+        "away": 4.21
       }
     },
     {
@@ -8989,7 +9017,7 @@
           "bookmaker_key": "sport888",
           "home": 1.44,
           "draw": 4.4,
-          "away": 6.0
+          "away": 5.75
         },
         {
           "bookmaker": "Betfair",
@@ -9101,7 +9129,7 @@
           "bookmaker_key": "williamhill",
           "home": 1.44,
           "draw": 4.4,
-          "away": 6.0
+          "away": 5.8
         }
       ],
       "best_odds": {
@@ -9112,7 +9140,7 @@
       "avg_odds": {
         "home": 1.44,
         "draw": 4.64,
-        "away": 5.84
+        "away": 5.81
       }
     },
     {
@@ -9127,6 +9155,13 @@
           "bookmaker_key": "sport888",
           "home": 1.65,
           "draw": 3.5,
+          "away": 5.0
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.61,
+          "draw": 3.6,
           "away": 5.0
         },
         {
@@ -9243,7 +9278,7 @@
       "avg_odds": {
         "home": 1.62,
         "draw": 3.65,
-        "away": 5.37
+        "away": 5.34
       }
     },
     {
@@ -9259,6 +9294,13 @@
           "home": 1.44,
           "draw": 4.0,
           "away": 6.5
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.4,
+          "draw": 4.33,
+          "away": 7.0
         },
         {
           "bookmaker": "Betfair",
@@ -9387,7 +9429,7 @@
       },
       "avg_odds": {
         "home": 1.42,
-        "draw": 4.43,
+        "draw": 4.42,
         "away": 7.08
       }
     },
@@ -9499,13 +9541,6 @@
           "bookmaker_key": "sport888",
           "home": 1.44,
           "draw": 4.0,
-          "away": 7.0
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.44,
-          "draw": 4.1,
           "away": 7.0
         },
         {
@@ -9635,8 +9670,8 @@
       },
       "avg_odds": {
         "home": 1.43,
-        "draw": 4.24,
-        "away": 7.44
+        "draw": 4.25,
+        "away": 7.47
       }
     },
     {
@@ -9740,7 +9775,7 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.16,
+          "home": 1.18,
           "draw": 7.8,
           "away": 4.7
         },
@@ -9783,13 +9818,6 @@
           "home": 2.75,
           "draw": 3.1,
           "away": 2.5
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.62,
-          "draw": 3.4,
-          "away": 2.38
         },
         {
           "bookmaker": "Betfair",
@@ -9911,8 +9939,8 @@
       },
       "avg_odds": {
         "home": 2.64,
-        "draw": 3.28,
-        "away": 2.43
+        "draw": 3.27,
+        "away": 2.44
       }
     },
     {
@@ -9930,17 +9958,10 @@
           "away": 1.75
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 4.0,
-          "draw": 3.9,
-          "away": 1.7
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 4.1,
-          "draw": 3.85,
+          "draw": 4.2,
           "away": 1.77
         },
         {
@@ -10051,12 +10072,12 @@
       ],
       "best_odds": {
         "home": 4.1,
-        "draw": 4.0,
+        "draw": 4.2,
         "away": 1.77
       },
       "avg_odds": {
         "home": 3.9,
-        "draw": 3.78,
+        "draw": 3.8,
         "away": 1.73
       }
     },
@@ -10206,13 +10227,6 @@
           "away": 1.53
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 6.5,
-          "draw": 4.0,
-          "away": 1.5
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 6.8,
@@ -10338,7 +10352,7 @@
         "away": 1.57
       },
       "avg_odds": {
-        "home": 6.15,
+        "home": 6.13,
         "draw": 4.12,
         "away": 1.53
       }
@@ -10453,7 +10467,7 @@
           "bookmaker_key": "smarkets",
           "home": 2.94,
           "draw": 3.3,
-          "away": 2.6
+          "away": 2.62
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -10931,6 +10945,13 @@
           "away": 3.8
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.87,
+          "draw": 3.5,
+          "away": 3.7
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.97,
@@ -11058,7 +11079,7 @@
       "avg_odds": {
         "home": 1.88,
         "draw": 3.51,
-        "away": 3.89
+        "away": 3.88
       }
     },
     {
@@ -11074,6 +11095,13 @@
           "home": 2.62,
           "draw": 2.9,
           "away": 2.8
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.6,
+          "draw": 2.9,
+          "away": 2.75
         },
         {
           "bookmaker": "Betfair",
@@ -11370,7 +11398,7 @@
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.3,
           "draw": 3.55,
-          "away": 3.05
+          "away": 3.1
         },
         {
           "bookmaker": "Betfair Sportsbook",
@@ -11486,7 +11514,7 @@
       "avg_odds": {
         "home": 2.21,
         "draw": 3.41,
-        "away": 2.98
+        "away": 2.99
       }
     },
     {
@@ -11642,17 +11670,10 @@
           "away": 3.4
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.87,
-          "draw": 3.75,
-          "away": 3.4
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.99,
-          "draw": 3.65,
+          "draw": 3.7,
           "away": 3.6
         },
         {
@@ -11769,7 +11790,7 @@
       "avg_odds": {
         "home": 1.9,
         "draw": 3.65,
-        "away": 3.34
+        "away": 3.33
       }
     },
     {
@@ -11783,13 +11804,6 @@
           "bookmaker": "888sport",
           "bookmaker_key": "sport888",
           "home": 6.0,
-          "draw": 3.9,
-          "away": 1.5
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 6.5,
           "draw": 3.9,
           "away": 1.5
         },
@@ -11889,7 +11903,7 @@
           "bookmaker_key": "smarkets",
           "home": 7.2,
           "draw": 4.2,
-          "away": 1.53
+          "away": 1.54
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -12353,25 +12367,32 @@
           "away": 1.6
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 5.5,
+          "draw": 3.8,
+          "away": 1.55
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 6.0,
+          "home": 5.9,
           "draw": 4.1,
-          "away": 1.67
+          "away": 1.66
         },
         {
           "bookmaker": "Betfair Sportsbook",
           "bookmaker_key": "betfair_sb_uk",
           "home": 5.0,
-          "draw": 3.5,
-          "away": 1.57
+          "draw": 3.4,
+          "away": 1.53
         },
         {
           "bookmaker": "Betway",
           "bookmaker_key": "betway",
-          "home": 5.0,
-          "draw": 3.8,
-          "away": 1.65
+          "home": 5.25,
+          "draw": 4.0,
+          "away": 1.61
         },
         {
           "bookmaker": "BoyleSports",
@@ -12425,23 +12446,23 @@
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 6.0,
+          "home": 5.9,
           "draw": 4.1,
           "away": 1.66
         },
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 5.0,
+          "home": 5.5,
           "draw": 3.8,
-          "away": 1.6
+          "away": 1.57
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 5.25,
-          "draw": 3.9,
-          "away": 1.6
+          "home": 5.5,
+          "draw": 3.8,
+          "away": 1.57
         },
         {
           "bookmaker": "Smarkets",
@@ -12455,7 +12476,7 @@
           "bookmaker_key": "unibet_uk",
           "home": 5.25,
           "draw": 4.0,
-          "away": 1.6
+          "away": 1.62
         },
         {
           "bookmaker": "Virgin Bet",
@@ -12473,14 +12494,14 @@
         }
       ],
       "best_odds": {
-        "home": 6.0,
+        "home": 5.9,
         "draw": 4.1,
-        "away": 1.67
+        "away": 1.66
       },
       "avg_odds": {
-        "home": 5.36,
+        "home": 5.41,
         "draw": 3.85,
-        "away": 1.6
+        "away": 1.59
       }
     },
     {
@@ -12496,6 +12517,13 @@
           "home": 9.5,
           "draw": 4.8,
           "away": 1.3
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 9.0,
+          "draw": 5.0,
+          "away": 1.29
         },
         {
           "bookmaker": "Betfair",
@@ -12623,7 +12651,7 @@
         "away": 1.35
       },
       "avg_odds": {
-        "home": 9.54,
+        "home": 9.51,
         "draw": 5.01,
         "away": 1.29
       }
@@ -12781,13 +12809,6 @@
           "away": 2.8
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.7,
-          "draw": 3.0,
-          "away": 2.7
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.94,
@@ -12862,7 +12883,7 @@
           "bookmaker_key": "matchbook",
           "home": 2.96,
           "draw": 2.92,
-          "away": 3.05
+          "away": 3.1
         },
         {
           "bookmaker": "Paddy Power",
@@ -12909,13 +12930,13 @@
       ],
       "best_odds": {
         "home": 2.96,
-        "draw": 3.0,
-        "away": 3.05
+        "draw": 2.92,
+        "away": 3.1
       },
       "avg_odds": {
-        "home": 2.79,
-        "draw": 2.79,
-        "away": 2.82
+        "home": 2.8,
+        "draw": 2.78,
+        "away": 2.83
       }
     },
     {
@@ -13297,7 +13318,7 @@
           "bookmaker_key": "smarkets",
           "home": 2.6,
           "draw": 2.82,
-          "away": 3.55
+          "away": 3.5
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -13339,13 +13360,6 @@
       "commence_time": "2026-01-18T13:00:00+00:00",
       "league": "Swiss Super League",
       "odds": [
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.73,
-          "draw": 3.9,
-          "away": 3.9
-        },
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
@@ -13392,7 +13406,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 1.8,
-          "draw": 3.7,
+          "draw": 3.85,
           "away": 4.1
         },
         {
@@ -13409,8 +13423,8 @@
         "away": 4.2
       },
       "avg_odds": {
-        "home": 1.74,
-        "draw": 3.69,
+        "home": 1.75,
+        "draw": 3.68,
         "away": 3.88
       }
     },
@@ -13705,13 +13719,6 @@
           "away": 1.7
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 4.6,
-          "draw": 3.9,
-          "away": 1.67
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 4.8,
@@ -13857,18 +13864,11 @@
           "away": 3.4
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.1,
-          "draw": 3.3,
-          "away": 3.4
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.18,
           "draw": 3.4,
-          "away": 3.7
+          "away": 3.75
         },
         {
           "bookmaker": "Betfair Sportsbook",
@@ -13957,7 +13957,7 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.14,
+          "home": 2.16,
           "draw": 3.35,
           "away": 3.65
         },
@@ -13991,7 +13991,7 @@
       "avg_odds": {
         "home": 2.07,
         "draw": 3.29,
-        "away": 3.48
+        "away": 3.49
       }
     },
     {
@@ -14009,18 +14009,25 @@
           "away": 5.0
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.5,
+          "draw": 4.1,
+          "away": 5.5
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.55,
-          "draw": 4.7,
+          "draw": 4.6,
           "away": 6.0
         },
         {
           "bookmaker": "Betfair Sportsbook",
           "bookmaker_key": "betfair_sb_uk",
-          "home": 1.5,
-          "draw": 3.6,
-          "away": 5.0
+          "home": 1.44,
+          "draw": 3.75,
+          "away": 5.5
         },
         {
           "bookmaker": "Betway",
@@ -14088,23 +14095,23 @@
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 1.5,
+          "home": 1.44,
           "draw": 4.33,
-          "away": 5.5
+          "away": 6.0
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 1.53,
-          "draw": 4.2,
-          "away": 5.5
+          "home": 1.5,
+          "draw": 4.33,
+          "away": 6.0
         },
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 1.54,
           "draw": 4.6,
-          "away": 5.8
+          "away": 5.9
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -14134,9 +14141,9 @@
         "away": 6.2
       },
       "avg_odds": {
-        "home": 1.52,
+        "home": 1.51,
         "draw": 4.29,
-        "away": 5.46
+        "away": 5.55
       }
     },
     {
@@ -14156,7 +14163,7 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.9,
+          "home": 2.92,
           "draw": 3.15,
           "away": 2.5
         },
@@ -14378,9 +14385,9 @@
         {
           "bookmaker": "Unibet (UK)",
           "bookmaker_key": "unibet_uk",
-          "home": 2.65,
-          "draw": 3.2,
-          "away": 2.65
+          "home": 2.55,
+          "draw": 3.25,
+          "away": 2.7
         },
         {
           "bookmaker": "Virgin Bet",
@@ -14397,8 +14404,8 @@
       },
       "avg_odds": {
         "home": 2.54,
-        "draw": 3.13,
-        "away": 2.7
+        "draw": 3.14,
+        "away": 2.71
       }
     },
     {
@@ -14982,6 +14989,13 @@
           "away": 2.5
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.8,
+          "draw": 3.0,
+          "away": 2.5
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.1,
@@ -15107,7 +15121,7 @@
         "away": 2.66
       },
       "avg_odds": {
-        "home": 3.01,
+        "home": 3.0,
         "draw": 2.93,
         "away": 2.48
       }
@@ -15127,16 +15141,9 @@
           "away": 4.4
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.61,
-          "draw": 3.9,
-          "away": 4.5
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.66,
+          "home": 1.64,
           "draw": 4.1,
           "away": 4.7
         },
@@ -15253,7 +15260,7 @@
       },
       "avg_odds": {
         "home": 1.63,
-        "draw": 3.87,
+        "draw": 3.86,
         "away": 4.39
       }
     },
@@ -15270,13 +15277,6 @@
           "home": 2.9,
           "draw": 3.4,
           "away": 2.2
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.88,
-          "draw": 3.5,
-          "away": 2.15
         },
         {
           "bookmaker": "Betfair",
@@ -15398,7 +15398,7 @@
       },
       "avg_odds": {
         "home": 2.94,
-        "draw": 3.36,
+        "draw": 3.35,
         "away": 2.16
       }
     },
@@ -15419,7 +15419,7 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.45,
+          "home": 1.43,
           "draw": 4.9,
           "away": 7.2
         },
@@ -15433,15 +15433,15 @@
         {
           "bookmaker": "Betway",
           "bookmaker_key": "betway",
-          "home": 1.43,
-          "draw": 4.75,
+          "home": 1.4,
+          "draw": 5.0,
           "away": 6.0
         },
         {
           "bookmaker": "BoyleSports",
           "bookmaker_key": "boylesports",
-          "home": 1.4,
-          "draw": 4.5,
+          "home": 1.36,
+          "draw": 4.75,
           "away": 6.0
         },
         {
@@ -15503,7 +15503,7 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.44,
+          "home": 1.42,
           "draw": 4.7,
           "away": 7.2
         },
@@ -15530,13 +15530,13 @@
         }
       ],
       "best_odds": {
-        "home": 1.45,
+        "home": 1.44,
         "draw": 5.0,
         "away": 7.2
       },
       "avg_odds": {
-        "home": 1.4,
-        "draw": 4.76,
+        "home": 1.39,
+        "draw": 4.79,
         "away": 6.7
       }
     },
@@ -15552,6 +15552,13 @@
           "bookmaker_key": "sport888",
           "home": 1.65,
           "draw": 3.75,
+          "away": 4.8
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.61,
+          "draw": 3.8,
           "away": 4.8
         },
         {
@@ -15682,7 +15689,7 @@
       "avg_odds": {
         "home": 1.63,
         "draw": 3.88,
-        "away": 5.0
+        "away": 4.99
       }
     },
     {
@@ -15698,6 +15705,13 @@
           "home": 3.0,
           "draw": 3.0,
           "away": 2.38
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.88,
+          "draw": 3.25,
+          "away": 2.3
         },
         {
           "bookmaker": "Betfair",
@@ -15826,7 +15840,7 @@
       },
       "avg_odds": {
         "home": 3.04,
-        "draw": 3.14,
+        "draw": 3.15,
         "away": 2.36
       }
     },
@@ -15845,18 +15859,11 @@
           "away": 4.8
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.65,
-          "draw": 3.7,
-          "away": 5.0
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.72,
-          "draw": 4.1,
-          "away": 5.5
+          "home": 1.73,
+          "draw": 4.0,
+          "away": 5.6
         },
         {
           "bookmaker": "Betfair Sportsbook",
@@ -15939,7 +15946,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 1.71,
-          "draw": 4.0,
+          "draw": 3.95,
           "away": 5.7
         },
         {
@@ -15965,14 +15972,14 @@
         }
       ],
       "best_odds": {
-        "home": 1.72,
-        "draw": 4.1,
+        "home": 1.73,
+        "draw": 4.0,
         "away": 5.7
       },
       "avg_odds": {
         "home": 1.66,
         "draw": 3.78,
-        "away": 5.12
+        "away": 5.13
       }
     },
     {
@@ -16128,13 +16135,6 @@
           "away": 2.1
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 3.5,
-          "draw": 3.2,
-          "away": 2.1
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.95,
@@ -16260,7 +16260,7 @@
         "away": 2.2
       },
       "avg_odds": {
-        "home": 3.6,
+        "home": 3.61,
         "draw": 3.15,
         "away": 2.1
       }
@@ -16317,7 +16317,7 @@
         {
           "bookmaker": "Coral",
           "bookmaker_key": "coral",
-          "home": 6.5,
+          "home": 6.0,
           "draw": 4.2,
           "away": 1.53
         },
@@ -16391,7 +16391,7 @@
         "away": 1.54
       },
       "avg_odds": {
-        "home": 6.3,
+        "home": 6.27,
         "draw": 4.09,
         "away": 1.48
       }
@@ -16544,16 +16544,16 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.12,
+          "home": 2.14,
           "draw": 3.3,
           "away": 4.1
         },
         {
           "bookmaker": "Betfair Sportsbook",
           "bookmaker_key": "betfair_sb_uk",
-          "home": 1.91,
+          "home": 2.0,
           "draw": 2.88,
-          "away": 3.6
+          "away": 3.4
         },
         {
           "bookmaker": "Betway",
@@ -16621,16 +16621,16 @@
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 1.95,
+          "home": 2.05,
           "draw": 3.25,
-          "away": 3.8
+          "away": 3.6
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 2.0,
+          "home": 2.05,
           "draw": 3.25,
-          "away": 3.8
+          "away": 3.6
         },
         {
           "bookmaker": "Smarkets",
@@ -16655,14 +16655,14 @@
         }
       ],
       "best_odds": {
-        "home": 2.12,
+        "home": 2.14,
         "draw": 3.3,
         "away": 4.1
       },
       "avg_odds": {
-        "home": 2.02,
+        "home": 2.04,
         "draw": 3.17,
-        "away": 3.79
+        "away": 3.76
       }
     },
     {
@@ -16682,8 +16682,8 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.88,
-          "draw": 3.4,
+          "home": 1.87,
+          "draw": 3.35,
           "away": 4.9
         },
         {
@@ -16746,7 +16746,7 @@
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
           "home": 1.81,
-          "draw": 3.15,
+          "draw": 3.2,
           "away": 5.1
         },
         {
@@ -16767,7 +16767,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 1.82,
-          "draw": 3.3,
+          "draw": 3.25,
           "away": 4.6
         },
         {
@@ -16787,7 +16787,7 @@
       ],
       "best_odds": {
         "home": 1.88,
-        "draw": 3.4,
+        "draw": 3.35,
         "away": 5.1
       },
       "avg_odds": {
@@ -16809,6 +16809,13 @@
           "home": 5.5,
           "draw": 3.75,
           "away": 1.6
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 5.5,
+          "draw": 3.8,
+          "away": 1.53
         },
         {
           "bookmaker": "Betfair",
@@ -16929,7 +16936,7 @@
         "away": 1.6
       },
       "avg_odds": {
-        "home": 5.62,
+        "home": 5.61,
         "draw": 3.8,
         "away": 1.56
       }
@@ -17218,18 +17225,11 @@
           "away": 10.0
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.29,
-          "draw": 5.0,
-          "away": 11.0
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.34,
-          "draw": 5.5,
-          "away": 13.5
+          "home": 1.31,
+          "draw": 5.4,
+          "away": 14.5
         },
         {
           "bookmaker": "Betway",
@@ -17290,7 +17290,7 @@
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 1.31,
+          "home": 1.32,
           "draw": 5.5,
           "away": 14.0
         },
@@ -17311,9 +17311,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.31,
-          "draw": 5.4,
-          "away": 13.0
+          "home": 1.3,
+          "draw": 5.3,
+          "away": 14.01
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -17338,14 +17338,14 @@
         }
       ],
       "best_odds": {
-        "home": 1.34,
+        "home": 1.33,
         "draw": 5.5,
-        "away": 14.0
+        "away": 14.5
       },
       "avg_odds": {
-        "home": 1.29,
-        "draw": 5.07,
-        "away": 11.17
+        "home": 1.28,
+        "draw": 5.06,
+        "away": 11.29
       }
     },
     {
@@ -17359,6 +17359,13 @@
           "bookmaker": "888sport",
           "bookmaker_key": "sport888",
           "home": 1.61,
+          "draw": 3.8,
+          "away": 5.0
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.6,
           "draw": 3.8,
           "away": 5.0
         },
@@ -17488,9 +17495,9 @@
         "away": 5.6
       },
       "avg_odds": {
-        "home": 1.59,
-        "draw": 3.98,
-        "away": 5.2
+        "home": 1.6,
+        "draw": 3.97,
+        "away": 5.19
       }
     },
     {
@@ -17653,6 +17660,13 @@
           "away": 1.44
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 7.0,
+          "draw": 3.9,
+          "away": 1.44
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 7.8,
@@ -17771,7 +17785,7 @@
         "away": 1.49
       },
       "avg_odds": {
-        "home": 6.96,
+        "home": 6.97,
         "draw": 3.99,
         "away": 1.45
       }
@@ -18008,8 +18022,8 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 4.5,
-          "draw": 3.3,
+          "home": 4.7,
+          "draw": 3.35,
           "away": 1.79
         },
         {
@@ -18040,7 +18054,7 @@
         "away": 1.85
       },
       "avg_odds": {
-        "home": 4.25,
+        "home": 4.27,
         "draw": 3.26,
         "away": 1.79
       }
@@ -18062,8 +18076,8 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.43,
-          "draw": 5.2,
+          "home": 1.42,
+          "draw": 5.3,
           "away": 6.8
         },
         {
@@ -18146,9 +18160,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.41,
+          "home": 1.4,
           "draw": 5.1,
-          "away": 6.4
+          "away": 6.6
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -18167,13 +18181,13 @@
       ],
       "best_odds": {
         "home": 1.45,
-        "draw": 5.2,
+        "draw": 5.3,
         "away": 7.0
       },
       "avg_odds": {
         "home": 1.39,
-        "draw": 4.67,
-        "away": 6.38
+        "draw": 4.68,
+        "away": 6.39
       }
     },
     {
@@ -18322,13 +18336,6 @@
           "away": 3.0
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.45,
-          "draw": 3.1,
-          "away": 2.9
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.6,
@@ -18448,7 +18455,7 @@
       },
       "avg_odds": {
         "home": 2.47,
-        "draw": 2.99,
+        "draw": 2.98,
         "away": 3.02
       }
     },
@@ -18598,13 +18605,6 @@
           "away": 2.8
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.55,
-          "draw": 3.1,
-          "away": 2.8
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.8,
@@ -18719,12 +18719,12 @@
       ],
       "best_odds": {
         "home": 2.8,
-        "draw": 3.1,
+        "draw": 3.0,
         "away": 3.05
       },
       "avg_odds": {
-        "home": 2.63,
-        "draw": 2.96,
+        "home": 2.64,
+        "draw": 2.95,
         "away": 2.85
       }
     },
@@ -18740,13 +18740,6 @@
           "bookmaker_key": "sport888",
           "home": 1.85,
           "draw": 3.75,
-          "away": 3.6
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.85,
-          "draw": 3.9,
           "away": 3.6
         },
         {
@@ -18863,7 +18856,7 @@
       "avg_odds": {
         "home": 1.85,
         "draw": 3.85,
-        "away": 3.8
+        "away": 3.81
       }
     },
     {
@@ -18969,7 +18962,7 @@
           "bookmaker_key": "smarkets",
           "home": 2.36,
           "draw": 3.35,
-          "away": 3.3
+          "away": 3.25
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -19017,6 +19010,13 @@
           "home": 2.75,
           "draw": 3.25,
           "away": 2.45
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.7,
+          "draw": 3.25,
+          "away": 2.4
         },
         {
           "bookmaker": "Betfair",
@@ -19137,7 +19137,7 @@
         "away": 2.7
       },
       "avg_odds": {
-        "home": 2.78,
+        "home": 2.77,
         "draw": 3.25,
         "away": 2.45
       }
@@ -19396,7 +19396,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 6.8,
-          "draw": 5.6,
+          "draw": 5.7,
           "away": 1.43
         },
         {
@@ -19428,7 +19428,7 @@
       },
       "avg_odds": {
         "home": 6.55,
-        "draw": 5.3,
+        "draw": 5.31,
         "away": 1.37
       }
     },
@@ -20556,7 +20556,7 @@
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.32,
           "draw": 6.2,
-          "away": 9.8
+          "away": 7.6
         },
         {
           "bookmaker": "Betfair Sportsbook",
@@ -20626,7 +20626,7 @@
           "bookmaker_key": "matchbook",
           "home": 1.32,
           "draw": 6.2,
-          "away": 10.0
+          "away": 9.4
         },
         {
           "bookmaker": "Paddy Power",
@@ -20679,7 +20679,7 @@
       "avg_odds": {
         "home": 1.27,
         "draw": 5.8,
-        "away": 9.02
+        "away": 8.87
       }
     },
     {
@@ -21226,7 +21226,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 2.5,
-          "draw": 3.45,
+          "draw": 3.5,
           "away": 2.88
         },
         {
@@ -21832,15 +21832,15 @@
           "bookmaker": "Betway",
           "bookmaker_key": "betway",
           "home": 3.0,
-          "draw": 3.5,
+          "draw": 3.6,
           "away": 2.15
         },
         {
           "bookmaker": "BoyleSports",
           "bookmaker_key": "boylesports",
           "home": 3.0,
-          "draw": 3.5,
-          "away": 2.15
+          "draw": 3.75,
+          "away": 2.1
         },
         {
           "bookmaker": "Casumo",
@@ -21866,9 +21866,9 @@
         {
           "bookmaker": "Ladbrokes",
           "bookmaker_key": "ladbrokes_uk",
-          "home": 2.9,
-          "draw": 3.7,
-          "away": 2.2
+          "home": 3.0,
+          "draw": 3.75,
+          "away": 2.15
         },
         {
           "bookmaker": "LeoVegas",
@@ -21940,8 +21940,8 @@
         "away": 2.28
       },
       "avg_odds": {
-        "home": 2.97,
-        "draw": 3.66,
+        "home": 2.98,
+        "draw": 3.69,
         "away": 2.15
       }
     },
@@ -22494,7 +22494,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 7.8,
-          "draw": 5.8,
+          "draw": 5.9,
           "away": 1.37
         },
         {
@@ -22632,8 +22632,8 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 1.13,
-          "draw": 10.5,
-          "away": 16.5
+          "draw": 10.0,
+          "away": 16.0
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -22664,8 +22664,8 @@
       },
       "avg_odds": {
         "home": 1.12,
-        "draw": 9.15,
-        "away": 17.15
+        "draw": 9.12,
+        "away": 17.12
       }
     },
     {
@@ -23424,7 +23424,7 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.53,
+          "home": 1.51,
           "draw": 4.0,
           "away": 6.0
         },
@@ -23773,13 +23773,6 @@
           "away": 1.75
         },
         {
-          "bookmaker": "Smarkets",
-          "bookmaker_key": "smarkets",
-          "home": 4.1,
-          "draw": 3.85,
-          "away": 1.78
-        },
-        {
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
           "home": 4.0,
@@ -23800,9 +23793,9 @@
         "away": 1.83
       },
       "avg_odds": {
-        "home": 4.02,
+        "home": 4.01,
         "draw": 3.81,
-        "away": 1.77
+        "away": 1.76
       }
     },
     {
@@ -24167,7 +24160,7 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 4.1,
-          "draw": 3.2,
+          "draw": 3.25,
           "away": 2.0
         },
         {
@@ -24588,8 +24581,8 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 1.59,
-          "draw": 4.1,
-          "away": 4.9
+          "draw": 3.9,
+          "away": 5.5
         },
         {
           "bookmaker": "Virgin Bet",
@@ -24608,13 +24601,13 @@
       ],
       "best_odds": {
         "home": 1.67,
-        "draw": 4.1,
+        "draw": 4.0,
         "away": 5.7
       },
       "avg_odds": {
         "home": 1.6,
-        "draw": 3.92,
-        "away": 5.09
+        "draw": 3.91,
+        "away": 5.13
       }
     },
     {
@@ -24822,7 +24815,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 2.66,
-          "draw": 3.35,
+          "draw": 3.4,
           "away": 2.58
         },
         {
@@ -25055,9 +25048,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.67,
-          "draw": 4.1,
-          "away": 5.1
+          "home": 1.71,
+          "draw": 4.0,
+          "away": 4.4
         },
         {
           "bookmaker": "Virgin Bet",
@@ -25077,12 +25070,12 @@
       "best_odds": {
         "home": 1.73,
         "draw": 4.2,
-        "away": 5.1
+        "away": 4.8
       },
       "avg_odds": {
         "home": 1.64,
-        "draw": 4.07,
-        "away": 4.59
+        "draw": 4.06,
+        "away": 4.54
       }
     },
     {
@@ -25102,9 +25095,9 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.37,
-          "draw": 1.01,
-          "away": 1.37
+          "home": 2.82,
+          "draw": 3.3,
+          "away": 2.5
         },
         {
           "bookmaker": "Betway",
@@ -25192,14 +25185,14 @@
         }
       ],
       "best_odds": {
-        "home": 2.8,
+        "home": 2.82,
         "draw": 3.45,
         "away": 2.5
       },
       "avg_odds": {
-        "home": 2.63,
-        "draw": 3.17,
-        "away": 2.35
+        "home": 2.73,
+        "draw": 3.34,
+        "away": 2.43
       }
     },
     {
@@ -25334,6 +25327,13 @@
           "away": 1.3
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 8.5,
+          "draw": 5.25,
+          "away": 1.29
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 10.0,
@@ -25399,9 +25399,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 8.4,
-          "draw": 5.5,
-          "away": 1.29
+          "home": 9.8,
+          "draw": 5.6,
+          "away": 1.3
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -25431,8 +25431,8 @@
         "away": 1.31
       },
       "avg_odds": {
-        "home": 8.78,
-        "draw": 5.4,
+        "home": 8.85,
+        "draw": 5.39,
         "away": 1.28
       }
     },
@@ -25786,13 +25786,6 @@
           "away": 2.8
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.38,
-          "draw": 3.25,
-          "away": 2.88
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.58,
@@ -25892,7 +25885,7 @@
       "avg_odds": {
         "home": 2.39,
         "draw": 3.25,
-        "away": 2.92
+        "away": 2.93
       }
     },
     {
@@ -26193,9 +26186,9 @@
         {
           "bookmaker": "Betway",
           "bookmaker_key": "betway",
-          "home": 1.11,
+          "home": 1.1,
           "draw": 9.0,
-          "away": 15.0
+          "away": 17.0
         },
         {
           "bookmaker": "BoyleSports",
@@ -26248,7 +26241,7 @@
       "avg_odds": {
         "home": 1.1,
         "draw": 8.61,
-        "away": 15.39
+        "away": 15.61
       }
     },
     {
@@ -26350,7 +26343,7 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.38,
+          "home": 2.4,
           "draw": 3.9,
           "away": 2.64
         },
@@ -26410,7 +26403,7 @@
         "away": 2.7
       },
       "avg_odds": {
-        "home": 2.34,
+        "home": 2.35,
         "draw": 3.68,
         "away": 2.62
       }
@@ -26432,7 +26425,7 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.32,
+          "home": 2.34,
           "draw": 3.55,
           "away": 2.9
         },
@@ -26487,7 +26480,7 @@
         }
       ],
       "best_odds": {
-        "home": 2.32,
+        "home": 2.34,
         "draw": 3.55,
         "away": 2.94
       },
@@ -26509,13 +26502,6 @@
           "bookmaker_key": "sport888",
           "home": 2.5,
           "draw": 3.3,
-          "away": 2.62
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.5,
-          "draw": 3.4,
           "away": 2.62
         },
         {
@@ -26618,7 +26604,7 @@
       "avg_odds": {
         "home": 2.5,
         "draw": 3.31,
-        "away": 2.69
+        "away": 2.7
       }
     },
     {
@@ -26634,13 +26620,6 @@
           "home": 3.9,
           "draw": 3.4,
           "away": 1.85
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 3.9,
-          "draw": 3.4,
-          "away": 1.9
         },
         {
           "bookmaker": "Betfair",
@@ -26740,8 +26719,8 @@
         "away": 1.95
       },
       "avg_odds": {
-        "home": 4.03,
-        "draw": 3.45,
+        "home": 4.04,
+        "draw": 3.46,
         "away": 1.86
       }
     },
@@ -26758,13 +26737,6 @@
           "home": 1.2,
           "draw": 6.5,
           "away": 12.0
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.17,
-          "draw": 7.0,
-          "away": 13.0
         },
         {
           "bookmaker": "Betfair",
@@ -26865,8 +26837,8 @@
       },
       "avg_odds": {
         "home": 1.16,
-        "draw": 7.37,
-        "away": 13.75
+        "draw": 7.4,
+        "away": 13.8
       }
     },
     {
@@ -26934,7 +26906,7 @@
           "bookmaker": "888sport",
           "bookmaker_key": "sport888",
           "home": 1.18,
-          "draw": 6.0,
+          "draw": 5.75,
           "away": 19.0
         },
         {
@@ -26983,7 +26955,7 @@
           "bookmaker": "William Hill",
           "bookmaker_key": "williamhill",
           "home": 1.18,
-          "draw": 6.0,
+          "draw": 5.8,
           "away": 19.0
         }
       ],
@@ -26994,7 +26966,7 @@
       },
       "avg_odds": {
         "home": 1.14,
-        "draw": 5.91,
+        "draw": 5.86,
         "away": 15.31
       }
     },
@@ -27116,6 +27088,13 @@
           "away": 4.33
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.73,
+          "draw": 3.6,
+          "away": 4.33
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.76,
@@ -27214,7 +27193,7 @@
       },
       "avg_odds": {
         "home": 1.73,
-        "draw": 3.69,
+        "draw": 3.68,
         "away": 4.3
       }
     },
@@ -27369,13 +27348,6 @@
           "away": 1.85
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 3.5,
-          "draw": 3.9,
-          "away": 1.87
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.6,
@@ -27473,8 +27445,8 @@
         "away": 1.95
       },
       "avg_odds": {
-        "home": 3.63,
-        "draw": 3.85,
+        "home": 3.64,
+        "draw": 3.84,
         "away": 1.86
       }
     },
@@ -27523,8 +27495,8 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 3.85,
-          "draw": 3.4,
+          "home": 3.75,
+          "draw": 3.45,
           "away": 1.96
         },
         {
@@ -27543,12 +27515,12 @@
         }
       ],
       "best_odds": {
-        "home": 3.85,
+        "home": 3.8,
         "draw": 3.45,
         "away": 1.96
       },
       "avg_odds": {
-        "home": 3.42,
+        "home": 3.41,
         "draw": 3.27,
         "away": 1.92
       }
@@ -27753,6 +27725,13 @@
           "away": 1.83
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 3.7,
+          "draw": 3.6,
+          "away": 1.83
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.75,
@@ -27820,7 +27799,7 @@
           "bookmaker_key": "smarkets",
           "home": 3.7,
           "draw": 3.75,
-          "away": 1.97
+          "away": 1.98
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -27851,7 +27830,7 @@
       },
       "avg_odds": {
         "home": 3.71,
-        "draw": 3.73,
+        "draw": 3.72,
         "away": 1.85
       }
     },
@@ -27947,9 +27926,9 @@
         {
           "bookmaker": "Betway",
           "bookmaker_key": "betway",
-          "home": 4.5,
+          "home": 4.2,
           "draw": 3.2,
-          "away": 1.83
+          "away": 1.88
         },
         {
           "bookmaker": "BoyleSports",
@@ -28000,7 +27979,7 @@
         "away": 1.92
       },
       "avg_odds": {
-        "home": 4.15,
+        "home": 4.12,
         "draw": 3.02,
         "away": 1.82
       }
@@ -28184,6 +28163,13 @@
           "away": 3.5
         },
         {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 1.91,
+          "draw": 3.6,
+          "away": 3.5
+        },
+        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.02,
@@ -28283,7 +28269,7 @@
       "avg_odds": {
         "home": 1.94,
         "draw": 3.63,
-        "away": 3.46
+        "away": 3.47
       }
     },
     {
@@ -28547,13 +28533,6 @@
           "away": 3.4
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.0,
-          "draw": 3.7,
-          "away": 3.3
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.08,
@@ -28652,8 +28631,8 @@
       },
       "avg_odds": {
         "home": 2.01,
-        "draw": 3.59,
-        "away": 3.38
+        "draw": 3.58,
+        "away": 3.39
       }
     },
     {
@@ -28668,13 +28647,6 @@
           "bookmaker_key": "sport888",
           "home": 2.15,
           "draw": 3.25,
-          "away": 3.3
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.1,
-          "draw": 3.4,
           "away": 3.3
         },
         {
@@ -28777,7 +28749,7 @@
       "avg_odds": {
         "home": 2.09,
         "draw": 3.33,
-        "away": 3.45
+        "away": 3.46
       }
     },
     {
@@ -28792,13 +28764,6 @@
           "bookmaker_key": "sport888",
           "home": 3.2,
           "draw": 3.4,
-          "away": 2.1
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 3.2,
-          "draw": 3.5,
           "away": 2.1
         },
         {
@@ -28899,7 +28864,7 @@
         "away": 2.2
       },
       "avg_odds": {
-        "home": 3.24,
+        "home": 3.25,
         "draw": 3.44,
         "away": 2.11
       }
@@ -28916,7 +28881,7 @@
           "bookmaker_key": "sport888",
           "home": 1.4,
           "draw": 4.4,
-          "away": 7.5
+          "away": 7.0
         },
         {
           "bookmaker": "Betfair",
@@ -28972,7 +28937,7 @@
           "bookmaker_key": "williamhill",
           "home": 1.4,
           "draw": 4.4,
-          "away": 7.5
+          "away": 7.0
         }
       ],
       "best_odds": {
@@ -28983,7 +28948,7 @@
       "avg_odds": {
         "home": 1.39,
         "draw": 4.13,
-        "away": 6.6
+        "away": 6.49
       }
     },
     {
@@ -29263,9 +29228,9 @@
         {
           "bookmaker": "888sport",
           "bookmaker_key": "sport888",
-          "home": 2.8,
-          "draw": 3.5,
-          "away": 2.25
+          "home": 2.88,
+          "draw": 3.6,
+          "away": 2.2
         },
         {
           "bookmaker": "Betfair",
@@ -29319,20 +29284,20 @@
         {
           "bookmaker": "William Hill",
           "bookmaker_key": "williamhill",
-          "home": 2.8,
-          "draw": 3.5,
-          "away": 2.25
+          "home": 2.88,
+          "draw": 3.6,
+          "away": 2.2
         }
       ],
       "best_odds": {
         "home": 2.98,
         "draw": 3.75,
-        "away": 2.25
+        "away": 2.2
       },
       "avg_odds": {
-        "home": 2.65,
-        "draw": 3.34,
-        "away": 2.04
+        "home": 2.67,
+        "draw": 3.36,
+        "away": 2.02
       }
     },
     {
@@ -29586,7 +29551,7 @@
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.86,
           "draw": 3.45,
-          "away": 3.9
+          "away": 4.5
         },
         {
           "bookmaker": "Betway",
@@ -29681,7 +29646,7 @@
       "avg_odds": {
         "home": 1.79,
         "draw": 3.38,
-        "away": 4.37
+        "away": 4.41
       }
     },
     {
@@ -29820,7 +29785,7 @@
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.09,
           "draw": 2.54,
-          "away": 1.54
+          "away": 1.55
         },
         {
           "bookmaker": "Betway",
@@ -29933,13 +29898,6 @@
           "away": 6.5
         },
         {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 1.4,
-          "draw": 4.6,
-          "away": 7.0
-        },
-        {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.5,
@@ -30037,9 +29995,9 @@
         "away": 7.5
       },
       "avg_odds": {
-        "home": 1.43,
-        "draw": 4.45,
-        "away": 6.71
+        "home": 1.44,
+        "draw": 4.44,
+        "away": 6.69
       }
     },
     {
@@ -30593,7 +30551,7 @@
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.83,
           "draw": 3.7,
-          "away": 4.1
+          "away": 4.0
         },
         {
           "bookmaker": "Betway",
@@ -30681,7 +30639,7 @@
       "avg_odds": {
         "home": 1.8,
         "draw": 3.59,
-        "away": 4.01
+        "away": 4.0
       }
     },
     {
@@ -31835,8 +31793,8 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.09,
-          "draw": 1.09,
-          "away": 1.04
+          "draw": 1.1,
+          "away": 1.05
         },
         {
           "bookmaker": "Betfair Sportsbook",
@@ -31937,7 +31895,7 @@
       },
       "avg_odds": {
         "home": 1.62,
-        "draw": 3.23,
+        "draw": 3.24,
         "away": 4.83
       }
     },
@@ -32084,7 +32042,7 @@
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.72,
           "draw": 3.5,
-          "away": 4.4
+          "away": 4.9
         },
         {
           "bookmaker": "Betfair Sportsbook",
@@ -32159,9 +32117,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.7,
-          "draw": 3.6,
-          "away": 5.1
+          "home": 1.71,
+          "draw": 3.45,
+          "away": 4.7
         },
         {
           "bookmaker": "Virgin Bet",
@@ -32185,8 +32143,8 @@
       },
       "avg_odds": {
         "home": 1.68,
-        "draw": 3.4,
-        "away": 4.89
+        "draw": 3.39,
+        "away": 4.9
       }
     },
     {
@@ -32790,8 +32748,8 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.03,
-          "draw": 1.01,
+          "home": 1.09,
+          "draw": 1.09,
           "away": 1.09
         },
         {
@@ -32836,8 +32794,8 @@
         "away": 1.5
       },
       "avg_odds": {
-        "home": 5.5,
-        "draw": 3.55,
+        "home": 5.52,
+        "draw": 3.56,
         "away": 1.42
       }
     },
@@ -33049,8 +33007,8 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.01,
-          "draw": 1.01,
-          "away": 1.01
+          "draw": 1.46,
+          "away": 2.5
         },
         {
           "bookmaker": "BoyleSports",
@@ -33098,12 +33056,12 @@
       "best_odds": {
         "home": 2.8,
         "draw": 3.5,
-        "away": 2.45
+        "away": 2.5
       },
       "avg_odds": {
         "home": 2.48,
-        "draw": 3.03,
-        "away": 2.17
+        "draw": 3.09,
+        "away": 2.38
       }
     },
     {
@@ -34089,7 +34047,7 @@
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
           "home": 2.22,
-          "draw": 3.65,
+          "draw": 3.25,
           "away": 3.3
         },
         {
@@ -34110,7 +34068,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 2.22,
-          "draw": 3.15,
+          "draw": 3.2,
           "away": 3.3
         },
         {
@@ -34123,12 +34081,12 @@
       ],
       "best_odds": {
         "home": 2.37,
-        "draw": 3.65,
+        "draw": 3.25,
         "away": 3.35
       },
       "avg_odds": {
         "home": 2.25,
-        "draw": 3.12,
+        "draw": 3.09,
         "away": 3.06
       }
     },
