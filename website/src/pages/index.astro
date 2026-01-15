@@ -1,0 +1,151 @@
+---
+import Layout from '../layouts/Layout.astro';
+import oddsData from '../data/odds.json';
+
+const matches = oddsData.matches;
+const bookmakers = oddsData.bookmakers;
+const generatedAt = new Date(oddsData.generated_at).toLocaleString('en-GB');
+
+// Group matches by league
+const matchesByLeague = matches.reduce((acc, match) => {
+  if (!acc[match.league]) {
+    acc[match.league] = [];
+  }
+  acc[match.league].push(match);
+  return acc;
+}, {} as Record<string, typeof matches>);
+
+const leagues = Object.keys(matchesByLeague).sort();
+---
+
+<Layout title="You Bet - Football Odds">
+  <h2>Upcoming Matches</h2>
+  <p class="updated">Last updated: {generatedAt}</p>
+
+  <div class="filter-bar">
+    <select id="league-filter">
+      <option value="">All Leagues</option>
+      {leagues.map(league => (
+        <option value={league}>{league}</option>
+      ))}
+    </select>
+  </div>
+
+  {matches.map(match => {
+    const kickoff = new Date(match.commence_time);
+    const kickoffStr = kickoff.toLocaleString('en-GB', {
+      weekday: 'short',
+      day: 'numeric',
+      month: 'short',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+
+    return (
+      <div class="match-card" data-league={match.league}>
+        <div class="match-header">
+          <div class="match-teams">
+            {match.home_team} vs {match.away_team}
+          </div>
+          <div class="match-meta">
+            {match.league} | {kickoffStr}
+          </div>
+        </div>
+
+        <div class="best-odds">
+          <div class="odds-box">
+            <div class="label">Home</div>
+            <div class="value">{match.best_odds.home?.toFixed(2) || '-'}</div>
+          </div>
+          <div class="odds-box">
+            <div class="label">Draw</div>
+            <div class="value">{match.best_odds.draw?.toFixed(2) || '-'}</div>
+          </div>
+          <div class="odds-box">
+            <div class="label">Away</div>
+            <div class="value">{match.best_odds.away?.toFixed(2) || '-'}</div>
+          </div>
+        </div>
+
+        <details>
+          <summary>View all {match.odds.length} bookmakers</summary>
+          <div class="odds-table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Bookmaker</th>
+                  <th>Home</th>
+                  <th>Draw</th>
+                  <th>Away</th>
+                </tr>
+              </thead>
+              <tbody>
+                {match.odds.map(o => (
+                  <tr>
+                    <td>{o.bookmaker}</td>
+                    <td class:list={["odds-value", { best: o.home === match.best_odds.home }]}>
+                      {o.home?.toFixed(2) || '-'}
+                    </td>
+                    <td class:list={["odds-value", { best: o.draw === match.best_odds.draw }]}>
+                      {o.draw?.toFixed(2) || '-'}
+                    </td>
+                    <td class:list={["odds-value", { best: o.away === match.best_odds.away }]}>
+                      {o.away?.toFixed(2) || '-'}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </details>
+      </div>
+    );
+  })}
+</Layout>
+
+<style>
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .updated {
+    color: var(--text-dim);
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+  }
+
+  details {
+    margin-top: 1rem;
+  }
+
+  summary {
+    cursor: pointer;
+    color: var(--text-dim);
+    font-size: 0.875rem;
+  }
+
+  summary:hover {
+    color: var(--text);
+  }
+
+  details[open] summary {
+    margin-bottom: 0.5rem;
+  }
+</style>
+
+<script>
+  const filter = document.getElementById('league-filter') as HTMLSelectElement;
+  const cards = document.querySelectorAll('.match-card');
+
+  filter?.addEventListener('change', () => {
+    const selected = filter.value;
+    cards.forEach(card => {
+      const league = card.getAttribute('data-league');
+      if (!selected || league === selected) {
+        (card as HTMLElement).style.display = 'block';
+      } else {
+        (card as HTMLElement).style.display = 'none';
+      }
+    });
+  });
+</script>

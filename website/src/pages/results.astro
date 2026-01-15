@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+import oddsData from '../data/odds.json';
+
+const results = oddsData.results;
+---
+
+<Layout title="You Bet - Match Results">
+  <h2>Recent Results</h2>
+
+  {results.length === 0 ? (
+    <p>No results yet. Check back after some matches have been played.</p>
+  ) : (
+    <div class="results-table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Home Team</th>
+            <th>Score</th>
+            <th>Away Team</th>
+            <th>League</th>
+            <th>Outcome</th>
+          </tr>
+        </thead>
+        <tbody>
+          {results.map(result => (
+            <tr>
+              <td>{result.home_team}</td>
+              <td class="score">{result.home_score} - {result.away_score}</td>
+              <td>{result.away_team}</td>
+              <td>{result.league}</td>
+              <td class={`outcome-${result.outcome}`}>
+                {result.outcome === 'home' ? 'Home Win' :
+                 result.outcome === 'away' ? 'Away Win' : 'Draw'}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )}
+</Layout>
+
+<style>
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .results-table-container {
+    overflow-x: auto;
+  }
+
+  .score {
+    text-align: center;
+    font-family: monospace;
+  }
+</style>

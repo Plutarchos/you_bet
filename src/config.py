@@ -22,8 +22,8 @@ ODDS_API_BASE_URL = "https://api.the-odds-api.com/v4"
 API_REQUESTS_PER_MINUTE = 10
 SCRAPER_DELAY_SECONDS = 3  # Delay between scraper requests
 
-# Default regions for odds (uk, eu, us, au)
-DEFAULT_REGIONS = ["uk", "eu"]
+# Default regions for odds (uk only - for UK bookmakers and exchanges)
+DEFAULT_REGIONS = ["uk"]
 
 # League mappings between The Odds API and oddschecker
 LEAGUES = {
