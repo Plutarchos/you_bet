@@ -18,34 +18,36 @@ def calculate_implied_probability(decimal_odds: float) -> float:
 def calculate_probability_stats(odds_list: list[float], bookmaker_list: list[str]) -> dict:
     """Calculate probability statistics for a set of odds.
 
-    Returns dict with median, mean, best_odds, best_prob, best_bookmaker, and value diffs.
+    Returns dict with median/mean/best odds and their implied probabilities.
     """
     if not odds_list or len(odds_list) == 0:
         return None
 
-    # Calculate implied probabilities
-    probs = [calculate_implied_probability(o) for o in odds_list if o]
-    probs = [p for p in probs if p is not None]
-
-    if not probs:
+    valid_odds = [o for o in odds_list if o and o > 0]
+    if not valid_odds:
         return None
 
-    median_prob = median(probs)
-    mean_prob = mean(probs)
+    # Calculate median and mean of the odds directly
+    median_odds = median(valid_odds)
+    mean_odds = mean(valid_odds)
 
-    # Find best odds (highest decimal odds = lowest implied probability)
+    # Best odds = highest decimal odds (most generous for bettor)
     best_idx = odds_list.index(max(odds_list))
     best_odds = odds_list[best_idx]
-    best_prob = calculate_implied_probability(best_odds)
     best_bookmaker = bookmaker_list[best_idx] if best_idx < len(bookmaker_list) else None
 
+    # Calculate implied probabilities from odds
+    median_prob = calculate_implied_probability(median_odds)
+    mean_prob = calculate_implied_probability(mean_odds)
+    best_prob = calculate_implied_probability(best_odds)
+
     return {
-        'median': round(median_prob, 4),
-        'mean': round(mean_prob, 4),
-        'best_odds': best_odds,
+        'median_odds': round(median_odds, 2),
+        'median_prob': round(median_prob, 4),
+        'mean_odds': round(mean_odds, 2),
+        'mean_prob': round(mean_prob, 4),
+        'best_odds': round(best_odds, 2),
         'best_prob': round(best_prob, 4),
-        'diff_from_median': round(median_prob - best_prob, 4),
-        'diff_from_mean': round(mean_prob - best_prob, 4),
         'best_bookmaker': best_bookmaker,
     }
 

@@ -50,40 +50,67 @@ const leagues = Object.keys(matchesByLeague).sort();
           </div>
         </div>
 
-        <div class="probability-grid">
-          <div class="prob-box">
-            <div class="prob-header">Home</div>
-            <div class="prob-median">{match.probability.home ? (match.probability.home.median * 100).toFixed(1) + '%' : '-'}</div>
-            <div class="prob-details">
-              <span class="best-odds">{match.probability.home?.best_odds?.toFixed(2) || '-'}</span>
-              <span class="bookmaker">{match.probability.home?.best_bookmaker || ''}</span>
-            </div>
-            <div class="value-diff" class:list={[{ positive: match.probability.home?.diff_from_median > 0.02 }]}>
-              +{match.probability.home ? (match.probability.home.diff_from_median * 100).toFixed(1) : '0'}%
-            </div>
-          </div>
-          <div class="prob-box">
-            <div class="prob-header">Draw</div>
-            <div class="prob-median">{match.probability.draw ? (match.probability.draw.median * 100).toFixed(1) + '%' : '-'}</div>
-            <div class="prob-details">
-              <span class="best-odds">{match.probability.draw?.best_odds?.toFixed(2) || '-'}</span>
-              <span class="bookmaker">{match.probability.draw?.best_bookmaker || ''}</span>
-            </div>
-            <div class="value-diff" class:list={[{ positive: match.probability.draw?.diff_from_median > 0.02 }]}>
-              +{match.probability.draw ? (match.probability.draw.diff_from_median * 100).toFixed(1) : '0'}%
-            </div>
-          </div>
-          <div class="prob-box">
-            <div class="prob-header">Away</div>
-            <div class="prob-median">{match.probability.away ? (match.probability.away.median * 100).toFixed(1) + '%' : '-'}</div>
-            <div class="prob-details">
-              <span class="best-odds">{match.probability.away?.best_odds?.toFixed(2) || '-'}</span>
-              <span class="bookmaker">{match.probability.away?.best_bookmaker || ''}</span>
-            </div>
-            <div class="value-diff" class:list={[{ positive: match.probability.away?.diff_from_median > 0.02 }]}>
-              +{match.probability.away ? (match.probability.away.diff_from_median * 100).toFixed(1) : '0'}%
-            </div>
-          </div>
+        <div class="odds-grid">
+          <table class="odds-summary">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Home</th>
+                <th>Draw</th>
+                <th>Away</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="row-label">Median</td>
+                <td>
+                  <span class="odds">{match.probability.home?.median_odds?.toFixed(2) || '-'}</span>
+                  <span class="prob">({match.probability.home ? (match.probability.home.median_prob * 100).toFixed(0) + '%' : '-'})</span>
+                </td>
+                <td>
+                  <span class="odds">{match.probability.draw?.median_odds?.toFixed(2) || '-'}</span>
+                  <span class="prob">({match.probability.draw ? (match.probability.draw.median_prob * 100).toFixed(0) + '%' : '-'})</span>
+                </td>
+                <td>
+                  <span class="odds">{match.probability.away?.median_odds?.toFixed(2) || '-'}</span>
+                  <span class="prob">({match.probability.away ? (match.probability.away.median_prob * 100).toFixed(0) + '%' : '-'})</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="row-label">Mean</td>
+                <td>
+                  <span class="odds">{match.probability.home?.mean_odds?.toFixed(2) || '-'}</span>
+                  <span class="prob">({match.probability.home ? (match.probability.home.mean_prob * 100).toFixed(0) + '%' : '-'})</span>
+                </td>
+                <td>
+                  <span class="odds">{match.probability.draw?.mean_odds?.toFixed(2) || '-'}</span>
+                  <span class="prob">({match.probability.draw ? (match.probability.draw.mean_prob * 100).toFixed(0) + '%' : '-'})</span>
+                </td>
+                <td>
+                  <span class="odds">{match.probability.away?.mean_odds?.toFixed(2) || '-'}</span>
+                  <span class="prob">({match.probability.away ? (match.probability.away.mean_prob * 100).toFixed(0) + '%' : '-'})</span>
+                </td>
+              </tr>
+              <tr class="best-row">
+                <td class="row-label">Best</td>
+                <td>
+                  <span class="odds best">{match.probability.home?.best_odds?.toFixed(2) || '-'}</span>
+                  <span class="prob">({match.probability.home ? (match.probability.home.best_prob * 100).toFixed(0) + '%' : '-'})</span>
+                  <span class="bookmaker">{match.probability.home?.best_bookmaker || ''}</span>
+                </td>
+                <td>
+                  <span class="odds best">{match.probability.draw?.best_odds?.toFixed(2) || '-'}</span>
+                  <span class="prob">({match.probability.draw ? (match.probability.draw.best_prob * 100).toFixed(0) + '%' : '-'})</span>
+                  <span class="bookmaker">{match.probability.draw?.best_bookmaker || ''}</span>
+                </td>
+                <td>
+                  <span class="odds best">{match.probability.away?.best_odds?.toFixed(2) || '-'}</span>
+                  <span class="prob">({match.probability.away ? (match.probability.away.best_prob * 100).toFixed(0) + '%' : '-'})</span>
+                  <span class="bookmaker">{match.probability.away?.best_bookmaker || ''}</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
         <details>
@@ -127,57 +154,67 @@ const leagues = Object.keys(matchesByLeague).sort();
     margin-bottom: 1.5rem;
   }
 
-  .probability-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+  .odds-grid {
     margin-bottom: 1rem;
+    overflow-x: auto;
   }
 
-  .prob-box {
-    background: var(--accent);
-    padding: 0.75rem;
-    border-radius: 6px;
+  .odds-summary {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+  }
+
+  .odds-summary th,
+  .odds-summary td {
+    padding: 0.5rem 0.75rem;
     text-align: center;
+    border-bottom: 1px solid var(--accent);
   }
 
-  .prob-header {
+  .odds-summary th {
+    background: var(--accent);
+    font-weight: 600;
     font-size: 0.75rem;
-    color: var(--text-dim);
     text-transform: uppercase;
-    margin-bottom: 0.25rem;
   }
 
-  .prob-median {
-    font-size: 1.5rem;
+  .odds-summary th:first-child,
+  .odds-summary td.row-label {
+    text-align: left;
+    width: 80px;
+  }
+
+  .odds-summary td.row-label {
+    font-weight: 600;
+    color: var(--text-dim);
+    font-size: 0.75rem;
+  }
+
+  .odds-summary .odds {
     font-weight: 700;
-    color: var(--text);
+    font-family: monospace;
+    margin-right: 0.25rem;
   }
 
-  .prob-details {
-    font-size: 0.75rem;
-    margin-top: 0.25rem;
-  }
-
-  .prob-details .best-odds {
+  .odds-summary .odds.best {
     color: var(--green);
-    font-weight: 600;
-    margin-right: 0.5rem;
   }
 
-  .prob-details .bookmaker {
+  .odds-summary .prob {
     color: var(--text-dim);
-  }
-
-  .value-diff {
     font-size: 0.75rem;
-    color: var(--text-dim);
-    margin-top: 0.25rem;
   }
 
-  .value-diff.positive {
-    color: var(--green);
-    font-weight: 600;
+  .odds-summary .bookmaker {
+    display: block;
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    margin-top: 0.125rem;
+  }
+
+  .odds-summary .best-row {
+    background: rgba(74, 222, 128, 0.05);
   }
 
   details {
@@ -196,12 +233,6 @@ const leagues = Object.keys(matchesByLeague).sort();
 
   details[open] summary {
     margin-bottom: 0.5rem;
-  }
-
-  @media (max-width: 480px) {
-    .probability-grid {
-      grid-template-columns: 1fr;
-    }
   }
 </style>
 

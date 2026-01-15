@@ -1,0 +1,341 @@
+---
+import Layout from '../layouts/Layout.astro';
+import oddsData from '../data/odds.json';
+
+const results = oddsData.results;
+const bookmakers = oddsData.bookmakers;
+---
+
+<Layout title="You Bet - Training Data">
+  <div class="page-header">
+    <h2>Training Data</h2>
+    <a href="/you_bet/data/odds_summary.csv" download class="download-btn">
+      Download CSV
+    </a>
+  </div>
+
+  <p class="description">
+    Historical match results with pre-match odds from all bookmakers.
+    Use this data for betting strategy analysis and model training.
+  </p>
+
+  {results.length === 0 ? (
+    <div class="no-data">
+      <p>No completed matches with odds data yet.</p>
+      <p>Check back after some matches have been played and results recorded.</p>
+    </div>
+  ) : (
+    <div class="results-container">
+      {results.map(result => {
+        const matchDate = new Date(result.commence_time);
+        const dateStr = matchDate.toLocaleDateString('en-GB', {
+          day: 'numeric',
+          month: 'short',
+          year: 'numeric'
+        });
+
+        const outcomeLabel = result.outcome === 'home' ? 'Home Win' :
+                             result.outcome === 'away' ? 'Away Win' : 'Draw';
+
+        return (
+          <div class="result-card">
+            <div class="result-header">
+              <div class="match-info">
+                <div class="teams">
+                  <span class:list={['team', { winner: result.outcome === 'home' }]}>{result.home_team}</span>
+                  <span class="score">{result.home_score} - {result.away_score}</span>
+                  <span class:list={['team', { winner: result.outcome === 'away' }]}>{result.away_team}</span>
+                </div>
+                <div class="meta">
+                  {result.league} | {dateStr}
+                </div>
+              </div>
+              <div class={`outcome outcome-${result.outcome}`}>
+                {outcomeLabel}
+              </div>
+            </div>
+
+            <div class="odds-table-wrapper">
+              <table class="odds-table">
+                <thead>
+                  <tr>
+                    <th>Bookmaker</th>
+                    <th class:list={[{ 'winner-col': result.outcome === 'home' }]}>Home</th>
+                    <th class:list={[{ 'winner-col': result.outcome === 'draw' }]}>Draw</th>
+                    <th class:list={[{ 'winner-col': result.outcome === 'away' }]}>Away</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {result.odds?.map(o => (
+                    <tr>
+                      <td class="bookmaker-name">{o.bookmaker}</td>
+                      <td class:list={['odds-cell', { 'winner-col': result.outcome === 'home', 'best': o.home === result.probability?.home?.best_odds }]}>
+                        <span class="odds-value">{o.home?.toFixed(2) || '-'}</span>
+                        {o.home && <span class="prob-value">({(100 / o.home).toFixed(0)}%)</span>}
+                      </td>
+                      <td class:list={['odds-cell', { 'winner-col': result.outcome === 'draw', 'best': o.draw === result.probability?.draw?.best_odds }]}>
+                        <span class="odds-value">{o.draw?.toFixed(2) || '-'}</span>
+                        {o.draw && <span class="prob-value">({(100 / o.draw).toFixed(0)}%)</span>}
+                      </td>
+                      <td class:list={['odds-cell', { 'winner-col': result.outcome === 'away', 'best': o.away === result.probability?.away?.best_odds }]}>
+                        <span class="odds-value">{o.away?.toFixed(2) || '-'}</span>
+                        {o.away && <span class="prob-value">({(100 / o.away).toFixed(0)}%)</span>}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+                <tfoot>
+                  <tr class="summary-row">
+                    <td>Median</td>
+                    <td class:list={[{ 'winner-col': result.outcome === 'home' }]}>
+                      <span class="odds-value">{result.probability?.home?.median_odds?.toFixed(2) || '-'}</span>
+                      <span class="prob-value">({result.probability?.home ? (result.probability.home.median_prob * 100).toFixed(0) + '%' : '-'})</span>
+                    </td>
+                    <td class:list={[{ 'winner-col': result.outcome === 'draw' }]}>
+                      <span class="odds-value">{result.probability?.draw?.median_odds?.toFixed(2) || '-'}</span>
+                      <span class="prob-value">({result.probability?.draw ? (result.probability.draw.median_prob * 100).toFixed(0) + '%' : '-'})</span>
+                    </td>
+                    <td class:list={[{ 'winner-col': result.outcome === 'away' }]}>
+                      <span class="odds-value">{result.probability?.away?.median_odds?.toFixed(2) || '-'}</span>
+                      <span class="prob-value">({result.probability?.away ? (result.probability.away.median_prob * 100).toFixed(0) + '%' : '-'})</span>
+                    </td>
+                  </tr>
+                  <tr class="summary-row">
+                    <td>Mean</td>
+                    <td class:list={[{ 'winner-col': result.outcome === 'home' }]}>
+                      <span class="odds-value">{result.probability?.home?.mean_odds?.toFixed(2) || '-'}</span>
+                      <span class="prob-value">({result.probability?.home ? (result.probability.home.mean_prob * 100).toFixed(0) + '%' : '-'})</span>
+                    </td>
+                    <td class:list={[{ 'winner-col': result.outcome === 'draw' }]}>
+                      <span class="odds-value">{result.probability?.draw?.mean_odds?.toFixed(2) || '-'}</span>
+                      <span class="prob-value">({result.probability?.draw ? (result.probability.draw.mean_prob * 100).toFixed(0) + '%' : '-'})</span>
+                    </td>
+                    <td class:list={[{ 'winner-col': result.outcome === 'away' }]}>
+                      <span class="odds-value">{result.probability?.away?.mean_odds?.toFixed(2) || '-'}</span>
+                      <span class="prob-value">({result.probability?.away ? (result.probability.away.mean_prob * 100).toFixed(0) + '%' : '-'})</span>
+                    </td>
+                  </tr>
+                  <tr class="summary-row best-row">
+                    <td>Best</td>
+                    <td class:list={[{ 'winner-col': result.outcome === 'home' }]}>
+                      <span class="odds-value best">{result.probability?.home?.best_odds?.toFixed(2) || '-'}</span>
+                      <span class="prob-value">({result.probability?.home ? (result.probability.home.best_prob * 100).toFixed(0) + '%' : '-'})</span>
+                    </td>
+                    <td class:list={[{ 'winner-col': result.outcome === 'draw' }]}>
+                      <span class="odds-value best">{result.probability?.draw?.best_odds?.toFixed(2) || '-'}</span>
+                      <span class="prob-value">({result.probability?.draw ? (result.probability.draw.best_prob * 100).toFixed(0) + '%' : '-'})</span>
+                    </td>
+                    <td class:list={[{ 'winner-col': result.outcome === 'away' }]}>
+                      <span class="odds-value best">{result.probability?.away?.best_odds?.toFixed(2) || '-'}</span>
+                      <span class="prob-value">({result.probability?.away ? (result.probability.away.best_prob * 100).toFixed(0) + '%' : '-'})</span>
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  )}
+</Layout>
+
+<style>
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .page-header h2 {
+    margin: 0;
+  }
+
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--green);
+    color: var(--bg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: opacity 0.2s;
+  }
+
+  .download-btn:hover {
+    opacity: 0.9;
+  }
+
+  .description {
+    color: var(--text-dim);
+    margin-bottom: 2rem;
+    font-size: 0.875rem;
+  }
+
+  .no-data {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    color: var(--text-dim);
+  }
+
+  .results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .result-card {
+    background: var(--card-bg);
+    border-radius: 8px;
+    border: 1px solid var(--accent);
+    overflow: hidden;
+  }
+
+  .result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: var(--accent);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .teams {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.1rem;
+  }
+
+  .team {
+    font-weight: 500;
+  }
+
+  .team.winner {
+    color: var(--green);
+    font-weight: 700;
+  }
+
+  .score {
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 1.25rem;
+  }
+
+  .meta {
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+  }
+
+  .outcome {
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .outcome-home {
+    background: rgba(74, 222, 128, 0.2);
+    color: var(--green);
+  }
+
+  .outcome-draw {
+    background: rgba(250, 204, 21, 0.2);
+    color: var(--yellow);
+  }
+
+  .outcome-away {
+    background: rgba(233, 69, 96, 0.2);
+    color: var(--highlight);
+  }
+
+  .odds-table-wrapper {
+    overflow-x: auto;
+  }
+
+  .odds-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+  }
+
+  .odds-table th,
+  .odds-table td {
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    border-bottom: 1px solid var(--accent);
+  }
+
+  .odds-table th {
+    background: rgba(15, 52, 96, 0.5);
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+  }
+
+  .odds-table th:first-child,
+  .odds-table td:first-child {
+    text-align: left;
+  }
+
+  .bookmaker-name {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .odds-cell {
+    font-family: monospace;
+  }
+
+  .odds-value {
+    font-weight: 600;
+  }
+
+  .odds-value.best {
+    color: var(--green);
+  }
+
+  .prob-value {
+    color: var(--text-dim);
+    font-size: 0.7rem;
+    margin-left: 0.25rem;
+  }
+
+  .winner-col {
+    background: rgba(74, 222, 128, 0.08);
+  }
+
+  .odds-cell.best .odds-value {
+    color: var(--green);
+  }
+
+  .summary-row {
+    background: rgba(15, 52, 96, 0.3);
+  }
+
+  .summary-row td:first-child {
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .best-row {
+    background: rgba(74, 222, 128, 0.1);
+  }
+
+  tfoot .odds-value {
+    font-weight: 700;
+  }
+</style>
