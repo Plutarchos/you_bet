@@ -4,7 +4,6 @@ import oddsData from '../data/odds.json';
 
 const matches = oddsData.matches;
 const bookmakers = oddsData.bookmakers;
-const generatedAt = new Date(oddsData.generated_at).toLocaleString('en-GB');
 
 // Group matches by league
 const matchesByLeague = matches.reduce((acc, match) => {
@@ -20,7 +19,6 @@ const leagues = Object.keys(matchesByLeague).sort();
 
 <Layout title="You Bet - Football Odds">
   <h2>Upcoming Matches</h2>
-  <p class="updated">Last updated: {generatedAt}</p>
 
   <div class="filter-bar">
     <select id="league-filter">
@@ -105,12 +103,6 @@ const leagues = Object.keys(matchesByLeague).sort();
 
 <style>
   h2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .updated {
-    color: var(--text-dim);
-    font-size: 0.875rem;
     margin-bottom: 1.5rem;
   }
 

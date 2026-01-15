@@ -1,9 +1,18 @@
 ---
+import oddsData from '../data/odds.json';
+
 interface Props {
   title: string;
 }
 
 const { title } = Astro.props;
+const lastUpdated = new Date(oddsData.generated_at).toLocaleString('en-GB', {
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric',
+  hour: '2-digit',
+  minute: '2-digit',
+});
 ---
 
 <!doctype html>
@@ -17,11 +26,19 @@ const { title } = Astro.props;
   </head>
   <body>
     <header>
-      <h1>You Bet - Football Odds Tracker</h1>
-      <nav>
-        <a href="/you_bet/">Upcoming Matches</a>
-        <a href="/you_bet/results/">Results</a>
-      </nav>
+      <div class="header-content">
+        <div class="header-left">
+          <h1>You Bet - Football Odds Tracker</h1>
+          <nav>
+            <a href="/you_bet/">Upcoming Matches</a>
+            <a href="/you_bet/results/">Results</a>
+          </nav>
+        </div>
+        <div class="last-updated">
+          Last updated<br/>
+          <strong>{lastUpdated}</strong>
+        </div>
+      </div>
     </header>
     <main>
       <slot />
@@ -64,6 +81,19 @@ const { title } = Astro.props;
     border-bottom: 2px solid var(--accent);
   }
 
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+
+  .header-left {
+    flex: 1;
+  }
+
   header h1 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
@@ -72,6 +102,21 @@ const { title } = Astro.props;
   nav {
     display: flex;
     gap: 1rem;
+  }
+
+  .last-updated {
+    text-align: right;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    background: var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  .last-updated strong {
+    color: var(--green);
+    font-size: 0.875rem;
   }
 
   nav a {
