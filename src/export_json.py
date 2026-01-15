@@ -6,6 +6,8 @@ from datetime import datetime
 from statistics import median, mean
 
 MIN_BOOKMAKERS = 5
+MIN_OVERROUND = 1.00  # 100% - minimum valid implied probability sum
+MAX_OVERROUND = 1.50  # 150% - maximum valid (exchange placeholders often sum to ~300%)
 
 
 def calculate_implied_probability(decimal_odds: float) -> float:
@@ -13,6 +15,58 @@ def calculate_implied_probability(decimal_odds: float) -> float:
     if not decimal_odds or decimal_odds <= 0:
         return None
     return 1 / decimal_odds
+
+
+def is_valid_odds_row(home: float, draw: float, away: float) -> bool:
+    """Check if an odds row passes quality controls.
+
+    Rejects:
+    - All odds being the same (invalid placeholder data)
+    - Implied probability sum outside reasonable range (100-150%)
+    - Any odds below 1.02 (practically impossible)
+    """
+    if not all([home, draw, away]):
+        return False
+
+    # Reject if all odds are the same (placeholder data)
+    if home == draw == away:
+        return False
+
+    # Reject if any odds are suspiciously low (< 1.02)
+    if min(home, draw, away) < 1.02:
+        return False
+
+    # Calculate overround (sum of implied probabilities)
+    overround = (1/home) + (1/draw) + (1/away)
+
+    # Reject if outside reasonable range
+    if overround < MIN_OVERROUND or overround > MAX_OVERROUND:
+        return False
+
+    return True
+
+
+def deduplicate_bookmakers(odds_rows: list) -> list:
+    """Remove duplicate bookmakers, keeping the one with best (lowest) overround.
+
+    Some bookmakers appear multiple times (e.g., Betfair UK and Betfair EU).
+    Keep only the entry with the most competitive odds.
+    """
+    by_name = {}
+    for row in odds_rows:
+        name = row['bookmaker']
+        home, draw, away = row['home'], row['draw'], row['away']
+
+        if not all([home, draw, away]):
+            continue
+
+        overround = (1/home) + (1/draw) + (1/away)
+
+        if name not in by_name or overround < by_name[name]['overround']:
+            by_name[name] = {**row, 'overround': overround}
+
+    # Remove the temporary overround field
+    return [{k: v for k, v in row.items() if k != 'overround'} for row in by_name.values()]
 
 
 def calculate_probability_stats(odds_list: list[float], bookmaker_list: list[str]) -> dict:
@@ -72,7 +126,7 @@ def export_data():
 
     for match in matches:
         # Get odds for this match
-        odds = conn.execute('''
+        odds_raw = conn.execute('''
             SELECT b.name as bookmaker, b.key as bookmaker_key,
                    o.home_win, o.draw, o.away_win, o.scraped_at
             FROM odds o
@@ -81,21 +135,37 @@ def export_data():
             ORDER BY b.name
         ''', (match['id'],)).fetchall()
 
-        if not odds:
+        if not odds_raw:
             continue
 
-        # Filter: skip matches with insufficient bookmakers
-        if len(odds) <= MIN_BOOKMAKERS:
+        # Convert to list of dicts and apply quality controls
+        odds_list = [
+            {
+                'bookmaker': o['bookmaker'],
+                'bookmaker_key': o['bookmaker_key'],
+                'home': o['home_win'],
+                'draw': o['draw'],
+                'away': o['away_win'],
+            }
+            for o in odds_raw
+            if is_valid_odds_row(o['home_win'], o['draw'], o['away_win'])
+        ]
+
+        # Deduplicate bookmakers (keep best odds per bookmaker name)
+        odds_list = deduplicate_bookmakers(odds_list)
+
+        # Filter: skip matches with insufficient valid bookmakers
+        if len(odds_list) <= MIN_BOOKMAKERS:
             continue
 
         # Extract odds lists with corresponding bookmaker names
-        home_odds = [o['home_win'] for o in odds if o['home_win']]
-        draw_odds = [o['draw'] for o in odds if o['draw']]
-        away_odds = [o['away_win'] for o in odds if o['away_win']]
+        home_odds = [o['home'] for o in odds_list if o['home']]
+        draw_odds = [o['draw'] for o in odds_list if o['draw']]
+        away_odds = [o['away'] for o in odds_list if o['away']]
 
-        home_bookmakers = [o['bookmaker'] for o in odds if o['home_win']]
-        draw_bookmakers = [o['bookmaker'] for o in odds if o['draw']]
-        away_bookmakers = [o['bookmaker'] for o in odds if o['away_win']]
+        home_bookmakers = [o['bookmaker'] for o in odds_list if o['home']]
+        draw_bookmakers = [o['bookmaker'] for o in odds_list if o['draw']]
+        away_bookmakers = [o['bookmaker'] for o in odds_list if o['away']]
 
         match_data = {
             'id': match['id'],
@@ -103,17 +173,8 @@ def export_data():
             'away_team': match['away_team'],
             'commence_time': match['commence_time'],
             'league': match['league'],
-            'bookmaker_count': len(odds),
-            'odds': [
-                {
-                    'bookmaker': o['bookmaker'],
-                    'bookmaker_key': o['bookmaker_key'],
-                    'home': o['home_win'],
-                    'draw': o['draw'],
-                    'away': o['away_win'],
-                }
-                for o in odds
-            ],
+            'bookmaker_count': len(odds_list),
+            'odds': odds_list,
             'best_odds': {
                 'home': max(home_odds) if home_odds else None,
                 'draw': max(draw_odds) if draw_odds else None,
@@ -149,7 +210,7 @@ def export_data():
     results_data = []
     for result in results:
         # Get odds for this result's match
-        odds = conn.execute('''
+        odds_raw = conn.execute('''
             SELECT b.name as bookmaker, b.key as bookmaker_key,
                    o.home_win, o.draw, o.away_win
             FROM odds o
@@ -158,18 +219,34 @@ def export_data():
             ORDER BY b.name
         ''', (result['match_id'],)).fetchall()
 
-        # Skip results with insufficient bookmakers
-        if len(odds) <= MIN_BOOKMAKERS:
+        # Convert to list of dicts and apply quality controls
+        odds_list = [
+            {
+                'bookmaker': o['bookmaker'],
+                'bookmaker_key': o['bookmaker_key'],
+                'home': o['home_win'],
+                'draw': o['draw'],
+                'away': o['away_win'],
+            }
+            for o in odds_raw
+            if is_valid_odds_row(o['home_win'], o['draw'], o['away_win'])
+        ]
+
+        # Deduplicate bookmakers (keep best odds per bookmaker name)
+        odds_list = deduplicate_bookmakers(odds_list)
+
+        # Skip results with insufficient valid bookmakers
+        if len(odds_list) <= MIN_BOOKMAKERS:
             continue
 
         # Extract odds lists with corresponding bookmaker names
-        home_odds = [o['home_win'] for o in odds if o['home_win']]
-        draw_odds = [o['draw'] for o in odds if o['draw']]
-        away_odds = [o['away_win'] for o in odds if o['away_win']]
+        home_odds = [o['home'] for o in odds_list if o['home']]
+        draw_odds = [o['draw'] for o in odds_list if o['draw']]
+        away_odds = [o['away'] for o in odds_list if o['away']]
 
-        home_bookmakers = [o['bookmaker'] for o in odds if o['home_win']]
-        draw_bookmakers = [o['bookmaker'] for o in odds if o['draw']]
-        away_bookmakers = [o['bookmaker'] for o in odds if o['away_win']]
+        home_bookmakers = [o['bookmaker'] for o in odds_list if o['home']]
+        draw_bookmakers = [o['bookmaker'] for o in odds_list if o['draw']]
+        away_bookmakers = [o['bookmaker'] for o in odds_list if o['away']]
 
         result_data = {
             'home_team': result['home_team'],
@@ -179,17 +256,8 @@ def export_data():
             'home_score': result['home_score'],
             'away_score': result['away_score'],
             'outcome': result['outcome'],
-            'bookmaker_count': len(odds),
-            'odds': [
-                {
-                    'bookmaker': o['bookmaker'],
-                    'bookmaker_key': o['bookmaker_key'],
-                    'home': o['home_win'],
-                    'draw': o['draw'],
-                    'away': o['away_win'],
-                }
-                for o in odds
-            ],
+            'bookmaker_count': len(odds_list),
+            'odds': odds_list,
             'probability': {
                 'home': calculate_probability_stats(home_odds, home_bookmakers),
                 'draw': calculate_probability_stats(draw_odds, draw_bookmakers),
