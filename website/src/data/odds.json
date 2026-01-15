@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-15T23:39:40.194897",
+  "generated_at": "2026-01-15T23:46:36.843572",
   "matches": [
     {
       "id": 61,
@@ -186,7 +186,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.72,
           "draw": 3.8,
           "away": 2.66
@@ -508,7 +508,7 @@
       "odds": [
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 1.96,
           "draw": 3.6,
           "away": 4.6
@@ -1152,7 +1152,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 1.71,
           "draw": 4.3,
           "away": 5.1
@@ -1313,7 +1313,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.32,
           "draw": 3.7,
           "away": 3.25
@@ -1474,7 +1474,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.6,
           "draw": 3.95,
           "away": 2.68
@@ -1635,7 +1635,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 1.36,
           "draw": 5.7,
           "away": 10.5
@@ -1796,7 +1796,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.56,
           "draw": 3.6,
           "away": 2.94
@@ -3287,7 +3287,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 5.3,
           "draw": 4.8,
           "away": 1.61
@@ -3763,7 +3763,7 @@
       "odds": [
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.72,
           "draw": 3.6,
           "away": 2.76
@@ -3924,7 +3924,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.98,
           "draw": 2.88,
           "away": 3.05
@@ -4064,7 +4064,7 @@
       "odds": [
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.62,
           "draw": 2.84,
           "away": 3.6
@@ -4400,7 +4400,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.18,
           "draw": 3.45,
           "away": 3.7
@@ -4561,7 +4561,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 1.71,
           "draw": 4.1,
           "away": 5.5
@@ -5037,7 +5037,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 3.0,
           "draw": 3.4,
           "away": 2.48
@@ -5352,7 +5352,7 @@
       "odds": [
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.1,
           "draw": 3.3,
           "away": 4.1
@@ -5660,7 +5660,7 @@
       "odds": [
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 5.4,
           "draw": 4.8,
           "away": 1.61
@@ -6290,7 +6290,7 @@
       "odds": [
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.38,
           "draw": 3.4,
           "away": 3.3
@@ -7676,7 +7676,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.56,
           "draw": 3.3,
           "away": 2.68
@@ -9118,7 +9118,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.08,
           "draw": 3.8,
           "away": 3.35
@@ -9258,7 +9258,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.1,
           "draw": 3.5,
           "away": 3.65
@@ -9398,7 +9398,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 3.3,
           "draw": 3.6,
           "away": 2.1
@@ -9972,7 +9972,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 1.5,
           "draw": 4.6,
           "away": 6.4
@@ -10742,7 +10742,7 @@
         },
         {
           "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_eu",
+          "bookmaker_key": "betfair_ex_uk",
           "home": 2.48,
           "draw": 3.45,
           "away": 3.0

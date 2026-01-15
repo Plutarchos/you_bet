@@ -125,13 +125,16 @@ def export_data():
     ''').fetchall()
 
     for match in matches:
-        # Get odds for this match
+        # Get best odds for each bookmaker across all scrapes
         odds_raw = conn.execute('''
             SELECT b.name as bookmaker, b.key as bookmaker_key,
-                   o.home_win, o.draw, o.away_win, o.scraped_at
+                   MAX(o.home_win) as home_win,
+                   MAX(o.draw) as draw,
+                   MAX(o.away_win) as away_win
             FROM odds o
             JOIN bookmakers b ON o.bookmaker_id = b.id
             WHERE o.match_id = ?
+            GROUP BY b.id
             ORDER BY b.name
         ''', (match['id'],)).fetchall()
 
@@ -209,13 +212,16 @@ def export_data():
 
     results_data = []
     for result in results:
-        # Get odds for this result's match
+        # Get best odds for each bookmaker across all scrapes
         odds_raw = conn.execute('''
             SELECT b.name as bookmaker, b.key as bookmaker_key,
-                   o.home_win, o.draw, o.away_win
+                   MAX(o.home_win) as home_win,
+                   MAX(o.draw) as draw,
+                   MAX(o.away_win) as away_win
             FROM odds o
             JOIN bookmakers b ON o.bookmaker_id = b.id
             WHERE o.match_id = ?
+            GROUP BY b.id
             ORDER BY b.name
         ''', (result['match_id'],)).fetchall()
 
