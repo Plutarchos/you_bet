@@ -277,6 +277,39 @@ def check_quota():
         console.print(f"[red]Error checking quota: {e}[/red]")
 
 
+@cli.command("export-training")
+@click.option("--parquet", is_flag=True, help="Export historical data to Parquet")
+@click.option("--csv", is_flag=True, help="Export summary to CSV for website")
+@click.option("--all", "export_all_flag", is_flag=True, help="Export both formats")
+def export_training(parquet, csv, export_all_flag):
+    """Export odds data for training/analysis."""
+    from .export_training_data import (
+        export_historical_parquet,
+        export_csv_for_website,
+        export_all,
+    )
+
+    # Default to exporting all if no flags specified
+    if not (parquet or csv or export_all_flag):
+        export_all_flag = True
+
+    if export_all_flag:
+        console.print("[bold]Exporting all training data...[/bold]")
+        paths = export_all()
+        console.print(f"\n[green]Parquet:[/green] {paths['parquet']}")
+        console.print(f"[green]CSV:[/green] {paths['csv']}")
+    else:
+        if parquet:
+            console.print("[bold]Exporting historical data to Parquet...[/bold]")
+            path = export_historical_parquet()
+            console.print(f"\n[green]Saved to:[/green] {path}")
+
+        if csv:
+            console.print("[bold]Exporting summary to CSV...[/bold]")
+            path = export_csv_for_website()
+            console.print(f"\n[green]Saved to:[/green] {path}")
+
+
 def main():
     """Main entry point."""
     cli()
