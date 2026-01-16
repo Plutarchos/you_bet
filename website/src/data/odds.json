@@ -1,174 +1,6 @@
 {
-  "generated_at": "2026-01-16T10:06:44.251820",
+  "generated_at": "2026-01-16T10:11:57.851471",
   "matches": [
-    {
-      "id": 61,
-      "home_team": "Como",
-      "away_team": "AC Milan",
-      "commence_time": "2026-01-15T19:45:00+00:00",
-      "league": "Serie A",
-      "bookmaker_count": 17,
-      "odds": [
-        {
-          "bookmaker": "888sport",
-          "bookmaker_key": "sport888",
-          "home": 3.0,
-          "draw": 3.0,
-          "away": 2.38
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 3.0,
-          "draw": 3.25,
-          "away": 2.38
-        },
-        {
-          "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_uk",
-          "home": 3.2,
-          "draw": 3.3,
-          "away": 2.54
-        },
-        {
-          "bookmaker": "Betfair Sportsbook",
-          "bookmaker_key": "betfair_sb_uk",
-          "home": 2.88,
-          "draw": 2.88,
-          "away": 2.2
-        },
-        {
-          "bookmaker": "Betway",
-          "bookmaker_key": "betway",
-          "home": 3.1,
-          "draw": 3.1,
-          "away": 2.4
-        },
-        {
-          "bookmaker": "BoyleSports",
-          "bookmaker_key": "boylesports",
-          "home": 2.88,
-          "draw": 3.1,
-          "away": 2.38
-        },
-        {
-          "bookmaker": "Coral",
-          "bookmaker_key": "coral",
-          "home": 2.9,
-          "draw": 3.2,
-          "away": 2.5
-        },
-        {
-          "bookmaker": "Grosvenor",
-          "bookmaker_key": "grosvenor",
-          "home": 3.0,
-          "draw": 3.2,
-          "away": 2.38
-        },
-        {
-          "bookmaker": "Ladbrokes",
-          "bookmaker_key": "ladbrokes_uk",
-          "home": 2.9,
-          "draw": 3.2,
-          "away": 2.45
-        },
-        {
-          "bookmaker": "LiveScore Bet",
-          "bookmaker_key": "livescorebet",
-          "home": 3.0,
-          "draw": 3.2,
-          "away": 2.33
-        },
-        {
-          "bookmaker": "Matchbook",
-          "bookmaker_key": "matchbook",
-          "home": 3.25,
-          "draw": 3.3,
-          "away": 2.54
-        },
-        {
-          "bookmaker": "Paddy Power",
-          "bookmaker_key": "paddypower",
-          "home": 3.0,
-          "draw": 3.0,
-          "away": 2.4
-        },
-        {
-          "bookmaker": "Sky Bet",
-          "bookmaker_key": "skybet",
-          "home": 3.0,
-          "draw": 3.1,
-          "away": 2.4
-        },
-        {
-          "bookmaker": "Smarkets",
-          "bookmaker_key": "smarkets",
-          "home": 3.2,
-          "draw": 3.25,
-          "away": 2.52
-        },
-        {
-          "bookmaker": "Unibet (UK)",
-          "bookmaker_key": "unibet_uk",
-          "home": 3.05,
-          "draw": 3.2,
-          "away": 2.4
-        },
-        {
-          "bookmaker": "Virgin Bet",
-          "bookmaker_key": "virginbet",
-          "home": 3.0,
-          "draw": 3.2,
-          "away": 2.33
-        },
-        {
-          "bookmaker": "William Hill",
-          "bookmaker_key": "williamhill",
-          "home": 3.0,
-          "draw": 3.0,
-          "away": 2.38
-        }
-      ],
-      "best_odds": {
-        "home": 3.25,
-        "draw": 3.3,
-        "away": 2.54
-      },
-      "avg_odds": {
-        "home": 3.02,
-        "draw": 3.15,
-        "away": 2.41
-      },
-      "probability": {
-        "home": {
-          "median_odds": 3.0,
-          "median_prob": 0.3333,
-          "mean_odds": 3.02,
-          "mean_prob": 0.331,
-          "best_odds": 3.25,
-          "best_prob": 0.3077,
-          "best_bookmaker": "Matchbook"
-        },
-        "draw": {
-          "median_odds": 3.2,
-          "median_prob": 0.3125,
-          "mean_odds": 3.15,
-          "mean_prob": 0.3179,
-          "best_odds": 3.3,
-          "best_prob": 0.303,
-          "best_bookmaker": "Betfair"
-        },
-        "away": {
-          "median_odds": 2.4,
-          "median_prob": 0.4167,
-          "mean_odds": 2.41,
-          "mean_prob": 0.4155,
-          "best_odds": 2.54,
-          "best_prob": 0.3937,
-          "best_bookmaker": "Betfair"
-        }
-      }
-    },
     {
       "id": 162,
       "home_team": "AS Monaco",
@@ -43282,6 +43114,166 @@
     }
   ],
   "results": [
+    {
+      "home_team": "Como",
+      "away_team": "AC Milan",
+      "commence_time": "2026-01-15T19:45:00+00:00",
+      "league": "Serie A",
+      "home_score": 1,
+      "away_score": 3,
+      "outcome": "away",
+      "bookmaker_count": 17,
+      "odds": [
+        {
+          "bookmaker": "888sport",
+          "bookmaker_key": "sport888",
+          "home": 3.0,
+          "draw": 3.0,
+          "away": 2.38
+        },
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 3.0,
+          "draw": 3.25,
+          "away": 2.38
+        },
+        {
+          "bookmaker": "Betfair",
+          "bookmaker_key": "betfair_ex_uk",
+          "home": 3.2,
+          "draw": 3.3,
+          "away": 2.54
+        },
+        {
+          "bookmaker": "Betfair Sportsbook",
+          "bookmaker_key": "betfair_sb_uk",
+          "home": 2.88,
+          "draw": 2.88,
+          "away": 2.2
+        },
+        {
+          "bookmaker": "Betway",
+          "bookmaker_key": "betway",
+          "home": 3.1,
+          "draw": 3.1,
+          "away": 2.4
+        },
+        {
+          "bookmaker": "BoyleSports",
+          "bookmaker_key": "boylesports",
+          "home": 2.88,
+          "draw": 3.1,
+          "away": 2.38
+        },
+        {
+          "bookmaker": "Coral",
+          "bookmaker_key": "coral",
+          "home": 2.9,
+          "draw": 3.2,
+          "away": 2.5
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 3.0,
+          "draw": 3.2,
+          "away": 2.38
+        },
+        {
+          "bookmaker": "Ladbrokes",
+          "bookmaker_key": "ladbrokes_uk",
+          "home": 2.9,
+          "draw": 3.2,
+          "away": 2.45
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 3.0,
+          "draw": 3.2,
+          "away": 2.33
+        },
+        {
+          "bookmaker": "Matchbook",
+          "bookmaker_key": "matchbook",
+          "home": 3.25,
+          "draw": 3.3,
+          "away": 2.54
+        },
+        {
+          "bookmaker": "Paddy Power",
+          "bookmaker_key": "paddypower",
+          "home": 3.0,
+          "draw": 3.0,
+          "away": 2.4
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "bookmaker_key": "skybet",
+          "home": 3.0,
+          "draw": 3.1,
+          "away": 2.4
+        },
+        {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 3.2,
+          "draw": 3.25,
+          "away": 2.52
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 3.05,
+          "draw": 3.2,
+          "away": 2.4
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 3.0,
+          "draw": 3.2,
+          "away": 2.33
+        },
+        {
+          "bookmaker": "William Hill",
+          "bookmaker_key": "williamhill",
+          "home": 3.0,
+          "draw": 3.0,
+          "away": 2.38
+        }
+      ],
+      "probability": {
+        "home": {
+          "median_odds": 3.0,
+          "median_prob": 0.3333,
+          "mean_odds": 3.02,
+          "mean_prob": 0.331,
+          "best_odds": 3.25,
+          "best_prob": 0.3077,
+          "best_bookmaker": "Matchbook"
+        },
+        "draw": {
+          "median_odds": 3.2,
+          "median_prob": 0.3125,
+          "mean_odds": 3.15,
+          "mean_prob": 0.3179,
+          "best_odds": 3.3,
+          "best_prob": 0.303,
+          "best_bookmaker": "Betfair"
+        },
+        "away": {
+          "median_odds": 2.4,
+          "median_prob": 0.4167,
+          "mean_odds": 2.41,
+          "mean_prob": 0.4155,
+          "best_odds": 2.54,
+          "best_prob": 0.3937,
+          "best_bookmaker": "Betfair"
+        }
+      }
+    },
     {
       "home_team": "Augsburg",
       "away_team": "Union Berlin",

@@ -175,7 +175,22 @@ def get_or_create_match(
     commence_time: datetime,
     external_id: Optional[str] = None
 ) -> int:
-    """Get existing match or create new one, returning ID."""
+    """Get existing match or create new one, returning ID.
+
+    First tries to find by external_id (most reliable), then falls back
+    to team names + commence_time.
+    """
+    # First try to find by external_id (most reliable - same across API endpoints)
+    if external_id:
+        cursor = conn.execute(
+            "SELECT id FROM matches WHERE external_id = ?",
+            (external_id,)
+        )
+        row = cursor.fetchone()
+        if row:
+            return row["id"]
+
+    # Fall back to team names + time (for legacy data without external_id)
     cursor = conn.execute(
         "SELECT id FROM matches WHERE home_team = ? AND away_team = ? AND commence_time = ?",
         (home_team, away_team, commence_time.isoformat())
