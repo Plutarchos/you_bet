@@ -3,13 +3,12 @@ import Layout from '../layouts/Layout.astro';
 import oddsData from '../data/odds.json';
 
 const results = oddsData.results;
-const bookmakers = oddsData.bookmakers;
 ---
 
 <Layout title="You Bet - Training Data">
   <div class="page-header">
     <h2>Training Data</h2>
-    <a href="/you_bet/data/odds_summary.csv" download class="download-btn">
+    <a href="/you_bet/data/training_data.csv" download class="download-btn">
       Download CSV
     </a>
   </div>
@@ -55,38 +54,19 @@ const bookmakers = oddsData.bookmakers;
               </div>
             </div>
 
-            <div class="odds-table-wrapper">
-              <table class="odds-table">
+            <div class="summary-section">
+              <table class="summary-table">
                 <thead>
                   <tr>
-                    <th>Bookmaker</th>
+                    <th></th>
                     <th class:list={[{ 'winner-col': result.outcome === 'home' }]}>Home</th>
                     <th class:list={[{ 'winner-col': result.outcome === 'draw' }]}>Draw</th>
                     <th class:list={[{ 'winner-col': result.outcome === 'away' }]}>Away</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {result.odds?.map(o => (
-                    <tr>
-                      <td class="bookmaker-name">{o.bookmaker}</td>
-                      <td class:list={['odds-cell', { 'winner-col': result.outcome === 'home', 'best': o.home === result.probability?.home?.best_odds }]}>
-                        <span class="odds-value">{o.home?.toFixed(2) || '-'}</span>
-                        {o.home && <span class="prob-value">({(100 / o.home).toFixed(0)}%)</span>}
-                      </td>
-                      <td class:list={['odds-cell', { 'winner-col': result.outcome === 'draw', 'best': o.draw === result.probability?.draw?.best_odds }]}>
-                        <span class="odds-value">{o.draw?.toFixed(2) || '-'}</span>
-                        {o.draw && <span class="prob-value">({(100 / o.draw).toFixed(0)}%)</span>}
-                      </td>
-                      <td class:list={['odds-cell', { 'winner-col': result.outcome === 'away', 'best': o.away === result.probability?.away?.best_odds }]}>
-                        <span class="odds-value">{o.away?.toFixed(2) || '-'}</span>
-                        {o.away && <span class="prob-value">({(100 / o.away).toFixed(0)}%)</span>}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-                <tfoot>
-                  <tr class="summary-row">
-                    <td>Median</td>
+                  <tr>
+                    <td class="row-label">Median</td>
                     <td class:list={[{ 'winner-col': result.outcome === 'home' }]}>
                       <span class="odds-value">{result.probability?.home?.median_odds?.toFixed(2) || '-'}</span>
                       <span class="prob-value">({result.probability?.home ? (result.probability.home.median_prob * 100).toFixed(0) + '%' : '-'})</span>
@@ -100,8 +80,8 @@ const bookmakers = oddsData.bookmakers;
                       <span class="prob-value">({result.probability?.away ? (result.probability.away.median_prob * 100).toFixed(0) + '%' : '-'})</span>
                     </td>
                   </tr>
-                  <tr class="summary-row">
-                    <td>Mean</td>
+                  <tr>
+                    <td class="row-label">Mean</td>
                     <td class:list={[{ 'winner-col': result.outcome === 'home' }]}>
                       <span class="odds-value">{result.probability?.home?.mean_odds?.toFixed(2) || '-'}</span>
                       <span class="prob-value">({result.probability?.home ? (result.probability.home.mean_prob * 100).toFixed(0) + '%' : '-'})</span>
@@ -115,8 +95,8 @@ const bookmakers = oddsData.bookmakers;
                       <span class="prob-value">({result.probability?.away ? (result.probability.away.mean_prob * 100).toFixed(0) + '%' : '-'})</span>
                     </td>
                   </tr>
-                  <tr class="summary-row best-row">
-                    <td>Best</td>
+                  <tr class="best-row">
+                    <td class="row-label">Best</td>
                     <td class:list={[{ 'winner-col': result.outcome === 'home' }]}>
                       <span class="odds-value best">{result.probability?.home?.best_odds?.toFixed(2) || '-'}</span>
                       <span class="prob-value">({result.probability?.home ? (result.probability.home.best_prob * 100).toFixed(0) + '%' : '-'})</span>
@@ -130,9 +110,46 @@ const bookmakers = oddsData.bookmakers;
                       <span class="prob-value">({result.probability?.away ? (result.probability.away.best_prob * 100).toFixed(0) + '%' : '-'})</span>
                     </td>
                   </tr>
-                </tfoot>
+                </tbody>
               </table>
             </div>
+
+            {result.odds && result.odds.length > 0 && (
+              <details class="bookmakers-details">
+                <summary>View all {result.odds.length} bookmakers</summary>
+                <div class="odds-table-wrapper">
+                  <table class="odds-table">
+                    <thead>
+                      <tr>
+                        <th>Bookmaker</th>
+                        <th class:list={[{ 'winner-col': result.outcome === 'home' }]}>Home</th>
+                        <th class:list={[{ 'winner-col': result.outcome === 'draw' }]}>Draw</th>
+                        <th class:list={[{ 'winner-col': result.outcome === 'away' }]}>Away</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {result.odds.map(o => (
+                        <tr>
+                          <td class="bookmaker-name">{o.bookmaker}</td>
+                          <td class:list={['odds-cell', { 'winner-col': result.outcome === 'home', 'best': o.home === result.probability?.home?.best_odds }]}>
+                            <span class="odds-value">{o.home?.toFixed(2) || '-'}</span>
+                            {o.home && <span class="prob-value">({(100 / o.home).toFixed(0)}%)</span>}
+                          </td>
+                          <td class:list={['odds-cell', { 'winner-col': result.outcome === 'draw', 'best': o.draw === result.probability?.draw?.best_odds }]}>
+                            <span class="odds-value">{o.draw?.toFixed(2) || '-'}</span>
+                            {o.draw && <span class="prob-value">({(100 / o.draw).toFixed(0)}%)</span>}
+                          </td>
+                          <td class:list={['odds-cell', { 'winner-col': result.outcome === 'away', 'best': o.away === result.probability?.away?.best_odds }]}>
+                            <span class="odds-value">{o.away?.toFixed(2) || '-'}</span>
+                            {o.away && <span class="prob-value">({(100 / o.away).toFixed(0)}%)</span>}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </details>
+            )}
           </div>
         );
       })}
@@ -260,6 +277,67 @@ const bookmakers = oddsData.bookmakers;
     color: var(--highlight);
   }
 
+  .summary-section {
+    padding: 1rem 1.5rem;
+  }
+
+  .summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+  }
+
+  .summary-table th,
+  .summary-table td {
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    border-bottom: 1px solid var(--accent);
+  }
+
+  .summary-table th {
+    background: rgba(15, 52, 96, 0.3);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .summary-table th:first-child,
+  .summary-table td.row-label {
+    text-align: left;
+    width: 80px;
+  }
+
+  .summary-table td.row-label {
+    font-weight: 600;
+    color: var(--text-dim);
+    font-size: 0.75rem;
+  }
+
+  .summary-table .best-row {
+    background: rgba(74, 222, 128, 0.1);
+  }
+
+  .bookmakers-details {
+    border-top: 1px solid var(--accent);
+  }
+
+  .bookmakers-details summary {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    color: var(--text-dim);
+    font-size: 0.875rem;
+    background: rgba(15, 52, 96, 0.2);
+  }
+
+  .bookmakers-details summary:hover {
+    color: var(--text);
+    background: rgba(15, 52, 96, 0.3);
+  }
+
+  .bookmakers-details[open] summary {
+    border-bottom: 1px solid var(--accent);
+  }
+
   .odds-table-wrapper {
     overflow-x: auto;
   }
@@ -318,24 +396,5 @@ const bookmakers = oddsData.bookmakers;
 
   .odds-cell.best .odds-value {
     color: var(--green);
-  }
-
-  .summary-row {
-    background: rgba(15, 52, 96, 0.3);
-  }
-
-  .summary-row td:first-child {
-    font-weight: 600;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    color: var(--text-dim);
-  }
-
-  .best-row {
-    background: rgba(74, 222, 128, 0.1);
-  }
-
-  tfoot .odds-value {
-    font-weight: 700;
   }
 </style>

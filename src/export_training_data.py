@@ -86,6 +86,84 @@ def export_historical_parquet(output_path: Path = None) -> Path:
     return output_path
 
 
+def export_training_csv(output_path: Path = None) -> Path:
+    """Export completed matches with results and best odds to CSV.
+
+    Only includes matches that have results (completed matches).
+    Uses best odds ever recorded for each bookmaker.
+
+    Args:
+        output_path: Output file path. Defaults to website/public/data/training_data.csv
+
+    Returns:
+        Path to the created CSV file.
+    """
+    if output_path is None:
+        output_path = Path(__file__).parent.parent / "website" / "public" / "data" / "training_data.csv"
+
+    conn = sqlite3.connect(DB_PATH)
+
+    # Get completed matches with results and best odds per bookmaker
+    query = """
+        SELECT
+            m.id as match_id,
+            m.home_team,
+            m.away_team,
+            m.commence_time,
+            l.name as league,
+            r.home_score,
+            r.away_score,
+            r.outcome,
+            b.name as bookmaker,
+            MAX(o.home_win) as home_odds,
+            MAX(o.draw) as draw_odds,
+            MAX(o.away_win) as away_odds
+        FROM results r
+        JOIN matches m ON r.match_id = m.id
+        JOIN leagues l ON m.league_id = l.id
+        JOIN odds o ON o.match_id = m.id
+        JOIN bookmakers b ON o.bookmaker_id = b.id
+        WHERE o.home_win > 1.02 AND o.draw > 1.02 AND o.away_win > 1.02
+        GROUP BY m.id, b.id
+        HAVING (1.0/home_odds + 1.0/draw_odds + 1.0/away_odds) BETWEEN 1.0 AND 1.5
+        ORDER BY m.commence_time DESC, m.id, b.name
+    """
+
+    df = pd.read_sql_query(query, conn)
+    conn.close()
+
+    if len(df) == 0:
+        print("No training data to export (no completed matches)")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        # Write empty CSV with headers
+        pd.DataFrame(columns=[
+            'match_id', 'home_team', 'away_team', 'commence_time', 'league',
+            'home_score', 'away_score', 'outcome', 'bookmaker',
+            'home_odds', 'draw_odds', 'away_odds',
+            'home_prob', 'draw_prob', 'away_prob'
+        ]).to_csv(output_path, index=False)
+        return output_path
+
+    # Calculate implied probabilities
+    df['home_prob'] = (1 / df['home_odds']).round(4)
+    df['draw_prob'] = (1 / df['draw_odds']).round(4)
+    df['away_prob'] = (1 / df['away_odds']).round(4)
+
+    # Round odds
+    df['home_odds'] = df['home_odds'].round(2)
+    df['draw_odds'] = df['draw_odds'].round(2)
+    df['away_odds'] = df['away_odds'].round(2)
+
+    # Save to CSV
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(output_path, index=False)
+
+    matches_count = df['match_id'].nunique()
+    print(f"Exported {len(df)} rows ({matches_count} matches) to {output_path}")
+
+    return output_path
+
+
 def export_csv_for_website(output_path: Path = None) -> Path:
     """Export latest odds summary to CSV for website download.
 
@@ -201,7 +279,7 @@ def export_csv_for_website(output_path: Path = None) -> Path:
 
 
 def export_all(data_dir: Path = None) -> dict:
-    """Export both Parquet and CSV files.
+    """Export Parquet and CSV files.
 
     Args:
         data_dir: Base directory for exports. Defaults to project root.
@@ -214,10 +292,12 @@ def export_all(data_dir: Path = None) -> dict:
 
     parquet_path = export_historical_parquet(data_dir / "data" / "historical_odds.parquet")
     csv_path = export_csv_for_website(data_dir / "website" / "public" / "data" / "odds_summary.csv")
+    training_csv_path = export_training_csv(data_dir / "website" / "public" / "data" / "training_data.csv")
 
     return {
         "parquet": parquet_path,
-        "csv": csv_path
+        "csv": csv_path,
+        "training_csv": training_csv_path,
     }
 
 

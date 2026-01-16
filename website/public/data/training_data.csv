@@ -1,0 +1,36 @@
+match_id,home_team,away_team,commence_time,league,home_score,away_score,outcome,bookmaker,home_odds,draw_odds,away_odds,home_prob,draw_prob,away_prob
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,888sport,2.62,3.0,2.7,0.3817,0.3333,0.3704
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Betfair,2.82,3.3,2.88,0.3546,0.303,0.3472
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Betfair,2.82,3.3,2.88,0.3546,0.303,0.3472
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Betfair Sportsbook,2.6,2.8,2.6,0.3846,0.3571,0.3846
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Betway,2.7,3.1,2.7,0.3704,0.3226,0.3704
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,BoyleSports,2.62,3.1,2.62,0.3817,0.3226,0.3817
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Coral,2.7,3.1,2.8,0.3704,0.3226,0.3571
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Grosvenor,2.6,3.15,2.8,0.3846,0.3175,0.3571
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Ladbrokes,2.62,3.0,2.75,0.3817,0.3333,0.3636
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,LiveScore Bet,2.6,3.1,2.75,0.3846,0.3226,0.3636
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Matchbook,2.82,3.3,2.9,0.3546,0.303,0.3448
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Paddy Power,2.62,3.1,2.7,0.3817,0.3226,0.3704
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Sky Bet,2.63,3.2,2.7,0.3802,0.3125,0.3704
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Smarkets,2.8,3.25,2.9,0.3571,0.3077,0.3448
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Unibet (UK),2.7,3.1,2.75,0.3704,0.3226,0.3636
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,Virgin Bet,2.55,3.15,2.75,0.3922,0.3175,0.3636
+21,Augsburg,Union Berlin,2026-01-15T19:30:00+00:00,German Bundesliga,1,1,draw,William Hill,2.62,3.0,2.7,0.3817,0.3333,0.3704
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,888sport,3.4,3.0,2.15,0.2941,0.3333,0.4651
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Bet Victor,3.7,3.0,2.2,0.2703,0.3333,0.4545
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Betfair,4.0,3.2,2.26,0.25,0.3125,0.4425
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Betfair,4.0,3.2,2.26,0.25,0.3125,0.4425
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Betfair Sportsbook,3.5,2.8,1.91,0.2857,0.3571,0.5236
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Betway,3.75,3.0,2.15,0.2667,0.3333,0.4651
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,BoyleSports,3.4,3.0,2.15,0.2941,0.3333,0.4651
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Coral,3.6,3.0,2.2,0.2778,0.3333,0.4545
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Grosvenor,3.6,3.05,2.2,0.2778,0.3279,0.4545
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Ladbrokes,3.6,3.0,2.2,0.2778,0.3333,0.4545
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,LiveScore Bet,3.55,3.0,2.17,0.2817,0.3333,0.4608
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Matchbook,4.0,3.2,2.26,0.25,0.3125,0.4425
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Paddy Power,3.8,3.0,2.1,0.2632,0.3333,0.4762
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Sky Bet,3.8,3.1,2.1,0.2632,0.3226,0.4762
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Smarkets,3.95,3.15,2.26,0.2532,0.3175,0.4425
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Unibet (UK),3.6,3.05,2.2,0.2778,0.3279,0.4545
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,Virgin Bet,3.55,3.0,2.17,0.2817,0.3333,0.4608
+60,Hellas Verona,Bologna,2026-01-15T17:30:00+00:00,Serie A,2,3,away,William Hill,3.4,3.0,2.15,0.2941,0.3333,0.4651
