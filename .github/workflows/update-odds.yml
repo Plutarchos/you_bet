@@ -46,15 +46,29 @@ jobs:
         run: uv run python -m src.main fetch-results
 
       - name: Export JSON for website
-        run: uv run python -m src.export_json
+        id: export
+        run: |
+          output=$(uv run python -m src.export_json)
+          echo "$output"
+          # Extract match count from output like "Exported 123 matches to ..."
+          match_count=$(echo "$output" | grep -oP 'Exported \K\d+')
+          echo "match_count=$match_count" >> $GITHUB_OUTPUT
 
       - name: Commit updated data
+        if: steps.export.outputs.match_count != '0'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add website/src/data/odds.json
           git diff --staged --quiet || git commit -m "Update odds data [automated]"
           git push
+
+      - name: Skip commit (no data)
+        if: steps.export.outputs.match_count == '0'
+        run: |
+          echo "::warning::Skipping commit - API returned 0 matches (quota may be exhausted)"
+          # Restore the original JSON from git
+          git checkout website/src/data/odds.json
 
       - name: Setup Node
         uses: actions/setup-node@v4
