@@ -1,94 +1,122 @@
 {
-  "generated_at": "2026-06-06T11:41:25.176827",
+  "generated_at": "2026-06-09T12:44:48.597597",
   "matches": [
     {
-      "id": 16,
-      "home_team": "Internacional",
-      "away_team": "Cruzeiro",
-      "commence_time": "2026-07-22T20:00:00+00:00",
-      "league": "Brazilian Serie A",
-      "bookmaker_count": 6,
+      "id": 1,
+      "home_team": "IK Sirius",
+      "away_team": "Mj\u00e4llby AIF",
+      "commence_time": "2026-07-03T17:00:00+00:00",
+      "league": "Swedish Allsvenskan",
+      "bookmaker_count": 10,
       "odds": [
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.25,
-          "draw": 3.25,
-          "away": 3.1
-        },
         {
           "bookmaker": "Betfair Sportsbook",
           "bookmaker_key": "betfair_sb_uk",
-          "home": 2.1,
-          "draw": 2.7,
-          "away": 2.75
+          "home": 1.5,
+          "draw": 3.4,
+          "away": 4.33
         },
         {
-          "bookmaker": "Coral",
-          "bookmaker_key": "coral",
-          "home": 2.25,
-          "draw": 3.2,
-          "away": 3.3
+          "bookmaker": "BoyleSports",
+          "bookmaker_key": "boylesports",
+          "home": 1.55,
+          "draw": 3.75,
+          "away": 4.33
         },
         {
-          "bookmaker": "Ladbrokes",
-          "bookmaker_key": "ladbrokes_uk",
-          "home": 2.25,
-          "draw": 3.2,
-          "away": 3.25
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 1.71,
+          "draw": 3.7,
+          "away": 4.3
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 1.73,
+          "draw": 3.75,
+          "away": 4.4
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 1.68,
+          "draw": 3.6,
+          "away": 4.2
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 1.66,
+          "draw": 3.55,
+          "away": 4.1
         },
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 2.2,
-          "draw": 3.25,
-          "away": 3.0
+          "home": 1.57,
+          "draw": 4.0,
+          "away": 4.75
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 2.15,
-          "draw": 3.0,
-          "away": 2.8
+          "home": 1.53,
+          "draw": 3.6,
+          "away": 4.33
+        },
+        {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 1.53,
+          "draw": 3.6,
+          "away": 4.3
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 1.66,
+          "draw": 3.55,
+          "away": 4.1
         }
       ],
       "best_odds": {
-        "home": 2.25,
-        "draw": 3.25,
-        "away": 3.3
+        "home": 1.73,
+        "draw": 4.0,
+        "away": 4.75
       },
       "avg_odds": {
-        "home": 2.2,
-        "draw": 3.1,
-        "away": 3.03
+        "home": 1.61,
+        "draw": 3.65,
+        "away": 4.31
       },
       "probability": {
         "home": {
-          "median_odds": 2.23,
-          "median_prob": 0.4494,
-          "mean_odds": 2.2,
-          "mean_prob": 0.4545,
-          "best_odds": 2.25,
-          "best_prob": 0.4444,
-          "best_bookmaker": "Bet Victor"
+          "median_odds": 1.61,
+          "median_prob": 0.6192,
+          "mean_odds": 1.61,
+          "mean_prob": 0.6203,
+          "best_odds": 1.73,
+          "best_prob": 0.578,
+          "best_bookmaker": "Grosvenor"
         },
         "draw": {
-          "median_odds": 3.2,
-          "median_prob": 0.3125,
-          "mean_odds": 3.1,
-          "mean_prob": 0.3226,
-          "best_odds": 3.25,
-          "best_prob": 0.3077,
-          "best_bookmaker": "Bet Victor"
+          "median_odds": 3.6,
+          "median_prob": 0.2778,
+          "mean_odds": 3.65,
+          "mean_prob": 0.274,
+          "best_odds": 4.0,
+          "best_prob": 0.25,
+          "best_bookmaker": "Paddy Power"
         },
         "away": {
-          "median_odds": 3.05,
-          "median_prob": 0.3279,
-          "mean_odds": 3.03,
-          "mean_prob": 0.3297,
-          "best_odds": 3.3,
-          "best_prob": 0.303,
-          "best_bookmaker": "Coral"
+          "median_odds": 4.31,
+          "median_prob": 0.2317,
+          "mean_odds": 4.31,
+          "mean_prob": 0.2318,
+          "best_odds": 4.75,
+          "best_prob": 0.2105,
+          "best_bookmaker": "Paddy Power"
         }
       }
     }
@@ -105,6 +133,10 @@
     {
       "key": "betfair_sb_uk",
       "name": "Betfair Sportsbook"
+    },
+    {
+      "key": "boylesports",
+      "name": "BoyleSports"
     },
     {
       "key": "casumo",
