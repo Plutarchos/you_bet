@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T13:39:05.117435",
+  "generated_at": "2026-06-11T04:55:49.037386",
   "matches": [
     {
       "id": 1,
@@ -68,9 +68,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.53,
+          "home": 1.51,
           "draw": 3.6,
-          "away": 4.3
+          "away": 4.4
         },
         {
           "bookmaker": "Virgin Bet",
@@ -88,14 +88,14 @@
       "avg_odds": {
         "home": 1.62,
         "draw": 3.62,
-        "away": 4.26
+        "away": 4.27
       },
       "probability": {
         "home": {
           "median_odds": 1.63,
           "median_prob": 0.6135,
           "mean_odds": 1.62,
-          "mean_prob": 0.6165,
+          "mean_prob": 0.6173,
           "best_odds": 1.73,
           "best_prob": 0.578,
           "best_bookmaker": "Grosvenor"
@@ -112,8 +112,8 @@
         "away": {
           "median_odds": 4.25,
           "median_prob": 0.2353,
-          "mean_odds": 4.26,
-          "mean_prob": 0.2346,
+          "mean_odds": 4.27,
+          "mean_prob": 0.234,
           "best_odds": 4.5,
           "best_prob": 0.2222,
           "best_bookmaker": "Paddy Power"
