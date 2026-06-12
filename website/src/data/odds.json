@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T04:59:42.551627",
+  "generated_at": "2026-06-12T12:59:22.129785",
   "matches": [
     {
       "id": 1,
@@ -7,7 +7,7 @@
       "away_team": "Mj\u00e4llby AIF",
       "commence_time": "2026-07-03T17:00:00+00:00",
       "league": "Swedish Allsvenskan",
-      "bookmaker_count": 9,
+      "bookmaker_count": 10,
       "odds": [
         {
           "bookmaker": "Betfair Sportsbook",
@@ -66,6 +66,13 @@
           "away": 4.2
         },
         {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 1.51,
+          "draw": 3.6,
+          "away": 4.4
+        },
+        {
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
           "home": 1.66,
@@ -79,16 +86,16 @@
         "away": 4.5
       },
       "avg_odds": {
-        "home": 1.63,
+        "home": 1.62,
         "draw": 3.62,
-        "away": 4.26
+        "away": 4.27
       },
       "probability": {
         "home": {
-          "median_odds": 1.66,
-          "median_prob": 0.6024,
-          "mean_odds": 1.63,
-          "mean_prob": 0.6127,
+          "median_odds": 1.63,
+          "median_prob": 0.6135,
+          "mean_odds": 1.62,
+          "mean_prob": 0.6173,
           "best_odds": 1.73,
           "best_prob": 0.578,
           "best_bookmaker": "Grosvenor"
@@ -97,16 +104,16 @@
           "median_odds": 3.6,
           "median_prob": 0.2778,
           "mean_odds": 3.62,
-          "mean_prob": 0.2761,
+          "mean_prob": 0.2762,
           "best_odds": 3.8,
           "best_prob": 0.2632,
           "best_bookmaker": "Paddy Power"
         },
         "away": {
-          "median_odds": 4.2,
-          "median_prob": 0.2381,
-          "mean_odds": 4.26,
-          "mean_prob": 0.2348,
+          "median_odds": 4.25,
+          "median_prob": 0.2353,
+          "mean_odds": 4.27,
+          "mean_prob": 0.234,
           "best_odds": 4.5,
           "best_prob": 0.2222,
           "best_bookmaker": "Paddy Power"
@@ -150,6 +157,10 @@
     {
       "key": "skybet",
       "name": "Sky Bet"
+    },
+    {
+      "key": "smarkets",
+      "name": "Smarkets"
     },
     {
       "key": "virginbet",
