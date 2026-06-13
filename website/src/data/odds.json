@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T12:59:22.129785",
+  "generated_at": "2026-06-13T04:46:45.960971",
   "matches": [
     {
       "id": 1,
@@ -12,9 +12,9 @@
         {
           "bookmaker": "Betfair Sportsbook",
           "bookmaker_key": "betfair_sb_uk",
-          "home": 1.53,
-          "draw": 3.3,
-          "away": 4.2
+          "home": 1.44,
+          "draw": 3.4,
+          "away": 4.5
         },
         {
           "bookmaker": "BoyleSports",
@@ -54,16 +54,16 @@
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 1.6,
-          "draw": 3.8,
-          "away": 4.5
+          "home": 1.53,
+          "draw": 4.0,
+          "away": 5.0
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 1.57,
+          "home": 1.5,
           "draw": 3.6,
-          "away": 4.2
+          "away": 4.5
         },
         {
           "bookmaker": "Smarkets",
@@ -82,20 +82,20 @@
       ],
       "best_odds": {
         "home": 1.73,
-        "draw": 3.8,
-        "away": 4.5
+        "draw": 4.0,
+        "away": 5.0
       },
       "avg_odds": {
-        "home": 1.62,
-        "draw": 3.62,
-        "away": 4.27
+        "home": 1.6,
+        "draw": 3.65,
+        "away": 4.38
       },
       "probability": {
         "home": {
-          "median_odds": 1.63,
-          "median_prob": 0.6135,
-          "mean_odds": 1.62,
-          "mean_prob": 0.6173,
+          "median_odds": 1.6,
+          "median_prob": 0.6231,
+          "mean_odds": 1.6,
+          "mean_prob": 0.6262,
           "best_odds": 1.73,
           "best_prob": 0.578,
           "best_bookmaker": "Grosvenor"
@@ -103,19 +103,19 @@
         "draw": {
           "median_odds": 3.6,
           "median_prob": 0.2778,
-          "mean_odds": 3.62,
-          "mean_prob": 0.2762,
-          "best_odds": 3.8,
-          "best_prob": 0.2632,
+          "mean_odds": 3.65,
+          "mean_prob": 0.274,
+          "best_odds": 4.0,
+          "best_prob": 0.25,
           "best_bookmaker": "Paddy Power"
         },
         "away": {
-          "median_odds": 4.25,
-          "median_prob": 0.2353,
-          "mean_odds": 4.27,
-          "mean_prob": 0.234,
-          "best_odds": 4.5,
-          "best_prob": 0.2222,
+          "median_odds": 4.37,
+          "median_prob": 0.2291,
+          "mean_odds": 4.38,
+          "mean_prob": 0.2282,
+          "best_odds": 5.0,
+          "best_prob": 0.2,
           "best_bookmaker": "Paddy Power"
         }
       }
