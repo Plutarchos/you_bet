@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T05:28:23.441237",
+  "generated_at": "2026-06-16T15:15:51.679885",
   "matches": [
     {
       "id": 1,
@@ -117,6 +117,825 @@
           "best_odds": 5.0,
           "best_prob": 0.2,
           "best_bookmaker": "Paddy Power"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "home_team": "Degerfors IF",
+      "away_team": "Malmo FF",
+      "commence_time": "2026-07-04T13:00:00+00:00",
+      "league": "Swedish Allsvenskan",
+      "bookmaker_count": 10,
+      "odds": [
+        {
+          "bookmaker": "Betfair Sportsbook",
+          "bookmaker_key": "betfair_sb_uk",
+          "home": 2.5,
+          "draw": 2.88,
+          "away": 2.2
+        },
+        {
+          "bookmaker": "BoyleSports",
+          "bookmaker_key": "boylesports",
+          "home": 2.5,
+          "draw": 3.3,
+          "away": 2.25
+        },
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 3.25,
+          "draw": 3.3,
+          "away": 2.1
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 3.3,
+          "draw": 3.35,
+          "away": 2.12
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 3.15,
+          "draw": 3.2,
+          "away": 2.06
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 3.1,
+          "draw": 3.15,
+          "away": 2.04
+        },
+        {
+          "bookmaker": "Paddy Power",
+          "bookmaker_key": "paddypower",
+          "home": 2.62,
+          "draw": 3.4,
+          "away": 2.3
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "bookmaker_key": "skybet",
+          "home": 2.6,
+          "draw": 3.2,
+          "away": 2.2
+        },
+        {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 2.5,
+          "draw": 3.15,
+          "away": 2.22
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 3.1,
+          "draw": 3.15,
+          "away": 2.04
+        }
+      ],
+      "best_odds": {
+        "home": 3.3,
+        "draw": 3.4,
+        "away": 2.3
+      },
+      "avg_odds": {
+        "home": 2.86,
+        "draw": 3.21,
+        "away": 2.15
+      },
+      "probability": {
+        "home": {
+          "median_odds": 2.86,
+          "median_prob": 0.3497,
+          "mean_odds": 2.86,
+          "mean_prob": 0.3494,
+          "best_odds": 3.3,
+          "best_prob": 0.303,
+          "best_bookmaker": "Grosvenor"
+        },
+        "draw": {
+          "median_odds": 3.2,
+          "median_prob": 0.3125,
+          "mean_odds": 3.21,
+          "mean_prob": 0.3117,
+          "best_odds": 3.4,
+          "best_prob": 0.2941,
+          "best_bookmaker": "Paddy Power"
+        },
+        "away": {
+          "median_odds": 2.16,
+          "median_prob": 0.463,
+          "mean_odds": 2.15,
+          "mean_prob": 0.4645,
+          "best_odds": 2.3,
+          "best_prob": 0.4348,
+          "best_bookmaker": "Paddy Power"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "home_team": "Halmstads BK",
+      "away_team": "V\u00e4ster\u00e5s SK",
+      "commence_time": "2026-07-04T13:00:00+00:00",
+      "league": "Swedish Allsvenskan",
+      "bookmaker_count": 10,
+      "odds": [
+        {
+          "bookmaker": "Betfair Sportsbook",
+          "bookmaker_key": "betfair_sb_uk",
+          "home": 2.3,
+          "draw": 2.88,
+          "away": 2.4
+        },
+        {
+          "bookmaker": "BoyleSports",
+          "bookmaker_key": "boylesports",
+          "home": 2.38,
+          "draw": 3.2,
+          "away": 2.4
+        },
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 2.7,
+          "draw": 3.25,
+          "away": 2.43
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 2.75,
+          "draw": 3.3,
+          "away": 2.45
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 2.65,
+          "draw": 3.2,
+          "away": 2.38
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 2.63,
+          "draw": 3.15,
+          "away": 2.33
+        },
+        {
+          "bookmaker": "Paddy Power",
+          "bookmaker_key": "paddypower",
+          "home": 2.4,
+          "draw": 3.4,
+          "away": 2.5
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "bookmaker_key": "skybet",
+          "home": 2.3,
+          "draw": 3.2,
+          "away": 2.45
+        },
+        {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 2.36,
+          "draw": 3.0,
+          "away": 2.44
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 2.63,
+          "draw": 3.15,
+          "away": 2.33
+        }
+      ],
+      "best_odds": {
+        "home": 2.75,
+        "draw": 3.4,
+        "away": 2.5
+      },
+      "avg_odds": {
+        "home": 2.51,
+        "draw": 3.17,
+        "away": 2.41
+      },
+      "probability": {
+        "home": {
+          "median_odds": 2.51,
+          "median_prob": 0.3976,
+          "mean_odds": 2.51,
+          "mean_prob": 0.3984,
+          "best_odds": 2.75,
+          "best_prob": 0.3636,
+          "best_bookmaker": "Grosvenor"
+        },
+        "draw": {
+          "median_odds": 3.2,
+          "median_prob": 0.3125,
+          "mean_odds": 3.17,
+          "mean_prob": 0.3152,
+          "best_odds": 3.4,
+          "best_prob": 0.2941,
+          "best_bookmaker": "Paddy Power"
+        },
+        "away": {
+          "median_odds": 2.42,
+          "median_prob": 0.4141,
+          "mean_odds": 2.41,
+          "mean_prob": 0.4148,
+          "best_odds": 2.5,
+          "best_prob": 0.4,
+          "best_bookmaker": "Paddy Power"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "home_team": "IFK Goteborg",
+      "away_team": "AIK",
+      "commence_time": "2026-07-05T12:00:00+00:00",
+      "league": "Swedish Allsvenskan",
+      "bookmaker_count": 10,
+      "odds": [
+        {
+          "bookmaker": "Betfair Sportsbook",
+          "bookmaker_key": "betfair_sb_uk",
+          "home": 2.3,
+          "draw": 2.8,
+          "away": 2.4
+        },
+        {
+          "bookmaker": "BoyleSports",
+          "bookmaker_key": "boylesports",
+          "home": 2.3,
+          "draw": 3.25,
+          "away": 2.5
+        },
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 2.33,
+          "draw": 3.3,
+          "away": 2.85
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 2.35,
+          "draw": 3.35,
+          "away": 2.88
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 2.28,
+          "draw": 3.2,
+          "away": 2.75
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 2.25,
+          "draw": 3.15,
+          "away": 2.7
+        },
+        {
+          "bookmaker": "Paddy Power",
+          "bookmaker_key": "paddypower",
+          "home": 2.4,
+          "draw": 3.4,
+          "away": 2.5
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "bookmaker_key": "skybet",
+          "home": 2.3,
+          "draw": 3.2,
+          "away": 2.45
+        },
+        {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 2.32,
+          "draw": 3.05,
+          "away": 2.44
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 2.25,
+          "draw": 3.15,
+          "away": 2.7
+        }
+      ],
+      "best_odds": {
+        "home": 2.4,
+        "draw": 3.4,
+        "away": 2.88
+      },
+      "avg_odds": {
+        "home": 2.31,
+        "draw": 3.18,
+        "away": 2.62
+      },
+      "probability": {
+        "home": {
+          "median_odds": 2.3,
+          "median_prob": 0.4348,
+          "mean_odds": 2.31,
+          "mean_prob": 0.4333,
+          "best_odds": 2.4,
+          "best_prob": 0.4167,
+          "best_bookmaker": "Paddy Power"
+        },
+        "draw": {
+          "median_odds": 3.2,
+          "median_prob": 0.3125,
+          "mean_odds": 3.19,
+          "mean_prob": 0.314,
+          "best_odds": 3.4,
+          "best_prob": 0.2941,
+          "best_bookmaker": "Paddy Power"
+        },
+        "away": {
+          "median_odds": 2.6,
+          "median_prob": 0.3846,
+          "mean_odds": 2.62,
+          "mean_prob": 0.3821,
+          "best_odds": 2.88,
+          "best_prob": 0.3472,
+          "best_bookmaker": "Grosvenor"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "home_team": "Kalmar FF",
+      "away_team": "\u00d6rgryte IS",
+      "commence_time": "2026-07-05T12:00:00+00:00",
+      "league": "Swedish Allsvenskan",
+      "bookmaker_count": 10,
+      "odds": [
+        {
+          "bookmaker": "Betfair Sportsbook",
+          "bookmaker_key": "betfair_sb_uk",
+          "home": 1.36,
+          "draw": 3.6,
+          "away": 5.5
+        },
+        {
+          "bookmaker": "BoyleSports",
+          "bookmaker_key": "boylesports",
+          "home": 1.36,
+          "draw": 4.2,
+          "away": 5.5
+        },
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 1.51,
+          "draw": 4.0,
+          "away": 5.6
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 1.53,
+          "draw": 4.1,
+          "away": 5.75
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 1.5,
+          "draw": 3.9,
+          "away": 5.4
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 1.47,
+          "draw": 3.8,
+          "away": 5.3
+        },
+        {
+          "bookmaker": "Paddy Power",
+          "bookmaker_key": "paddypower",
+          "home": 1.36,
+          "draw": 4.4,
+          "away": 6.0
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "bookmaker_key": "skybet",
+          "home": 1.4,
+          "draw": 4.0,
+          "away": 5.5
+        },
+        {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 1.36,
+          "draw": 4.0,
+          "away": 5.4
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 1.47,
+          "draw": 3.8,
+          "away": 5.3
+        }
+      ],
+      "best_odds": {
+        "home": 1.53,
+        "draw": 4.4,
+        "away": 6.0
+      },
+      "avg_odds": {
+        "home": 1.43,
+        "draw": 3.98,
+        "away": 5.52
+      },
+      "probability": {
+        "home": {
+          "median_odds": 1.44,
+          "median_prob": 0.6969,
+          "mean_odds": 1.43,
+          "mean_prob": 0.6983,
+          "best_odds": 1.53,
+          "best_prob": 0.6536,
+          "best_bookmaker": "Grosvenor"
+        },
+        "draw": {
+          "median_odds": 4.0,
+          "median_prob": 0.25,
+          "mean_odds": 3.98,
+          "mean_prob": 0.2513,
+          "best_odds": 4.4,
+          "best_prob": 0.2273,
+          "best_bookmaker": "Paddy Power"
+        },
+        "away": {
+          "median_odds": 5.5,
+          "median_prob": 0.1818,
+          "mean_odds": 5.53,
+          "mean_prob": 0.181,
+          "best_odds": 6.0,
+          "best_prob": 0.1667,
+          "best_bookmaker": "Paddy Power"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "home_team": "IF Elfsborg",
+      "away_team": "Hammarby IF",
+      "commence_time": "2026-07-05T14:30:00+00:00",
+      "league": "Swedish Allsvenskan",
+      "bookmaker_count": 10,
+      "odds": [
+        {
+          "bookmaker": "Betfair Sportsbook",
+          "bookmaker_key": "betfair_sb_uk",
+          "home": 3.1,
+          "draw": 3.1,
+          "away": 1.83
+        },
+        {
+          "bookmaker": "BoyleSports",
+          "bookmaker_key": "boylesports",
+          "home": 3.1,
+          "draw": 3.5,
+          "away": 1.87
+        },
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 3.8,
+          "draw": 3.6,
+          "away": 1.83
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 3.85,
+          "draw": 3.65,
+          "away": 1.85
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 3.7,
+          "draw": 3.5,
+          "away": 1.81
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 3.6,
+          "draw": 3.45,
+          "away": 1.78
+        },
+        {
+          "bookmaker": "Paddy Power",
+          "bookmaker_key": "paddypower",
+          "home": 3.3,
+          "draw": 3.6,
+          "away": 1.9
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "bookmaker_key": "skybet",
+          "home": 3.1,
+          "draw": 3.4,
+          "away": 1.85
+        },
+        {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 3.05,
+          "draw": 3.3,
+          "away": 1.86
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 3.6,
+          "draw": 3.45,
+          "away": 1.78
+        }
+      ],
+      "best_odds": {
+        "home": 3.85,
+        "draw": 3.65,
+        "away": 1.9
+      },
+      "avg_odds": {
+        "home": 3.42,
+        "draw": 3.46,
+        "away": 1.84
+      },
+      "probability": {
+        "home": {
+          "median_odds": 3.45,
+          "median_prob": 0.2899,
+          "mean_odds": 3.42,
+          "mean_prob": 0.2924,
+          "best_odds": 3.85,
+          "best_prob": 0.2597,
+          "best_bookmaker": "Grosvenor"
+        },
+        "draw": {
+          "median_odds": 3.48,
+          "median_prob": 0.2878,
+          "mean_odds": 3.46,
+          "mean_prob": 0.2894,
+          "best_odds": 3.65,
+          "best_prob": 0.274,
+          "best_bookmaker": "Grosvenor"
+        },
+        "away": {
+          "median_odds": 1.84,
+          "median_prob": 0.5435,
+          "mean_odds": 1.84,
+          "mean_prob": 0.5447,
+          "best_odds": 1.9,
+          "best_prob": 0.5263,
+          "best_bookmaker": "Paddy Power"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "home_team": "BK Hacken",
+      "away_team": "Djurgardens IF",
+      "commence_time": "2026-07-06T17:00:00+00:00",
+      "league": "Swedish Allsvenskan",
+      "bookmaker_count": 9,
+      "odds": [
+        {
+          "bookmaker": "Betfair Sportsbook",
+          "bookmaker_key": "betfair_sb_uk",
+          "home": 2.0,
+          "draw": 3.0,
+          "away": 2.6
+        },
+        {
+          "bookmaker": "BoyleSports",
+          "bookmaker_key": "boylesports",
+          "home": 2.0,
+          "draw": 3.5,
+          "away": 2.62
+        },
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 2.4,
+          "draw": 3.5,
+          "away": 2.6
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 2.43,
+          "draw": 3.55,
+          "away": 2.63
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 2.35,
+          "draw": 3.4,
+          "away": 2.55
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 2.32,
+          "draw": 3.35,
+          "away": 2.5
+        },
+        {
+          "bookmaker": "Paddy Power",
+          "bookmaker_key": "paddypower",
+          "home": 2.15,
+          "draw": 3.6,
+          "away": 2.75
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "bookmaker_key": "skybet",
+          "home": 2.1,
+          "draw": 3.4,
+          "away": 2.63
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 2.32,
+          "draw": 3.35,
+          "away": 2.5
+        }
+      ],
+      "best_odds": {
+        "home": 2.43,
+        "draw": 3.6,
+        "away": 2.75
+      },
+      "avg_odds": {
+        "home": 2.23,
+        "draw": 3.41,
+        "away": 2.6
+      },
+      "probability": {
+        "home": {
+          "median_odds": 2.32,
+          "median_prob": 0.431,
+          "mean_odds": 2.23,
+          "mean_prob": 0.4484,
+          "best_odds": 2.43,
+          "best_prob": 0.4115,
+          "best_bookmaker": "Grosvenor"
+        },
+        "draw": {
+          "median_odds": 3.4,
+          "median_prob": 0.2941,
+          "mean_odds": 3.41,
+          "mean_prob": 0.2936,
+          "best_odds": 3.6,
+          "best_prob": 0.2778,
+          "best_bookmaker": "Paddy Power"
+        },
+        "away": {
+          "median_odds": 2.6,
+          "median_prob": 0.3846,
+          "mean_odds": 2.6,
+          "mean_prob": 0.3849,
+          "best_odds": 2.75,
+          "best_prob": 0.3636,
+          "best_bookmaker": "Paddy Power"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "home_team": "IF Brommapojkarna",
+      "away_team": "GAIS",
+      "commence_time": "2026-07-06T17:00:00+00:00",
+      "league": "Swedish Allsvenskan",
+      "bookmaker_count": 9,
+      "odds": [
+        {
+          "bookmaker": "Betfair Sportsbook",
+          "bookmaker_key": "betfair_sb_uk",
+          "home": 2.88,
+          "draw": 2.88,
+          "away": 1.91
+        },
+        {
+          "bookmaker": "BoyleSports",
+          "bookmaker_key": "boylesports",
+          "home": 2.9,
+          "draw": 3.3,
+          "away": 2.0
+        },
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 3.05,
+          "draw": 3.3,
+          "away": 2.18
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 3.1,
+          "draw": 3.35,
+          "away": 2.2
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 3.0,
+          "draw": 3.2,
+          "away": 2.14
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 2.95,
+          "draw": 3.15,
+          "away": 2.1
+        },
+        {
+          "bookmaker": "Paddy Power",
+          "bookmaker_key": "paddypower",
+          "home": 3.0,
+          "draw": 3.4,
+          "away": 2.05
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "bookmaker_key": "skybet",
+          "home": 2.9,
+          "draw": 3.2,
+          "away": 2.0
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 2.95,
+          "draw": 3.15,
+          "away": 2.1
+        }
+      ],
+      "best_odds": {
+        "home": 3.1,
+        "draw": 3.4,
+        "away": 2.2
+      },
+      "avg_odds": {
+        "home": 2.97,
+        "draw": 3.21,
+        "away": 2.08
+      },
+      "probability": {
+        "home": {
+          "median_odds": 2.95,
+          "median_prob": 0.339,
+          "mean_odds": 2.97,
+          "mean_prob": 0.3367,
+          "best_odds": 3.1,
+          "best_prob": 0.3226,
+          "best_bookmaker": "Grosvenor"
+        },
+        "draw": {
+          "median_odds": 3.2,
+          "median_prob": 0.3125,
+          "mean_odds": 3.21,
+          "mean_prob": 0.3111,
+          "best_odds": 3.4,
+          "best_prob": 0.2941,
+          "best_bookmaker": "Paddy Power"
+        },
+        "away": {
+          "median_odds": 2.1,
+          "median_prob": 0.4762,
+          "mean_odds": 2.08,
+          "mean_prob": 0.4818,
+          "best_odds": 2.2,
+          "best_prob": 0.4545,
+          "best_bookmaker": "Grosvenor"
         }
       }
     }
