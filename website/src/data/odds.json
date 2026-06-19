@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-18T13:00:29.716088",
+  "generated_at": "2026-06-19T05:20:32.957677",
   "matches": [
     {
-      "id": 1,
+      "id": 7,
       "home_team": "IK Sirius",
       "away_team": "Mj\u00e4llby AIF",
       "commence_time": "2026-07-03T17:00:00+00:00",
@@ -27,29 +27,29 @@
           "bookmaker": "Casumo",
           "bookmaker_key": "casumo",
           "home": 1.71,
-          "draw": 3.7,
-          "away": 4.3
+          "draw": 3.75,
+          "away": 4.25
         },
         {
           "bookmaker": "Grosvenor",
           "bookmaker_key": "grosvenor",
           "home": 1.73,
-          "draw": 3.75,
-          "away": 4.4
+          "draw": 3.8,
+          "away": 4.3
         },
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 1.68,
-          "draw": 3.6,
-          "away": 4.2
+          "draw": 3.65,
+          "away": 4.1
         },
         {
           "bookmaker": "LiveScore Bet",
           "bookmaker_key": "livescorebet",
           "home": 1.66,
-          "draw": 3.55,
-          "away": 4.1
+          "draw": 3.6,
+          "away": 4.0
         },
         {
           "bookmaker": "Paddy Power",
@@ -76,8 +76,8 @@
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
           "home": 1.66,
-          "draw": 3.55,
-          "away": 4.1
+          "draw": 3.6,
+          "away": 4.0
         }
       ],
       "best_odds": {
@@ -87,8 +87,8 @@
       },
       "avg_odds": {
         "home": 1.6,
-        "draw": 3.65,
-        "away": 4.38
+        "draw": 3.67,
+        "away": 4.34
       },
       "probability": {
         "home": {
@@ -101,19 +101,19 @@
           "best_bookmaker": "Grosvenor"
         },
         "draw": {
-          "median_odds": 3.6,
-          "median_prob": 0.2778,
-          "mean_odds": 3.65,
-          "mean_prob": 0.274,
+          "median_odds": 3.62,
+          "median_prob": 0.2759,
+          "mean_odds": 3.67,
+          "mean_prob": 0.2721,
           "best_odds": 4.0,
           "best_prob": 0.25,
           "best_bookmaker": "Paddy Power"
         },
         "away": {
-          "median_odds": 4.37,
-          "median_prob": 0.2291,
-          "mean_odds": 4.38,
-          "mean_prob": 0.2282,
+          "median_odds": 4.31,
+          "median_prob": 0.2317,
+          "mean_odds": 4.34,
+          "mean_prob": 0.2305,
           "best_odds": 5.0,
           "best_prob": 0.2,
           "best_bookmaker": "Paddy Power"
@@ -121,7 +121,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 8,
       "home_team": "Degerfors IF",
       "away_team": "Malmo FF",
       "commence_time": "2026-07-04T13:00:00+00:00",
@@ -240,7 +240,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 9,
       "home_team": "Halmstads BK",
       "away_team": "V\u00e4ster\u00e5s SK",
       "commence_time": "2026-07-04T13:00:00+00:00",
@@ -359,7 +359,7 @@
       }
     },
     {
-      "id": 4,
+      "id": 10,
       "home_team": "IFK Goteborg",
       "away_team": "AIK",
       "commence_time": "2026-07-05T12:00:00+00:00",
@@ -478,7 +478,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 11,
       "home_team": "Kalmar FF",
       "away_team": "\u00d6rgryte IS",
       "commence_time": "2026-07-05T12:00:00+00:00",
@@ -597,7 +597,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 12,
       "home_team": "IF Elfsborg",
       "away_team": "Hammarby IF",
       "commence_time": "2026-07-05T14:30:00+00:00",
@@ -716,7 +716,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 13,
       "home_team": "BK Hacken",
       "away_team": "Djurgardens IF",
       "commence_time": "2026-07-06T17:00:00+00:00",
@@ -828,7 +828,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 14,
       "home_team": "IF Brommapojkarna",
       "away_team": "GAIS",
       "commence_time": "2026-07-06T17:00:00+00:00",
@@ -942,12 +942,20 @@
   ],
   "bookmakers": [
     {
+      "key": "betvictor",
+      "name": "Bet Victor"
+    },
+    {
       "key": "betfair_ex_uk",
       "name": "Betfair"
     },
     {
       "key": "betfair_sb_uk",
       "name": "Betfair Sportsbook"
+    },
+    {
+      "key": "betfred_uk",
+      "name": "Betfred (UK)"
     },
     {
       "key": "boylesports",
