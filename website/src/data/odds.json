@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-20T04:30:05.087822",
+  "generated_at": "2026-06-20T12:02:55.689804",
   "matches": [
     {
-      "id": 21,
+      "id": 31,
       "home_team": "IK Sirius",
       "away_team": "Mj\u00e4llby AIF",
       "commence_time": "2026-07-03T17:00:00+00:00",
@@ -121,7 +121,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 32,
       "home_team": "Degerfors IF",
       "away_team": "Malmo FF",
       "commence_time": "2026-07-04T13:00:00+00:00",
@@ -240,7 +240,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 33,
       "home_team": "Halmstads BK",
       "away_team": "V\u00e4ster\u00e5s SK",
       "commence_time": "2026-07-04T13:00:00+00:00",
@@ -359,7 +359,7 @@
       }
     },
     {
-      "id": 24,
+      "id": 34,
       "home_team": "IFK Goteborg",
       "away_team": "AIK",
       "commence_time": "2026-07-05T12:00:00+00:00",
@@ -478,7 +478,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 35,
       "home_team": "Kalmar FF",
       "away_team": "\u00d6rgryte IS",
       "commence_time": "2026-07-05T12:00:00+00:00",
@@ -597,7 +597,7 @@
       }
     },
     {
-      "id": 26,
+      "id": 36,
       "home_team": "IF Elfsborg",
       "away_team": "Hammarby IF",
       "commence_time": "2026-07-05T14:30:00+00:00",
@@ -716,7 +716,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 37,
       "home_team": "BK Hacken",
       "away_team": "Djurgardens IF",
       "commence_time": "2026-07-06T17:00:00+00:00",
@@ -828,7 +828,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 38,
       "home_team": "IF Brommapojkarna",
       "away_team": "GAIS",
       "commence_time": "2026-07-06T17:00:00+00:00",
@@ -1126,7 +1126,7 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 6.0,
-          "draw": 1.65,
+          "draw": 4.2,
           "away": 1.46
         },
         {
@@ -1235,7 +1235,7 @@
       },
       "avg_odds": {
         "home": 6.34,
-        "draw": 4.29,
+        "draw": 4.44,
         "away": 1.42
       },
       "probability": {
@@ -1251,8 +1251,8 @@
         "draw": {
           "median_odds": 4.5,
           "median_prob": 0.2222,
-          "mean_odds": 4.29,
-          "mean_prob": 0.2332,
+          "mean_odds": 4.44,
+          "mean_prob": 0.2253,
           "best_odds": 4.8,
           "best_prob": 0.2083,
           "best_bookmaker": "Coral"
@@ -1265,6 +1265,916 @@
           "best_odds": 1.46,
           "best_prob": 0.6849,
           "best_bookmaker": "Betfair"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "home_team": "Torino",
+      "away_team": "AC Milan",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 4.2,
+          "draw": 3.55,
+          "away": 1.7
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 4.2,
+          "draw": 3.55,
+          "away": 1.7
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 4.2,
+          "draw": 3.55,
+          "away": 1.7
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 4.2,
+          "draw": 3.55,
+          "away": 1.7
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 4.25,
+          "draw": 3.5,
+          "away": 1.75
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 4.2,
+          "draw": 3.55,
+          "away": 1.7
+        }
+      ],
+      "best_odds": {
+        "home": 4.25,
+        "draw": 3.55,
+        "away": 1.75
+      },
+      "avg_odds": {
+        "home": 4.21,
+        "draw": 3.54,
+        "away": 1.71
+      },
+      "probability": {
+        "home": {
+          "median_odds": 4.2,
+          "median_prob": 0.2381,
+          "mean_odds": 4.21,
+          "mean_prob": 0.2376,
+          "best_odds": 4.25,
+          "best_prob": 0.2353,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "draw": {
+          "median_odds": 3.55,
+          "median_prob": 0.2817,
+          "mean_odds": 3.54,
+          "mean_prob": 0.2824,
+          "best_odds": 3.55,
+          "best_prob": 0.2817,
+          "best_bookmaker": "Casumo"
+        },
+        "away": {
+          "median_odds": 1.7,
+          "median_prob": 0.5882,
+          "mean_odds": 1.71,
+          "mean_prob": 0.5854,
+          "best_odds": 1.75,
+          "best_prob": 0.5714,
+          "best_bookmaker": "Unibet (UK)"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "home_team": "AS Roma",
+      "away_team": "Fiorentina",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 1.43,
+          "draw": 3.95,
+          "away": 6.1
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 1.43,
+          "draw": 3.95,
+          "away": 6.1
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 1.43,
+          "draw": 3.95,
+          "away": 6.1
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 1.44,
+          "draw": 3.95,
+          "away": 6.1
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 1.54,
+          "draw": 4.0,
+          "away": 5.75
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 1.44,
+          "draw": 3.95,
+          "away": 6.1
+        }
+      ],
+      "best_odds": {
+        "home": 1.54,
+        "draw": 4.0,
+        "away": 6.1
+      },
+      "avg_odds": {
+        "home": 1.45,
+        "draw": 3.96,
+        "away": 6.04
+      },
+      "probability": {
+        "home": {
+          "median_odds": 1.44,
+          "median_prob": 0.6969,
+          "mean_odds": 1.45,
+          "mean_prob": 0.6889,
+          "best_odds": 1.54,
+          "best_prob": 0.6494,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "draw": {
+          "median_odds": 3.95,
+          "median_prob": 0.2532,
+          "mean_odds": 3.96,
+          "mean_prob": 0.2526,
+          "best_odds": 4.0,
+          "best_prob": 0.25,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "away": {
+          "median_odds": 6.1,
+          "median_prob": 0.1639,
+          "mean_odds": 6.04,
+          "mean_prob": 0.1655,
+          "best_odds": 6.1,
+          "best_prob": 0.1639,
+          "best_bookmaker": "Casumo"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "home_team": "Atalanta BC",
+      "away_team": "Sassuolo",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 1.47,
+          "draw": 4.1,
+          "away": 5.4
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 1.47,
+          "draw": 4.1,
+          "away": 5.4
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 1.47,
+          "draw": 4.1,
+          "away": 5.4
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 1.47,
+          "draw": 4.1,
+          "away": 5.4
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 1.5,
+          "draw": 4.0,
+          "away": 5.5
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 1.47,
+          "draw": 4.1,
+          "away": 5.4
+        }
+      ],
+      "best_odds": {
+        "home": 1.5,
+        "draw": 4.1,
+        "away": 5.5
+      },
+      "avg_odds": {
+        "home": 1.47,
+        "draw": 4.08,
+        "away": 5.42
+      },
+      "probability": {
+        "home": {
+          "median_odds": 1.47,
+          "median_prob": 0.6803,
+          "mean_odds": 1.48,
+          "mean_prob": 0.678,
+          "best_odds": 1.5,
+          "best_prob": 0.6667,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "draw": {
+          "median_odds": 4.1,
+          "median_prob": 0.2439,
+          "mean_odds": 4.08,
+          "mean_prob": 0.2449,
+          "best_odds": 4.1,
+          "best_prob": 0.2439,
+          "best_bookmaker": "Casumo"
+        },
+        "away": {
+          "median_odds": 5.4,
+          "median_prob": 0.1852,
+          "mean_odds": 5.42,
+          "mean_prob": 0.1846,
+          "best_odds": 5.5,
+          "best_prob": 0.1818,
+          "best_bookmaker": "Unibet (UK)"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "home_team": "Bologna",
+      "away_team": "Lazio",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 1.97,
+          "draw": 3.1,
+          "away": 3.5
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 1.97,
+          "draw": 3.1,
+          "away": 3.5
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 1.97,
+          "draw": 3.1,
+          "away": 3.5
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 1.98,
+          "draw": 3.1,
+          "away": 3.5
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 2.0,
+          "draw": 3.2,
+          "away": 3.6
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 1.98,
+          "draw": 3.1,
+          "away": 3.5
+        }
+      ],
+      "best_odds": {
+        "home": 2.0,
+        "draw": 3.2,
+        "away": 3.6
+      },
+      "avg_odds": {
+        "home": 1.98,
+        "draw": 3.12,
+        "away": 3.52
+      },
+      "probability": {
+        "home": {
+          "median_odds": 1.98,
+          "median_prob": 0.5063,
+          "mean_odds": 1.98,
+          "mean_prob": 0.5055,
+          "best_odds": 2.0,
+          "best_prob": 0.5,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "draw": {
+          "median_odds": 3.1,
+          "median_prob": 0.3226,
+          "mean_odds": 3.12,
+          "mean_prob": 0.3209,
+          "best_odds": 3.2,
+          "best_prob": 0.3125,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "away": {
+          "median_odds": 3.5,
+          "median_prob": 0.2857,
+          "mean_odds": 3.52,
+          "mean_prob": 0.2844,
+          "best_odds": 3.6,
+          "best_prob": 0.2778,
+          "best_bookmaker": "Unibet (UK)"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "home_team": "Parma",
+      "away_team": "Cagliari",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 2.5,
+          "draw": 2.88,
+          "away": 2.75
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 2.5,
+          "draw": 2.88,
+          "away": 2.75
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 2.5,
+          "draw": 2.88,
+          "away": 2.75
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 2.5,
+          "draw": 2.88,
+          "away": 2.75
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 2.5,
+          "draw": 3.0,
+          "away": 2.8
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 2.5,
+          "draw": 2.88,
+          "away": 2.75
+        }
+      ],
+      "best_odds": {
+        "home": 2.5,
+        "draw": 3.0,
+        "away": 2.8
+      },
+      "avg_odds": {
+        "home": 2.5,
+        "draw": 2.9,
+        "away": 2.76
+      },
+      "probability": {
+        "home": {
+          "median_odds": 2.5,
+          "median_prob": 0.4,
+          "mean_odds": 2.5,
+          "mean_prob": 0.4,
+          "best_odds": 2.5,
+          "best_prob": 0.4,
+          "best_bookmaker": "Casumo"
+        },
+        "draw": {
+          "median_odds": 2.88,
+          "median_prob": 0.3472,
+          "mean_odds": 2.9,
+          "mean_prob": 0.3448,
+          "best_odds": 3.0,
+          "best_prob": 0.3333,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "away": {
+          "median_odds": 2.75,
+          "median_prob": 0.3636,
+          "mean_odds": 2.76,
+          "mean_prob": 0.3625,
+          "best_odds": 2.8,
+          "best_prob": 0.3571,
+          "best_bookmaker": "Unibet (UK)"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "home_team": "Udinese",
+      "away_team": "Como",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 4.3,
+          "draw": 3.3,
+          "away": 1.74
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 4.3,
+          "draw": 3.3,
+          "away": 1.74
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 4.3,
+          "draw": 3.3,
+          "away": 1.74
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 4.3,
+          "draw": 3.3,
+          "away": 1.74
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 4.6,
+          "draw": 3.5,
+          "away": 1.7
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 4.3,
+          "draw": 3.3,
+          "away": 1.74
+        }
+      ],
+      "best_odds": {
+        "home": 4.6,
+        "draw": 3.5,
+        "away": 1.74
+      },
+      "avg_odds": {
+        "home": 4.35,
+        "draw": 3.33,
+        "away": 1.73
+      },
+      "probability": {
+        "home": {
+          "median_odds": 4.3,
+          "median_prob": 0.2326,
+          "mean_odds": 4.35,
+          "mean_prob": 0.2299,
+          "best_odds": 4.6,
+          "best_prob": 0.2174,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "draw": {
+          "median_odds": 3.3,
+          "median_prob": 0.303,
+          "mean_odds": 3.33,
+          "mean_prob": 0.3,
+          "best_odds": 3.5,
+          "best_prob": 0.2857,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "away": {
+          "median_odds": 1.74,
+          "median_prob": 0.5747,
+          "mean_odds": 1.73,
+          "mean_prob": 0.5769,
+          "best_odds": 1.74,
+          "best_prob": 0.5747,
+          "best_bookmaker": "Casumo"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "home_team": "Frosinone",
+      "away_team": "Juventus",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 6.4,
+          "draw": 4.1,
+          "away": 1.41
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 6.4,
+          "draw": 4.1,
+          "away": 1.41
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 6.4,
+          "draw": 4.1,
+          "away": 1.41
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 6.4,
+          "draw": 4.1,
+          "away": 1.41
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 6.5,
+          "draw": 4.25,
+          "away": 1.45
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 6.4,
+          "draw": 4.1,
+          "away": 1.41
+        }
+      ],
+      "best_odds": {
+        "home": 6.5,
+        "draw": 4.25,
+        "away": 1.45
+      },
+      "avg_odds": {
+        "home": 6.42,
+        "draw": 4.12,
+        "away": 1.42
+      },
+      "probability": {
+        "home": {
+          "median_odds": 6.4,
+          "median_prob": 0.1562,
+          "mean_odds": 6.42,
+          "mean_prob": 0.1558,
+          "best_odds": 6.5,
+          "best_prob": 0.1538,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "draw": {
+          "median_odds": 4.1,
+          "median_prob": 0.2439,
+          "mean_odds": 4.12,
+          "mean_prob": 0.2424,
+          "best_odds": 4.25,
+          "best_prob": 0.2353,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "away": {
+          "median_odds": 1.41,
+          "median_prob": 0.7092,
+          "mean_odds": 1.42,
+          "mean_prob": 0.7059,
+          "best_odds": 1.45,
+          "best_prob": 0.6897,
+          "best_bookmaker": "Unibet (UK)"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "home_team": "Genoa",
+      "away_team": "Napoli",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 5.0,
+          "draw": 3.35,
+          "away": 1.63
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 5.0,
+          "draw": 3.35,
+          "away": 1.63
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 5.0,
+          "draw": 3.35,
+          "away": 1.63
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 5.0,
+          "draw": 3.35,
+          "away": 1.63
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 5.0,
+          "draw": 3.4,
+          "away": 1.67
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 5.0,
+          "draw": 3.35,
+          "away": 1.63
+        }
+      ],
+      "best_odds": {
+        "home": 5.0,
+        "draw": 3.4,
+        "away": 1.67
+      },
+      "avg_odds": {
+        "home": 5.0,
+        "draw": 3.36,
+        "away": 1.64
+      },
+      "probability": {
+        "home": {
+          "median_odds": 5.0,
+          "median_prob": 0.2,
+          "mean_odds": 5.0,
+          "mean_prob": 0.2,
+          "best_odds": 5.0,
+          "best_prob": 0.2,
+          "best_bookmaker": "Casumo"
+        },
+        "draw": {
+          "median_odds": 3.35,
+          "median_prob": 0.2985,
+          "mean_odds": 3.36,
+          "mean_prob": 0.2978,
+          "best_odds": 3.4,
+          "best_prob": 0.2941,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "away": {
+          "median_odds": 1.63,
+          "median_prob": 0.6135,
+          "mean_odds": 1.64,
+          "mean_prob": 0.611,
+          "best_odds": 1.67,
+          "best_prob": 0.5988,
+          "best_bookmaker": "Unibet (UK)"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "home_team": "Inter Milan",
+      "away_team": "Monza",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 1.18,
+          "draw": 5.6,
+          "away": 12.5
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 1.18,
+          "draw": 5.6,
+          "away": 12.5
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 1.18,
+          "draw": 5.6,
+          "away": 12.5
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 1.18,
+          "draw": 5.6,
+          "away": 12.5
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 1.19,
+          "draw": 5.75,
+          "away": 14.0
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 1.18,
+          "draw": 5.6,
+          "away": 12.5
+        }
+      ],
+      "best_odds": {
+        "home": 1.19,
+        "draw": 5.75,
+        "away": 14.0
+      },
+      "avg_odds": {
+        "home": 1.18,
+        "draw": 5.62,
+        "away": 12.75
+      },
+      "probability": {
+        "home": {
+          "median_odds": 1.18,
+          "median_prob": 0.8475,
+          "mean_odds": 1.18,
+          "mean_prob": 0.8463,
+          "best_odds": 1.19,
+          "best_prob": 0.8403,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "draw": {
+          "median_odds": 5.6,
+          "median_prob": 0.1786,
+          "mean_odds": 5.62,
+          "mean_prob": 0.1778,
+          "best_odds": 5.75,
+          "best_prob": 0.1739,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "away": {
+          "median_odds": 12.5,
+          "median_prob": 0.08,
+          "mean_odds": 12.75,
+          "mean_prob": 0.0784,
+          "best_odds": 14.0,
+          "best_prob": 0.0714,
+          "best_bookmaker": "Unibet (UK)"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "home_team": "Venezia",
+      "away_team": "Lecce",
+      "commence_time": "2026-08-22T13:00:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Casumo",
+          "bookmaker_key": "casumo",
+          "home": 2.23,
+          "draw": 3.05,
+          "away": 3.05
+        },
+        {
+          "bookmaker": "Grosvenor",
+          "bookmaker_key": "grosvenor",
+          "home": 2.23,
+          "draw": 3.05,
+          "away": 3.05
+        },
+        {
+          "bookmaker": "LeoVegas",
+          "bookmaker_key": "leovegas",
+          "home": 2.23,
+          "draw": 3.05,
+          "away": 3.05
+        },
+        {
+          "bookmaker": "LiveScore Bet",
+          "bookmaker_key": "livescorebet",
+          "home": 2.23,
+          "draw": 3.05,
+          "away": 3.05
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 2.25,
+          "draw": 3.1,
+          "away": 3.1
+        },
+        {
+          "bookmaker": "Virgin Bet",
+          "bookmaker_key": "virginbet",
+          "home": 2.23,
+          "draw": 3.05,
+          "away": 3.05
+        }
+      ],
+      "best_odds": {
+        "home": 2.25,
+        "draw": 3.1,
+        "away": 3.1
+      },
+      "avg_odds": {
+        "home": 2.23,
+        "draw": 3.06,
+        "away": 3.06
+      },
+      "probability": {
+        "home": {
+          "median_odds": 2.23,
+          "median_prob": 0.4484,
+          "mean_odds": 2.23,
+          "mean_prob": 0.4478,
+          "best_odds": 2.25,
+          "best_prob": 0.4444,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "draw": {
+          "median_odds": 3.05,
+          "median_prob": 0.3279,
+          "mean_odds": 3.06,
+          "mean_prob": 0.327,
+          "best_odds": 3.1,
+          "best_prob": 0.3226,
+          "best_bookmaker": "Unibet (UK)"
+        },
+        "away": {
+          "median_odds": 3.05,
+          "median_prob": 0.3279,
+          "mean_odds": 3.06,
+          "mean_prob": 0.327,
+          "best_odds": 3.1,
+          "best_prob": 0.3226,
+          "best_bookmaker": "Unibet (UK)"
         }
       }
     },
@@ -2431,7 +3341,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 22,
       "home_team": "AS Roma",
       "away_team": "Fiorentina",
       "commence_time": "2026-08-23T16:30:00+00:00",
@@ -2522,7 +3432,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 24,
       "home_team": "Bologna",
       "away_team": "Lazio",
       "commence_time": "2026-08-23T16:30:00+00:00",
@@ -2613,7 +3523,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 25,
       "home_team": "Parma",
       "away_team": "Cagliari",
       "commence_time": "2026-08-23T16:30:00+00:00",
@@ -2704,12 +3614,103 @@
       }
     },
     {
+      "id": 30,
+      "home_team": "Venezia",
+      "away_team": "Lecce",
+      "commence_time": "2026-08-23T16:30:00+00:00",
+      "league": "Serie A",
+      "bookmaker_count": 6,
+      "odds": [
+        {
+          "bookmaker": "Bet Victor",
+          "bookmaker_key": "betvictor",
+          "home": 2.25,
+          "draw": 3.2,
+          "away": 3.1
+        },
+        {
+          "bookmaker": "Betfair",
+          "bookmaker_key": "betfair_ex_uk",
+          "home": 2.32,
+          "draw": 3.1,
+          "away": 3.2
+        },
+        {
+          "bookmaker": "Betfair Sportsbook",
+          "bookmaker_key": "betfair_sb_uk",
+          "home": 2.1,
+          "draw": 2.8,
+          "away": 2.88
+        },
+        {
+          "bookmaker": "Betfred (UK)",
+          "bookmaker_key": "betfred_uk",
+          "home": 2.3,
+          "draw": 3.25,
+          "away": 3.2
+        },
+        {
+          "bookmaker": "Paddy Power",
+          "bookmaker_key": "paddypower",
+          "home": 2.2,
+          "draw": 3.2,
+          "away": 3.1
+        },
+        {
+          "bookmaker": "Sky Bet",
+          "bookmaker_key": "skybet",
+          "home": 2.25,
+          "draw": 3.25,
+          "away": 3.1
+        }
+      ],
+      "best_odds": {
+        "home": 2.32,
+        "draw": 3.25,
+        "away": 3.2
+      },
+      "avg_odds": {
+        "home": 2.24,
+        "draw": 3.13,
+        "away": 3.1
+      },
+      "probability": {
+        "home": {
+          "median_odds": 2.25,
+          "median_prob": 0.4444,
+          "mean_odds": 2.24,
+          "mean_prob": 0.4471,
+          "best_odds": 2.32,
+          "best_prob": 0.431,
+          "best_bookmaker": "Betfair"
+        },
+        "draw": {
+          "median_odds": 3.2,
+          "median_prob": 0.3125,
+          "mean_odds": 3.13,
+          "mean_prob": 0.3191,
+          "best_odds": 3.25,
+          "best_prob": 0.3077,
+          "best_bookmaker": "Betfred (UK)"
+        },
+        "away": {
+          "median_odds": 3.1,
+          "median_prob": 0.3226,
+          "mean_odds": 3.1,
+          "mean_prob": 0.3229,
+          "best_odds": 3.2,
+          "best_prob": 0.3125,
+          "best_bookmaker": "Betfair"
+        }
+      }
+    },
+    {
       "id": 10,
       "home_team": "Fulham",
       "away_team": "Chelsea",
       "commence_time": "2026-08-24T19:00:00+00:00",
       "league": "English Premier League",
-      "bookmaker_count": 15,
+      "bookmaker_count": 16,
       "odds": [
         {
           "bookmaker": "888sport",
@@ -2724,6 +3725,13 @@
           "home": 3.1,
           "draw": 3.6,
           "away": 2.1
+        },
+        {
+          "bookmaker": "Betfair",
+          "bookmaker_key": "betfair_ex_uk",
+          "home": 3.1,
+          "draw": 2.84,
+          "away": 2.14
         },
         {
           "bookmaker": "Betfred (UK)",
@@ -2820,19 +3828,19 @@
       "best_odds": {
         "home": 3.5,
         "draw": 3.75,
-        "away": 2.1
+        "away": 2.14
       },
       "avg_odds": {
-        "home": 3.2,
-        "draw": 3.59,
-        "away": 2.04
+        "home": 3.19,
+        "draw": 3.55,
+        "away": 2.05
       },
       "probability": {
         "home": {
-          "median_odds": 3.25,
-          "median_prob": 0.3077,
-          "mean_odds": 3.2,
-          "mean_prob": 0.3126,
+          "median_odds": 3.23,
+          "median_prob": 0.3101,
+          "mean_odds": 3.19,
+          "mean_prob": 0.3132,
           "best_odds": 3.5,
           "best_prob": 0.2857,
           "best_bookmaker": "Coral"
@@ -2840,8 +3848,8 @@
         "draw": {
           "median_odds": 3.6,
           "median_prob": 0.2778,
-          "mean_odds": 3.59,
-          "mean_prob": 0.2783,
+          "mean_odds": 3.55,
+          "mean_prob": 0.282,
           "best_odds": 3.75,
           "best_prob": 0.2667,
           "best_bookmaker": "Betfred (UK)"
@@ -2849,11 +3857,11 @@
         "away": {
           "median_odds": 2.04,
           "median_prob": 0.4902,
-          "mean_odds": 2.04,
-          "mean_prob": 0.49,
-          "best_odds": 2.1,
-          "best_prob": 0.4762,
-          "best_bookmaker": "Bet Victor"
+          "mean_odds": 2.05,
+          "mean_prob": 0.4885,
+          "best_odds": 2.14,
+          "best_prob": 0.4673,
+          "best_bookmaker": "Betfair"
         }
       }
     }
