@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T05:14:02.168459",
+  "generated_at": "2026-06-21T12:15:44.971933",
   "matches": [
     {
       "id": 31,
@@ -1771,7 +1771,7 @@
           "bookmaker_key": "unibet_uk",
           "home": 4.6,
           "draw": 3.5,
-          "away": 1.7
+          "away": 1.73
         },
         {
           "bookmaker": "Virgin Bet",
@@ -1789,7 +1789,7 @@
       "avg_odds": {
         "home": 4.35,
         "draw": 3.33,
-        "away": 1.73
+        "away": 1.74
       },
       "probability": {
         "home": {
@@ -1813,8 +1813,8 @@
         "away": {
           "median_odds": 1.74,
           "median_prob": 0.5747,
-          "mean_odds": 1.73,
-          "mean_prob": 0.5769,
+          "mean_odds": 1.74,
+          "mean_prob": 0.5753,
           "best_odds": 1.74,
           "best_prob": 0.5747,
           "best_bookmaker": "Casumo"
@@ -2792,7 +2792,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 2.32,
-          "draw": 3.3,
+          "draw": 3.15,
           "away": 2.38
         },
         {
@@ -2824,7 +2824,7 @@
       },
       "avg_odds": {
         "home": 2.49,
-        "draw": 3.54,
+        "draw": 3.53,
         "away": 2.5
       },
       "probability": {
@@ -2840,8 +2840,8 @@
         "draw": {
           "median_odds": 3.5,
           "median_prob": 0.2857,
-          "mean_odds": 3.54,
-          "mean_prob": 0.2824,
+          "mean_odds": 3.53,
+          "mean_prob": 0.2831,
           "best_odds": 3.8,
           "best_prob": 0.2632,
           "best_bookmaker": "Betfair"
@@ -2875,7 +2875,7 @@
         {
           "bookmaker": "Bet Victor",
           "bookmaker_key": "betvictor",
-          "home": 2.25,
+          "home": 2.2,
           "draw": 3.7,
           "away": 2.8
         },
@@ -2991,7 +2991,7 @@
         "away": 2.9
       },
       "avg_odds": {
-        "home": 2.23,
+        "home": 2.22,
         "draw": 3.59,
         "away": 2.82
       },
@@ -2999,8 +2999,8 @@
         "home": {
           "median_odds": 2.23,
           "median_prob": 0.4484,
-          "mean_odds": 2.23,
-          "mean_prob": 0.449,
+          "mean_odds": 2.22,
+          "mean_prob": 0.4496,
           "best_odds": 2.37,
           "best_prob": 0.4219,
           "best_bookmaker": "Coral"
