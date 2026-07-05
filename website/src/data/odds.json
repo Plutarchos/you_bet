@@ -1,344 +1,8 @@
 {
-  "generated_at": "2026-07-04T11:39:00.274456",
+  "generated_at": "2026-07-05T04:18:45.486798",
   "matches": [
     {
       "id": 109,
-      "home_team": "Degerfors IF",
-      "away_team": "Malmo FF",
-      "commence_time": "2026-07-04T13:00:00+00:00",
-      "league": "Swedish Allsvenskan",
-      "bookmaker_count": 19,
-      "odds": [
-        {
-          "bookmaker": "888sport",
-          "bookmaker_key": "sport888",
-          "home": 3.2,
-          "draw": 3.25,
-          "away": 2.1
-        },
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 3.2,
-          "draw": 3.4,
-          "away": 2.05
-        },
-        {
-          "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_uk",
-          "home": 3.6,
-          "draw": 3.65,
-          "away": 2.18
-        },
-        {
-          "bookmaker": "Betfred (UK)",
-          "bookmaker_key": "betfred_uk",
-          "home": 3.1,
-          "draw": 3.4,
-          "away": 2.1
-        },
-        {
-          "bookmaker": "Betway",
-          "bookmaker_key": "betway",
-          "home": 3.3,
-          "draw": 3.5,
-          "away": 2.1
-        },
-        {
-          "bookmaker": "BoyleSports",
-          "bookmaker_key": "boylesports",
-          "home": 2.9,
-          "draw": 3.3,
-          "away": 2.0
-        },
-        {
-          "bookmaker": "Casumo",
-          "bookmaker_key": "casumo",
-          "home": 3.4,
-          "draw": 3.3,
-          "away": 2.02
-        },
-        {
-          "bookmaker": "Coral",
-          "bookmaker_key": "coral",
-          "home": 3.0,
-          "draw": 3.2,
-          "away": 2.1
-        },
-        {
-          "bookmaker": "Grosvenor",
-          "bookmaker_key": "grosvenor",
-          "home": 3.45,
-          "draw": 3.4,
-          "away": 2.05
-        },
-        {
-          "bookmaker": "Ladbrokes",
-          "bookmaker_key": "ladbrokes_uk",
-          "home": 3.0,
-          "draw": 3.2,
-          "away": 2.1
-        },
-        {
-          "bookmaker": "LeoVegas",
-          "bookmaker_key": "leovegas",
-          "home": 3.4,
-          "draw": 3.5,
-          "away": 2.1
-        },
-        {
-          "bookmaker": "LiveScore Bet",
-          "bookmaker_key": "livescorebet",
-          "home": 3.25,
-          "draw": 3.2,
-          "away": 1.96
-        },
-        {
-          "bookmaker": "Matchbook",
-          "bookmaker_key": "matchbook",
-          "home": 3.6,
-          "draw": 3.65,
-          "away": 2.2
-        },
-        {
-          "bookmaker": "Paddy Power",
-          "bookmaker_key": "paddypower",
-          "home": 3.3,
-          "draw": 3.3,
-          "away": 2.0
-        },
-        {
-          "bookmaker": "Sky Bet",
-          "bookmaker_key": "skybet",
-          "home": 3.2,
-          "draw": 3.2,
-          "away": 2.0
-        },
-        {
-          "bookmaker": "Smarkets",
-          "bookmaker_key": "smarkets",
-          "home": 3.6,
-          "draw": 3.65,
-          "away": 2.16
-        },
-        {
-          "bookmaker": "Unibet (UK)",
-          "bookmaker_key": "unibet_uk",
-          "home": 3.4,
-          "draw": 3.4,
-          "away": 2.08
-        },
-        {
-          "bookmaker": "Virgin Bet",
-          "bookmaker_key": "virginbet",
-          "home": 3.25,
-          "draw": 3.2,
-          "away": 1.96
-        },
-        {
-          "bookmaker": "William Hill",
-          "bookmaker_key": "williamhill",
-          "home": 3.2,
-          "draw": 3.25,
-          "away": 2.1
-        }
-      ],
-      "best_odds": {
-        "home": 3.6,
-        "draw": 3.65,
-        "away": 2.2
-      },
-      "avg_odds": {
-        "home": 3.28,
-        "draw": 3.37,
-        "away": 2.07
-      },
-      "probability": {
-        "home": {
-          "median_odds": 3.25,
-          "median_prob": 0.3077,
-          "mean_odds": 3.28,
-          "mean_prob": 0.3047,
-          "best_odds": 3.6,
-          "best_prob": 0.2778,
-          "best_bookmaker": "Betfair"
-        },
-        "draw": {
-          "median_odds": 3.3,
-          "median_prob": 0.303,
-          "mean_odds": 3.37,
-          "mean_prob": 0.2971,
-          "best_odds": 3.65,
-          "best_prob": 0.274,
-          "best_bookmaker": "Betfair"
-        },
-        "away": {
-          "median_odds": 2.1,
-          "median_prob": 0.4762,
-          "mean_odds": 2.07,
-          "mean_prob": 0.4827,
-          "best_odds": 2.2,
-          "best_prob": 0.4545,
-          "best_bookmaker": "Matchbook"
-        }
-      }
-    },
-    {
-      "id": 110,
-      "home_team": "Halmstads BK",
-      "away_team": "V\u00e4ster\u00e5s SK",
-      "commence_time": "2026-07-04T13:00:00+00:00",
-      "league": "Swedish Allsvenskan",
-      "bookmaker_count": 15,
-      "odds": [
-        {
-          "bookmaker": "Bet Victor",
-          "bookmaker_key": "betvictor",
-          "home": 2.8,
-          "draw": 3.3,
-          "away": 2.3
-        },
-        {
-          "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_uk",
-          "home": 3.0,
-          "draw": 3.55,
-          "away": 2.5
-        },
-        {
-          "bookmaker": "Betfred (UK)",
-          "bookmaker_key": "betfred_uk",
-          "home": 2.75,
-          "draw": 3.3,
-          "away": 2.38
-        },
-        {
-          "bookmaker": "Betway",
-          "bookmaker_key": "betway",
-          "home": 2.88,
-          "draw": 3.4,
-          "away": 2.3
-        },
-        {
-          "bookmaker": "BoyleSports",
-          "bookmaker_key": "boylesports",
-          "home": 2.62,
-          "draw": 3.3,
-          "away": 2.15
-        },
-        {
-          "bookmaker": "Casumo",
-          "bookmaker_key": "casumo",
-          "home": 2.8,
-          "draw": 3.25,
-          "away": 2.35
-        },
-        {
-          "bookmaker": "Grosvenor",
-          "bookmaker_key": "grosvenor",
-          "home": 2.85,
-          "draw": 3.3,
-          "away": 2.38
-        },
-        {
-          "bookmaker": "LeoVegas",
-          "bookmaker_key": "leovegas",
-          "home": 2.85,
-          "draw": 3.4,
-          "away": 2.4
-        },
-        {
-          "bookmaker": "LiveScore Bet",
-          "bookmaker_key": "livescorebet",
-          "home": 2.7,
-          "draw": 3.1,
-          "away": 2.28
-        },
-        {
-          "bookmaker": "Matchbook",
-          "bookmaker_key": "matchbook",
-          "home": 3.05,
-          "draw": 3.55,
-          "away": 2.5
-        },
-        {
-          "bookmaker": "Paddy Power",
-          "bookmaker_key": "paddypower",
-          "home": 2.62,
-          "draw": 3.3,
-          "away": 2.3
-        },
-        {
-          "bookmaker": "Sky Bet",
-          "bookmaker_key": "skybet",
-          "home": 2.7,
-          "draw": 3.1,
-          "away": 2.25
-        },
-        {
-          "bookmaker": "Smarkets",
-          "bookmaker_key": "smarkets",
-          "home": 2.98,
-          "draw": 3.5,
-          "away": 2.48
-        },
-        {
-          "bookmaker": "Unibet (UK)",
-          "bookmaker_key": "unibet_uk",
-          "home": 2.88,
-          "draw": 3.4,
-          "away": 2.4
-        },
-        {
-          "bookmaker": "Virgin Bet",
-          "bookmaker_key": "virginbet",
-          "home": 2.7,
-          "draw": 3.1,
-          "away": 2.28
-        }
-      ],
-      "best_odds": {
-        "home": 3.05,
-        "draw": 3.55,
-        "away": 2.5
-      },
-      "avg_odds": {
-        "home": 2.81,
-        "draw": 3.32,
-        "away": 2.35
-      },
-      "probability": {
-        "home": {
-          "median_odds": 2.8,
-          "median_prob": 0.3571,
-          "mean_odds": 2.81,
-          "mean_prob": 0.3556,
-          "best_odds": 3.05,
-          "best_prob": 0.3279,
-          "best_bookmaker": "Matchbook"
-        },
-        "draw": {
-          "median_odds": 3.3,
-          "median_prob": 0.303,
-          "mean_odds": 3.32,
-          "mean_prob": 0.3009,
-          "best_odds": 3.55,
-          "best_prob": 0.2817,
-          "best_bookmaker": "Betfair"
-        },
-        "away": {
-          "median_odds": 2.35,
-          "median_prob": 0.4255,
-          "mean_odds": 2.35,
-          "mean_prob": 0.4255,
-          "best_odds": 2.5,
-          "best_prob": 0.4,
-          "best_bookmaker": "Betfair"
-        }
-      }
-    },
-    {
-      "id": 111,
       "home_team": "IFK Goteborg",
       "away_team": "AIK",
       "commence_time": "2026-07-05T12:00:00+00:00",
@@ -355,23 +19,23 @@
         {
           "bookmaker": "Bet Victor",
           "bookmaker_key": "betvictor",
-          "home": 2.1,
-          "draw": 3.5,
+          "home": 2.15,
+          "draw": 3.4,
           "away": 3.0
         },
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.22,
+          "home": 2.26,
           "draw": 3.7,
           "away": 3.3
         },
         {
           "bookmaker": "Betfred (UK)",
           "bookmaker_key": "betfred_uk",
-          "home": 2.2,
-          "draw": 3.5,
-          "away": 2.88
+          "home": 2.1,
+          "draw": 3.6,
+          "away": 3.0
         },
         {
           "bookmaker": "Betway",
@@ -392,14 +56,14 @@
           "bookmaker_key": "casumo",
           "home": 2.08,
           "draw": 3.2,
-          "away": 3.4
+          "away": 3.35
         },
         {
           "bookmaker": "Coral",
           "bookmaker_key": "coral",
-          "home": 2.15,
-          "draw": 3.4,
-          "away": 2.75
+          "home": 2.1,
+          "draw": 3.3,
+          "away": 2.9
         },
         {
           "bookmaker": "Grosvenor",
@@ -411,51 +75,51 @@
         {
           "bookmaker": "Ladbrokes",
           "bookmaker_key": "ladbrokes_uk",
-          "home": 2.15,
-          "draw": 3.4,
-          "away": 2.75
+          "home": 2.1,
+          "draw": 3.3,
+          "away": 2.9
         },
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 2.18,
-          "draw": 3.6,
+          "home": 2.2,
+          "draw": 3.55,
           "away": 3.1
         },
         {
           "bookmaker": "LiveScore Bet",
           "bookmaker_key": "livescorebet",
           "home": 2.02,
-          "draw": 3.05,
+          "draw": 3.1,
           "away": 3.25
         },
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 2.24,
-          "draw": 3.8,
-          "away": 3.3
+          "home": 2.26,
+          "draw": 3.75,
+          "away": 3.35
         },
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 2.15,
+          "home": 2.05,
           "draw": 3.6,
-          "away": 2.8
+          "away": 2.9
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 2.15,
+          "home": 2.05,
           "draw": 3.5,
-          "away": 2.75
+          "away": 2.88
         },
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.3,
-          "draw": 3.65,
-          "away": 3.25
+          "home": 2.24,
+          "draw": 3.7,
+          "away": 3.3
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -468,7 +132,7 @@
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
           "home": 2.02,
-          "draw": 3.05,
+          "draw": 3.1,
           "away": 3.25
         },
         {
@@ -480,39 +144,39 @@
         }
       ],
       "best_odds": {
-        "home": 2.3,
-        "draw": 3.8,
+        "home": 2.26,
+        "draw": 3.75,
         "away": 3.45
       },
       "avg_odds": {
-        "home": 2.15,
-        "draw": 3.44,
-        "away": 3.06
+        "home": 2.13,
+        "draw": 3.43,
+        "away": 3.1
       },
       "probability": {
         "home": {
-          "median_odds": 2.15,
-          "median_prob": 0.4651,
-          "mean_odds": 2.15,
-          "mean_prob": 0.4656,
-          "best_odds": 2.3,
-          "best_prob": 0.4348,
-          "best_bookmaker": "Smarkets"
+          "median_odds": 2.1,
+          "median_prob": 0.4762,
+          "mean_odds": 2.13,
+          "mean_prob": 0.4694,
+          "best_odds": 2.26,
+          "best_prob": 0.4425,
+          "best_bookmaker": "Betfair"
         },
         "draw": {
-          "median_odds": 3.5,
-          "median_prob": 0.2857,
-          "mean_odds": 3.44,
-          "mean_prob": 0.291,
-          "best_odds": 3.8,
-          "best_prob": 0.2632,
+          "median_odds": 3.4,
+          "median_prob": 0.2941,
+          "mean_odds": 3.43,
+          "mean_prob": 0.2916,
+          "best_odds": 3.75,
+          "best_prob": 0.2667,
           "best_bookmaker": "Matchbook"
         },
         "away": {
           "median_odds": 3.0,
           "median_prob": 0.3333,
-          "mean_odds": 3.06,
-          "mean_prob": 0.3269,
+          "mean_odds": 3.1,
+          "mean_prob": 0.323,
           "best_odds": 3.45,
           "best_prob": 0.2899,
           "best_bookmaker": "Grosvenor"
@@ -520,7 +184,7 @@
       }
     },
     {
-      "id": 112,
+      "id": 110,
       "home_team": "Kalmar FF",
       "away_team": "\u00d6rgryte IS",
       "commence_time": "2026-07-05T12:00:00+00:00",
@@ -530,9 +194,9 @@
         {
           "bookmaker": "888sport",
           "bookmaker_key": "sport888",
-          "home": 1.5,
+          "home": 1.44,
           "draw": 4.2,
-          "away": 5.0
+          "away": 5.5
         },
         {
           "bookmaker": "Bet Victor",
@@ -544,165 +208,165 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.54,
+          "home": 1.56,
           "draw": 4.7,
-          "away": 6.6
+          "away": 6.2
         },
         {
           "bookmaker": "Betfred (UK)",
           "bookmaker_key": "betfred_uk",
-          "home": 1.5,
-          "draw": 4.2,
-          "away": 5.5
+          "home": 1.44,
+          "draw": 4.33,
+          "away": 6.0
         },
         {
           "bookmaker": "Betway",
           "bookmaker_key": "betway",
           "home": 1.5,
-          "draw": 4.75,
+          "draw": 4.5,
           "away": 5.25
         },
         {
           "bookmaker": "BoyleSports",
           "bookmaker_key": "boylesports",
-          "home": 1.44,
+          "home": 1.4,
           "draw": 4.2,
           "away": 5.0
         },
         {
           "bookmaker": "Casumo",
           "bookmaker_key": "casumo",
-          "home": 1.51,
-          "draw": 4.0,
-          "away": 5.6
+          "home": 1.48,
+          "draw": 4.1,
+          "away": 6.0
         },
         {
           "bookmaker": "Coral",
           "bookmaker_key": "coral",
           "home": 1.48,
-          "draw": 4.2,
-          "away": 5.0
+          "draw": 4.0,
+          "away": 5.25
         },
         {
           "bookmaker": "Grosvenor",
           "bookmaker_key": "grosvenor",
-          "home": 1.53,
-          "draw": 4.1,
-          "away": 5.75
+          "home": 1.49,
+          "draw": 4.2,
+          "away": 6.25
         },
         {
           "bookmaker": "Ladbrokes",
           "bookmaker_key": "ladbrokes_uk",
           "home": 1.48,
-          "draw": 4.2,
-          "away": 5.0
+          "draw": 4.0,
+          "away": 5.25
         },
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 1.5,
-          "draw": 4.5,
-          "away": 5.6
+          "draw": 4.45,
+          "away": 5.8
         },
         {
           "bookmaker": "LiveScore Bet",
           "bookmaker_key": "livescorebet",
-          "home": 1.47,
-          "draw": 3.8,
-          "away": 5.3
+          "home": 1.43,
+          "draw": 3.95,
+          "away": 5.75
         },
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 1.54,
-          "draw": 4.8,
-          "away": 6.8
+          "home": 1.56,
+          "draw": 4.7,
+          "away": 6.6
         },
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 1.44,
-          "draw": 4.2,
-          "away": 5.5
+          "home": 1.4,
+          "draw": 4.33,
+          "away": 6.0
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 1.44,
-          "draw": 4.0,
-          "away": 5.5
+          "home": 1.4,
+          "draw": 4.2,
+          "away": 5.75
         },
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.52,
-          "draw": 4.6,
-          "away": 6.4
+          "home": 1.54,
+          "draw": 4.7,
+          "away": 6.6
         },
         {
           "bookmaker": "Unibet (UK)",
           "bookmaker_key": "unibet_uk",
           "home": 1.5,
-          "draw": 4.5,
+          "draw": 4.35,
           "away": 5.75
         },
         {
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
-          "home": 1.47,
-          "draw": 3.8,
-          "away": 5.3
+          "home": 1.43,
+          "draw": 3.95,
+          "away": 5.75
         },
         {
           "bookmaker": "William Hill",
           "bookmaker_key": "williamhill",
-          "home": 1.5,
+          "home": 1.44,
           "draw": 4.2,
-          "away": 5.0
+          "away": 5.5
         }
       ],
       "best_odds": {
-        "home": 1.54,
-        "draw": 4.8,
-        "away": 6.8
+        "home": 1.56,
+        "draw": 4.7,
+        "away": 6.6
       },
       "avg_odds": {
-        "home": 1.49,
-        "draw": 4.27,
-        "away": 5.56
+        "home": 1.47,
+        "draw": 4.28,
+        "away": 5.79
       },
       "probability": {
         "home": {
-          "median_odds": 1.5,
-          "median_prob": 0.6667,
-          "mean_odds": 1.49,
-          "mean_prob": 0.6711,
-          "best_odds": 1.54,
-          "best_prob": 0.6494,
+          "median_odds": 1.48,
+          "median_prob": 0.6757,
+          "mean_odds": 1.47,
+          "mean_prob": 0.6805,
+          "best_odds": 1.56,
+          "best_prob": 0.641,
           "best_bookmaker": "Betfair"
         },
         "draw": {
           "median_odds": 4.2,
           "median_prob": 0.2381,
-          "mean_odds": 4.27,
-          "mean_prob": 0.2341,
-          "best_odds": 4.8,
-          "best_prob": 0.2083,
-          "best_bookmaker": "Matchbook"
+          "mean_odds": 4.28,
+          "mean_prob": 0.2338,
+          "best_odds": 4.7,
+          "best_prob": 0.2128,
+          "best_bookmaker": "Betfair"
         },
         "away": {
-          "median_odds": 5.5,
-          "median_prob": 0.1818,
-          "mean_odds": 5.56,
-          "mean_prob": 0.1799,
-          "best_odds": 6.8,
-          "best_prob": 0.1471,
+          "median_odds": 5.75,
+          "median_prob": 0.1739,
+          "mean_odds": 5.79,
+          "mean_prob": 0.1728,
+          "best_odds": 6.6,
+          "best_prob": 0.1515,
           "best_bookmaker": "Matchbook"
         }
       }
     },
     {
-      "id": 113,
+      "id": 111,
       "home_team": "IF Elfsborg",
       "away_team": "Hammarby IF",
       "commence_time": "2026-07-05T14:30:00+00:00",
@@ -712,36 +376,36 @@
         {
           "bookmaker": "888sport",
           "bookmaker_key": "sport888",
-          "home": 3.6,
-          "draw": 3.4,
-          "away": 1.91
+          "home": 3.7,
+          "draw": 3.5,
+          "away": 1.85
         },
         {
           "bookmaker": "Bet Victor",
           "bookmaker_key": "betvictor",
-          "home": 3.5,
+          "home": 3.6,
           "draw": 3.6,
-          "away": 1.87
+          "away": 1.85
         },
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 3.85,
-          "draw": 3.8,
+          "home": 4.0,
+          "draw": 3.85,
           "away": 1.98
         },
         {
           "bookmaker": "Betfred (UK)",
           "bookmaker_key": "betfred_uk",
-          "home": 3.5,
+          "home": 3.6,
           "draw": 3.6,
-          "away": 1.91
+          "away": 1.9
         },
         {
           "bookmaker": "Betway",
           "bookmaker_key": "betway",
-          "home": 3.5,
-          "draw": 3.6,
+          "home": 3.6,
+          "draw": 3.75,
           "away": 1.91
         },
         {
@@ -761,30 +425,30 @@
         {
           "bookmaker": "Coral",
           "bookmaker_key": "coral",
-          "home": 3.4,
-          "draw": 3.4,
+          "home": 3.6,
+          "draw": 3.3,
           "away": 1.85
         },
         {
           "bookmaker": "Grosvenor",
           "bookmaker_key": "grosvenor",
           "home": 3.9,
-          "draw": 3.65,
+          "draw": 3.6,
           "away": 1.85
         },
         {
           "bookmaker": "Ladbrokes",
           "bookmaker_key": "ladbrokes_uk",
-          "home": 3.4,
-          "draw": 3.4,
+          "home": 3.6,
+          "draw": 3.3,
           "away": 1.85
         },
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 3.65,
-          "draw": 3.7,
-          "away": 1.93
+          "home": 3.75,
+          "draw": 3.65,
+          "away": 1.92
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -796,7 +460,7 @@
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 3.85,
+          "home": 4.0,
           "draw": 3.85,
           "away": 1.99
         },
@@ -817,15 +481,15 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 3.8,
-          "draw": 3.75,
-          "away": 1.96
+          "home": 4.0,
+          "draw": 3.85,
+          "away": 1.98
         },
         {
           "bookmaker": "Unibet (UK)",
           "bookmaker_key": "unibet_uk",
-          "home": 3.6,
-          "draw": 3.75,
+          "home": 3.75,
+          "draw": 3.6,
           "away": 1.91
         },
         {
@@ -838,45 +502,45 @@
         {
           "bookmaker": "William Hill",
           "bookmaker_key": "williamhill",
-          "home": 3.6,
-          "draw": 3.4,
-          "away": 1.91
+          "home": 3.7,
+          "draw": 3.5,
+          "away": 1.85
         }
       ],
       "best_odds": {
-        "home": 3.9,
+        "home": 4.0,
         "draw": 3.85,
         "away": 1.99
       },
       "avg_odds": {
-        "home": 3.6,
+        "home": 3.69,
         "draw": 3.58,
-        "away": 1.88
+        "away": 1.87
       },
       "probability": {
         "home": {
-          "median_odds": 3.6,
-          "median_prob": 0.2778,
-          "mean_odds": 3.6,
-          "mean_prob": 0.2778,
-          "best_odds": 3.9,
-          "best_prob": 0.2564,
-          "best_bookmaker": "Grosvenor"
+          "median_odds": 3.65,
+          "median_prob": 0.274,
+          "mean_odds": 3.69,
+          "mean_prob": 0.2712,
+          "best_odds": 4.0,
+          "best_prob": 0.25,
+          "best_bookmaker": "Betfair"
         },
         "draw": {
           "median_odds": 3.6,
           "median_prob": 0.2778,
           "mean_odds": 3.58,
-          "mean_prob": 0.2796,
+          "mean_prob": 0.2794,
           "best_odds": 3.85,
           "best_prob": 0.2597,
-          "best_bookmaker": "Matchbook"
+          "best_bookmaker": "Betfair"
         },
         "away": {
-          "median_odds": 1.87,
-          "median_prob": 0.5348,
-          "mean_odds": 1.88,
-          "mean_prob": 0.5319,
+          "median_odds": 1.85,
+          "median_prob": 0.5405,
+          "mean_odds": 1.87,
+          "mean_prob": 0.534,
           "best_odds": 1.99,
           "best_prob": 0.5025,
           "best_bookmaker": "Matchbook"
@@ -884,7 +548,7 @@
       }
     },
     {
-      "id": 114,
+      "id": 112,
       "home_team": "BK Hacken",
       "away_team": "Djurgardens IF",
       "commence_time": "2026-07-06T17:00:00+00:00",
@@ -908,9 +572,9 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.42,
+          "home": 2.5,
           "draw": 3.85,
-          "away": 2.68
+          "away": 2.7
         },
         {
           "bookmaker": "Betfred (UK)",
@@ -964,9 +628,9 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 2.45,
-          "draw": 3.65,
-          "away": 2.55
+          "home": 2.5,
+          "draw": 3.7,
+          "away": 2.6
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -978,9 +642,9 @@
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
-          "home": 2.44,
-          "draw": 3.85,
-          "away": 2.66
+          "home": 2.52,
+          "draw": 3.9,
+          "away": 2.7
         },
         {
           "bookmaker": "Paddy Power",
@@ -999,9 +663,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.36,
-          "draw": 3.7,
-          "away": 2.62
+          "home": 2.46,
+          "draw": 3.8,
+          "away": 2.66
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -1026,47 +690,47 @@
         }
       ],
       "best_odds": {
-        "home": 2.5,
-        "draw": 3.85,
-        "away": 2.68
+        "home": 2.52,
+        "draw": 3.9,
+        "away": 2.7
       },
       "avg_odds": {
-        "home": 2.38,
-        "draw": 3.6,
-        "away": 2.53
+        "home": 2.4,
+        "draw": 3.61,
+        "away": 2.54
       },
       "probability": {
         "home": {
-          "median_odds": 2.38,
-          "median_prob": 0.4202,
-          "mean_odds": 2.38,
-          "mean_prob": 0.42,
-          "best_odds": 2.5,
-          "best_prob": 0.4,
-          "best_bookmaker": "Unibet (UK)"
+          "median_odds": 2.4,
+          "median_prob": 0.4167,
+          "mean_odds": 2.4,
+          "mean_prob": 0.4171,
+          "best_odds": 2.52,
+          "best_prob": 0.3968,
+          "best_bookmaker": "Matchbook"
         },
         "draw": {
           "median_odds": 3.6,
           "median_prob": 0.2778,
-          "mean_odds": 3.6,
-          "mean_prob": 0.278,
-          "best_odds": 3.85,
-          "best_prob": 0.2597,
-          "best_bookmaker": "Betfair"
+          "mean_odds": 3.61,
+          "mean_prob": 0.2772,
+          "best_odds": 3.9,
+          "best_prob": 0.2564,
+          "best_bookmaker": "Matchbook"
         },
         "away": {
           "median_odds": 2.5,
           "median_prob": 0.4,
-          "mean_odds": 2.53,
-          "mean_prob": 0.3955,
-          "best_odds": 2.68,
-          "best_prob": 0.3731,
+          "mean_odds": 2.54,
+          "mean_prob": 0.3943,
+          "best_odds": 2.7,
+          "best_prob": 0.3704,
           "best_bookmaker": "Betfair"
         }
       }
     },
     {
-      "id": 115,
+      "id": 113,
       "home_team": "IF Brommapojkarna",
       "away_team": "GAIS",
       "commence_time": "2026-07-06T17:00:00+00:00",
@@ -1084,8 +748,8 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.35,
-          "draw": 3.55,
-          "away": 2.18
+          "draw": 3.5,
+          "away": 2.22
         },
         {
           "bookmaker": "Betfred (UK)",
@@ -1104,9 +768,9 @@
         {
           "bookmaker": "Casumo",
           "bookmaker_key": "casumo",
-          "home": 3.35,
-          "draw": 3.3,
-          "away": 2.02
+          "home": 3.3,
+          "draw": 3.35,
+          "away": 2.05
         },
         {
           "bookmaker": "Coral",
@@ -1118,9 +782,9 @@
         {
           "bookmaker": "Grosvenor",
           "bookmaker_key": "grosvenor",
-          "home": 3.45,
+          "home": 3.35,
           "draw": 3.4,
-          "away": 2.05
+          "away": 2.07
         },
         {
           "bookmaker": "Ladbrokes",
@@ -1133,22 +797,22 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 3.25,
-          "draw": 3.4,
-          "away": 2.15
+          "draw": 3.45,
+          "away": 2.18
         },
         {
           "bookmaker": "LiveScore Bet",
           "bookmaker_key": "livescorebet",
-          "home": 3.25,
+          "home": 3.2,
           "draw": 3.2,
-          "away": 1.96
+          "away": 1.98
         },
         {
           "bookmaker": "Matchbook",
           "bookmaker_key": "matchbook",
           "home": 3.35,
           "draw": 3.5,
-          "away": 2.18
+          "away": 2.22
         },
         {
           "bookmaker": "Paddy Power",
@@ -1168,8 +832,8 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 3.3,
-          "draw": 3.55,
-          "away": 2.18
+          "draw": 3.5,
+          "away": 2.26
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -1181,9 +845,9 @@
         {
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
-          "home": 3.25,
+          "home": 3.2,
           "draw": 3.2,
-          "away": 1.96
+          "away": 1.98
         },
         {
           "bookmaker": "William Hill",
@@ -1194,52 +858,52 @@
         }
       ],
       "best_odds": {
-        "home": 3.45,
-        "draw": 3.55,
-        "away": 2.18
+        "home": 3.35,
+        "draw": 3.5,
+        "away": 2.26
       },
       "avg_odds": {
-        "home": 3.19,
+        "home": 3.18,
         "draw": 3.34,
-        "away": 2.09
+        "away": 2.11
       },
       "probability": {
         "home": {
-          "median_odds": 3.25,
-          "median_prob": 0.3077,
-          "mean_odds": 3.19,
-          "mean_prob": 0.3134,
-          "best_odds": 3.45,
-          "best_prob": 0.2899,
-          "best_bookmaker": "Grosvenor"
+          "median_odds": 3.2,
+          "median_prob": 0.3125,
+          "mean_odds": 3.18,
+          "mean_prob": 0.3148,
+          "best_odds": 3.35,
+          "best_prob": 0.2985,
+          "best_bookmaker": "Betfair"
         },
         "draw": {
-          "median_odds": 3.3,
-          "median_prob": 0.303,
+          "median_odds": 3.35,
+          "median_prob": 0.2985,
           "mean_odds": 3.34,
           "mean_prob": 0.299,
-          "best_odds": 3.55,
-          "best_prob": 0.2817,
+          "best_odds": 3.5,
+          "best_prob": 0.2857,
           "best_bookmaker": "Betfair"
         },
         "away": {
           "median_odds": 2.1,
           "median_prob": 0.4762,
-          "mean_odds": 2.09,
-          "mean_prob": 0.4785,
-          "best_odds": 2.18,
-          "best_prob": 0.4587,
-          "best_bookmaker": "Betfair"
+          "mean_odds": 2.11,
+          "mean_prob": 0.4747,
+          "best_odds": 2.26,
+          "best_prob": 0.4425,
+          "best_bookmaker": "Smarkets"
         }
       }
     },
     {
-      "id": 116,
+      "id": 114,
       "home_team": "Fredrikstad FK",
       "away_team": "Lillestrom",
       "commence_time": "2026-07-11T12:00:00+00:00",
       "league": "Norwegian Eliteserien",
-      "bookmaker_count": 8,
+      "bookmaker_count": 9,
       "odds": [
         {
           "bookmaker": "Betfair Sportsbook",
@@ -1266,8 +930,8 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 2.65,
-          "draw": 3.35,
-          "away": 2.3
+          "draw": 3.4,
+          "away": 2.35
         },
         {
           "bookmaker": "Paddy Power",
@@ -1286,9 +950,16 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.52,
-          "draw": 3.1,
-          "away": 2.22
+          "home": 2.6,
+          "draw": 3.2,
+          "away": 2.28
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 2.7,
+          "draw": 3.4,
+          "away": 2.38
         },
         {
           "bookmaker": "William Hill",
@@ -1304,25 +975,25 @@
         "away": 2.4
       },
       "avg_odds": {
-        "home": 2.64,
-        "draw": 3.33,
-        "away": 2.28
+        "home": 2.65,
+        "draw": 3.35,
+        "away": 2.31
       },
       "probability": {
         "home": {
-          "median_odds": 2.63,
-          "median_prob": 0.3795,
-          "mean_odds": 2.64,
-          "mean_prob": 0.3793,
+          "median_odds": 2.65,
+          "median_prob": 0.3774,
+          "mean_odds": 2.65,
+          "mean_prob": 0.377,
           "best_odds": 2.75,
           "best_prob": 0.3636,
           "best_bookmaker": "Betfair Sportsbook"
         },
         "draw": {
-          "median_odds": 3.33,
-          "median_prob": 0.3008,
-          "mean_odds": 3.33,
-          "mean_prob": 0.3008,
+          "median_odds": 3.4,
+          "median_prob": 0.2941,
+          "mean_odds": 3.35,
+          "mean_prob": 0.2985,
           "best_odds": 3.5,
           "best_prob": 0.2857,
           "best_bookmaker": "Betfair Sportsbook"
@@ -1330,8 +1001,8 @@
         "away": {
           "median_odds": 2.3,
           "median_prob": 0.4348,
-          "mean_odds": 2.28,
-          "mean_prob": 0.4379,
+          "mean_odds": 2.31,
+          "mean_prob": 0.4335,
           "best_odds": 2.4,
           "best_prob": 0.4167,
           "best_bookmaker": "William Hill"
@@ -1339,26 +1010,33 @@
       }
     },
     {
-      "id": 117,
+      "id": 115,
       "home_team": "Aalesund",
       "away_team": "Molde",
       "commence_time": "2026-07-11T14:00:00+00:00",
       "league": "Norwegian Eliteserien",
-      "bookmaker_count": 8,
+      "bookmaker_count": 10,
       "odds": [
         {
           "bookmaker": "Betfair Sportsbook",
           "bookmaker_key": "betfair_sb_uk",
-          "home": 3.1,
+          "home": 3.0,
           "draw": 3.9,
-          "away": 2.0
+          "away": 2.05
         },
         {
           "bookmaker": "Betfred (UK)",
           "bookmaker_key": "betfred_uk",
-          "home": 3.1,
+          "home": 3.0,
           "draw": 3.75,
-          "away": 2.0
+          "away": 2.05
+        },
+        {
+          "bookmaker": "Betway",
+          "bookmaker_key": "betway",
+          "home": 2.9,
+          "draw": 3.75,
+          "away": 2.05
         },
         {
           "bookmaker": "BoyleSports",
@@ -1371,29 +1049,36 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 3.05,
-          "draw": 3.6,
-          "away": 1.98
+          "draw": 3.65,
+          "away": 2.02
         },
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
           "home": 3.0,
           "draw": 3.75,
-          "away": 1.95
+          "away": 2.0
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 2.9,
+          "home": 2.8,
           "draw": 3.5,
           "away": 1.95
         },
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.92,
-          "draw": 3.3,
-          "away": 1.93
+          "home": 2.98,
+          "draw": 3.45,
+          "away": 1.97
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 3.2,
+          "draw": 3.6,
+          "away": 2.05
         },
         {
           "bookmaker": "William Hill",
@@ -1404,39 +1089,39 @@
         }
       ],
       "best_odds": {
-        "home": 3.1,
+        "home": 3.2,
         "draw": 3.9,
         "away": 2.1
       },
       "avg_odds": {
-        "home": 2.99,
-        "draw": 3.6,
-        "away": 1.97
+        "home": 2.98,
+        "draw": 3.64,
+        "away": 2.01
       },
       "probability": {
         "home": {
           "median_odds": 3.0,
           "median_prob": 0.3333,
-          "mean_odds": 2.99,
-          "mean_prob": 0.334,
-          "best_odds": 3.1,
-          "best_prob": 0.3226,
-          "best_bookmaker": "Betfair Sportsbook"
+          "mean_odds": 2.98,
+          "mean_prob": 0.3355,
+          "best_odds": 3.2,
+          "best_prob": 0.3125,
+          "best_bookmaker": "Unibet (UK)"
         },
         "draw": {
-          "median_odds": 3.55,
-          "median_prob": 0.2817,
-          "mean_odds": 3.6,
-          "mean_prob": 0.2778,
+          "median_odds": 3.62,
+          "median_prob": 0.2759,
+          "mean_odds": 3.63,
+          "mean_prob": 0.2751,
           "best_odds": 3.9,
           "best_prob": 0.2564,
           "best_bookmaker": "Betfair Sportsbook"
         },
         "away": {
-          "median_odds": 1.96,
-          "median_prob": 0.5089,
-          "mean_odds": 1.97,
-          "mean_prob": 0.507,
+          "median_odds": 2.04,
+          "median_prob": 0.4914,
+          "mean_odds": 2.01,
+          "mean_prob": 0.4973,
           "best_odds": 2.1,
           "best_prob": 0.4762,
           "best_bookmaker": "William Hill"
@@ -1444,12 +1129,12 @@
       }
     },
     {
-      "id": 118,
+      "id": 116,
       "home_team": "Tromso",
       "away_team": "V\u00e5lerenga",
       "commence_time": "2026-07-11T16:00:00+00:00",
       "league": "Norwegian Eliteserien",
-      "bookmaker_count": 8,
+      "bookmaker_count": 10,
       "odds": [
         {
           "bookmaker": "Betfair Sportsbook",
@@ -1466,6 +1151,13 @@
           "away": 4.2
         },
         {
+          "bookmaker": "Betway",
+          "bookmaker_key": "betway",
+          "home": 1.7,
+          "draw": 3.8,
+          "away": 4.2
+        },
+        {
           "bookmaker": "BoyleSports",
           "bookmaker_key": "boylesports",
           "home": 1.67,
@@ -1477,7 +1169,7 @@
           "bookmaker_key": "leovegas",
           "home": 1.72,
           "draw": 3.6,
-          "away": 4.05
+          "away": 4.15
         },
         {
           "bookmaker": "Paddy Power",
@@ -1496,9 +1188,16 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.65,
-          "draw": 3.25,
-          "away": 3.95
+          "home": 1.68,
+          "draw": 3.4,
+          "away": 4.0
+        },
+        {
+          "bookmaker": "Unibet (UK)",
+          "bookmaker_key": "unibet_uk",
+          "home": 1.75,
+          "draw": 3.6,
+          "away": 4.35
         },
         {
           "bookmaker": "William Hill",
@@ -1511,45 +1210,45 @@
       "best_odds": {
         "home": 1.75,
         "draw": 3.8,
-        "away": 4.2
+        "away": 4.35
       },
       "avg_odds": {
         "home": 1.71,
-        "draw": 3.52,
-        "away": 4.02
+        "draw": 3.57,
+        "away": 4.09
       },
       "probability": {
         "home": {
           "median_odds": 1.71,
           "median_prob": 0.5848,
           "mean_odds": 1.71,
-          "mean_prob": 0.5865,
+          "mean_prob": 0.5841,
           "best_odds": 1.75,
           "best_prob": 0.5714,
           "best_bookmaker": "Betfair Sportsbook"
         },
         "draw": {
-          "median_odds": 3.55,
-          "median_prob": 0.2817,
-          "mean_odds": 3.52,
-          "mean_prob": 0.2842,
+          "median_odds": 3.6,
+          "median_prob": 0.2778,
+          "mean_odds": 3.57,
+          "mean_prob": 0.2801,
           "best_odds": 3.8,
           "best_prob": 0.2632,
           "best_bookmaker": "Betfair Sportsbook"
         },
         "away": {
-          "median_odds": 4.03,
-          "median_prob": 0.2484,
-          "mean_odds": 4.02,
-          "mean_prob": 0.2488,
-          "best_odds": 4.2,
-          "best_prob": 0.2381,
-          "best_bookmaker": "Betfair Sportsbook"
+          "median_odds": 4.18,
+          "median_prob": 0.2395,
+          "mean_odds": 4.08,
+          "mean_prob": 0.2448,
+          "best_odds": 4.35,
+          "best_prob": 0.2299,
+          "best_bookmaker": "Unibet (UK)"
         }
       }
     },
     {
-      "id": 119,
+      "id": 117,
       "home_team": "KFUM",
       "away_team": "Bod\u00f8/Glimt",
       "commence_time": "2026-07-12T12:30:00+00:00",
@@ -1573,23 +1272,23 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 5.7,
+          "home": 5.6,
           "draw": 4.6,
           "away": 1.4
         },
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 6.5,
-          "draw": 4.75,
-          "away": 1.33
+          "home": 6.0,
+          "draw": 4.5,
+          "away": 1.36
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 5.75,
-          "draw": 4.33,
-          "away": 1.33
+          "home": 5.5,
+          "draw": 4.2,
+          "away": 1.36
         },
         {
           "bookmaker": "Smarkets",
@@ -1608,20 +1307,20 @@
       ],
       "best_odds": {
         "home": 6.5,
-        "draw": 4.75,
+        "draw": 4.6,
         "away": 1.4
       },
       "avg_odds": {
-        "home": 5.89,
-        "draw": 4.46,
-        "away": 1.37
+        "home": 5.77,
+        "draw": 4.4,
+        "away": 1.38
       },
       "probability": {
         "home": {
-          "median_odds": 5.75,
-          "median_prob": 0.1739,
-          "mean_odds": 5.89,
-          "mean_prob": 0.1697,
+          "median_odds": 5.6,
+          "median_prob": 0.1786,
+          "mean_odds": 5.77,
+          "mean_prob": 0.1733,
           "best_odds": 6.5,
           "best_prob": 0.1538,
           "best_bookmaker": "Betfred (UK)"
@@ -1629,17 +1328,17 @@
         "draw": {
           "median_odds": 4.5,
           "median_prob": 0.2222,
-          "mean_odds": 4.46,
-          "mean_prob": 0.2243,
-          "best_odds": 4.75,
-          "best_prob": 0.2105,
-          "best_bookmaker": "Paddy Power"
+          "mean_odds": 4.4,
+          "mean_prob": 0.2271,
+          "best_odds": 4.6,
+          "best_prob": 0.2174,
+          "best_bookmaker": "Betfred (UK)"
         },
         "away": {
           "median_odds": 1.36,
           "median_prob": 0.7353,
-          "mean_odds": 1.37,
-          "mean_prob": 0.7307,
+          "mean_odds": 1.38,
+          "mean_prob": 0.7261,
           "best_odds": 1.4,
           "best_prob": 0.7143,
           "best_bookmaker": "Betfred (UK)"
@@ -1647,7 +1346,7 @@
       }
     },
     {
-      "id": 120,
+      "id": 118,
       "home_team": "Sandefjord",
       "away_team": "HamKam",
       "commence_time": "2026-07-12T15:00:00+00:00",
@@ -1752,7 +1451,7 @@
       }
     },
     {
-      "id": 121,
+      "id": 119,
       "home_team": "SK Brann",
       "away_team": "IK Start",
       "commence_time": "2026-07-12T15:00:00+00:00",
@@ -1783,9 +1482,9 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 1.33,
+          "home": 1.35,
           "draw": 4.7,
-          "away": 6.7
+          "away": 6.5
         },
         {
           "bookmaker": "Paddy Power",
@@ -1824,14 +1523,14 @@
       "avg_odds": {
         "home": 1.33,
         "draw": 4.66,
-        "away": 6.46
+        "away": 6.44
       },
       "probability": {
         "home": {
           "median_odds": 1.33,
           "median_prob": 0.7519,
           "mean_odds": 1.33,
-          "mean_prob": 0.7512,
+          "mean_prob": 0.7498,
           "best_odds": 1.36,
           "best_prob": 0.7353,
           "best_bookmaker": "Betfred (UK)"
@@ -1848,8 +1547,8 @@
         "away": {
           "median_odds": 6.5,
           "median_prob": 0.1538,
-          "mean_odds": 6.46,
-          "mean_prob": 0.1547,
+          "mean_odds": 6.44,
+          "mean_prob": 0.1553,
           "best_odds": 7.0,
           "best_prob": 0.1429,
           "best_bookmaker": "Betfair Sportsbook"
@@ -1857,7 +1556,7 @@
       }
     },
     {
-      "id": 122,
+      "id": 120,
       "home_team": "Rosenborg",
       "away_team": "Kristiansund BK",
       "commence_time": "2026-07-12T15:00:00+00:00",
@@ -1962,7 +1661,7 @@
       }
     },
     {
-      "id": 123,
+      "id": 121,
       "home_team": "Sarpsborg FK",
       "away_team": "Viking FK",
       "commence_time": "2026-07-12T17:15:00+00:00",
@@ -2067,7 +1766,7 @@
       }
     },
     {
-      "id": 124,
+      "id": 122,
       "home_team": "Botafogo",
       "away_team": "Santos",
       "commence_time": "2026-07-16T22:30:00+00:00",
@@ -2161,9 +1860,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.91,
+          "home": 1.93,
           "draw": 3.1,
-          "away": 3.4
+          "away": 3.9
         },
         {
           "bookmaker": "Virgin Bet",
@@ -2188,14 +1887,14 @@
       "avg_odds": {
         "home": 1.89,
         "draw": 3.33,
-        "away": 3.73
+        "away": 3.76
       },
       "probability": {
         "home": {
           "median_odds": 1.9,
           "median_prob": 0.5263,
           "mean_odds": 1.89,
-          "mean_prob": 0.5293,
+          "mean_prob": 0.5289,
           "best_odds": 2.0,
           "best_prob": 0.5,
           "best_bookmaker": "Betfair"
@@ -2210,10 +1909,10 @@
           "best_bookmaker": "Betfair"
         },
         "away": {
-          "median_odds": 3.75,
-          "median_prob": 0.2667,
-          "mean_odds": 3.73,
-          "mean_prob": 0.2681,
+          "median_odds": 3.8,
+          "median_prob": 0.2632,
+          "mean_odds": 3.76,
+          "mean_prob": 0.2657,
           "best_odds": 3.95,
           "best_prob": 0.2532,
           "best_bookmaker": "Betfair"
@@ -2221,7 +1920,7 @@
       }
     },
     {
-      "id": 125,
+      "id": 123,
       "home_team": "Vitoria",
       "away_team": "Vasco da Gama",
       "commence_time": "2026-07-16T22:30:00+00:00",
@@ -2246,7 +1945,7 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.56,
-          "draw": 2.98,
+          "draw": 3.2,
           "away": 3.0
         },
         {
@@ -2334,7 +2033,7 @@
       },
       "avg_odds": {
         "home": 2.39,
-        "draw": 3.09,
+        "draw": 3.11,
         "away": 2.83
       },
       "probability": {
@@ -2348,10 +2047,10 @@
           "best_bookmaker": "Betfair"
         },
         "draw": {
-          "median_odds": 3.05,
-          "median_prob": 0.3279,
-          "mean_odds": 3.09,
-          "mean_prob": 0.3235,
+          "median_odds": 3.08,
+          "median_prob": 0.3252,
+          "mean_odds": 3.11,
+          "mean_prob": 0.3218,
           "best_odds": 3.25,
           "best_prob": 0.3077,
           "best_bookmaker": "BoyleSports"
@@ -2368,7 +2067,7 @@
       }
     },
     {
-      "id": 126,
+      "id": 124,
       "home_team": "Fluminense",
       "away_team": "Bragantino-SP",
       "commence_time": "2026-07-17T23:00:00+00:00",
@@ -2385,15 +2084,15 @@
         {
           "bookmaker": "Bet Victor",
           "bookmaker_key": "betvictor",
-          "home": 1.93,
+          "home": 1.9,
           "draw": 3.4,
-          "away": 3.8
+          "away": 3.9
         },
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 1.94,
-          "draw": 3.65,
+          "home": 1.89,
+          "draw": 3.5,
           "away": 4.2
         },
         {
@@ -2436,7 +2135,7 @@
           "bookmaker_key": "leovegas",
           "home": 1.9,
           "draw": 3.3,
-          "away": 3.8
+          "away": 3.85
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -2462,8 +2161,8 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.92,
-          "draw": 3.45,
+          "home": 1.87,
+          "draw": 3.2,
           "away": 3.1
         },
         {
@@ -2482,39 +2181,39 @@
         }
       ],
       "best_odds": {
-        "home": 1.94,
-        "draw": 3.65,
+        "home": 1.91,
+        "draw": 3.5,
         "away": 4.5
       },
       "avg_odds": {
-        "home": 1.83,
-        "draw": 3.35,
-        "away": 4.01
+        "home": 1.82,
+        "draw": 3.33,
+        "away": 4.02
       },
       "probability": {
         "home": {
           "median_odds": 1.85,
           "median_prob": 0.5405,
-          "mean_odds": 1.83,
-          "mean_prob": 0.5457,
-          "best_odds": 1.94,
-          "best_prob": 0.5155,
-          "best_bookmaker": "Betfair"
+          "mean_odds": 1.82,
+          "mean_prob": 0.5482,
+          "best_odds": 1.91,
+          "best_prob": 0.5236,
+          "best_bookmaker": "Coral"
         },
         "draw": {
           "median_odds": 3.35,
           "median_prob": 0.2985,
-          "mean_odds": 3.35,
-          "mean_prob": 0.2982,
-          "best_odds": 3.65,
-          "best_prob": 0.274,
+          "mean_odds": 3.33,
+          "mean_prob": 0.3006,
+          "best_odds": 3.5,
+          "best_prob": 0.2857,
           "best_bookmaker": "Betfair"
         },
         "away": {
           "median_odds": 4.0,
           "median_prob": 0.25,
-          "mean_odds": 4.01,
-          "mean_prob": 0.2492,
+          "mean_odds": 4.02,
+          "mean_prob": 0.2486,
           "best_odds": 4.5,
           "best_prob": 0.2222,
           "best_bookmaker": "Casumo"
@@ -2522,7 +2221,7 @@
       }
     },
     {
-      "id": 127,
+      "id": 125,
       "home_team": "Mirassol",
       "away_team": "Gr\u00eamio",
       "commence_time": "2026-07-17T23:00:00+00:00",
@@ -2602,9 +2301,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 1.89,
-          "draw": 2.88,
-          "away": 3.9
+          "home": 1.97,
+          "draw": 3.15,
+          "away": 3.95
         },
         {
           "bookmaker": "Virgin Bet",
@@ -2628,7 +2327,7 @@
       },
       "avg_odds": {
         "home": 1.97,
-        "draw": 3.17,
+        "draw": 3.19,
         "away": 3.6
       },
       "probability": {
@@ -2636,7 +2335,7 @@
           "median_odds": 2.0,
           "median_prob": 0.5,
           "mean_odds": 1.97,
-          "mean_prob": 0.508,
+          "mean_prob": 0.5064,
           "best_odds": 2.0,
           "best_prob": 0.5,
           "best_bookmaker": "888sport"
@@ -2644,8 +2343,8 @@
         "draw": {
           "median_odds": 3.2,
           "median_prob": 0.3125,
-          "mean_odds": 3.17,
-          "mean_prob": 0.3157,
+          "mean_odds": 3.19,
+          "mean_prob": 0.3136,
           "best_odds": 3.3,
           "best_prob": 0.303,
           "best_bookmaker": "Bet Victor"
@@ -2654,7 +2353,7 @@
           "median_odds": 3.6,
           "median_prob": 0.2778,
           "mean_odds": 3.6,
-          "mean_prob": 0.2781,
+          "mean_prob": 0.2778,
           "best_odds": 4.0,
           "best_prob": 0.25,
           "best_bookmaker": "Betfair"
@@ -2662,7 +2361,7 @@
       }
     },
     {
-      "id": 128,
+      "id": 126,
       "home_team": "Atletico Mineiro",
       "away_team": "Bahia",
       "commence_time": "2026-07-21T22:30:00+00:00",
@@ -2788,7 +2487,7 @@
       }
     },
     {
-      "id": 129,
+      "id": 127,
       "home_team": "Sao Paulo",
       "away_team": "Atletico Paranaense",
       "commence_time": "2026-07-23T00:30:00+00:00",
@@ -2921,7 +2620,7 @@
       }
     },
     {
-      "id": 130,
+      "id": 128,
       "home_team": "Chapecoense",
       "away_team": "Flamengo",
       "commence_time": "2026-07-23T00:30:00+00:00",
@@ -3075,7 +2774,7 @@
       }
     },
     {
-      "id": 131,
+      "id": 129,
       "home_team": "Internacional",
       "away_team": "Cruzeiro",
       "commence_time": "2026-07-23T00:30:00+00:00",
@@ -3148,7 +2847,7 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 2.16,
+          "home": 2.18,
           "draw": 3.3,
           "away": 3.25
         },
@@ -3175,7 +2874,7 @@
           "median_odds": 2.15,
           "median_prob": 0.4651,
           "mean_odds": 2.15,
-          "mean_prob": 0.4651,
+          "mean_prob": 0.4647,
           "best_odds": 2.24,
           "best_prob": 0.4464,
           "best_bookmaker": "Betfair"
@@ -3201,7 +2900,7 @@
       }
     },
     {
-      "id": 132,
+      "id": 130,
       "home_team": "Corinthians",
       "away_team": "Remo",
       "commence_time": "2026-07-23T22:30:00+00:00",
@@ -3334,7 +3033,7 @@
       }
     },
     {
-      "id": 133,
+      "id": 131,
       "home_team": "Coritiba",
       "away_team": "Palmeiras",
       "commence_time": "2026-07-24T00:30:00+00:00",
@@ -3352,7 +3051,7 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 3.0,
-          "draw": 3.2,
+          "draw": 3.25,
           "away": 2.14
         },
         {
@@ -3433,7 +3132,7 @@
       },
       "avg_odds": {
         "home": 3.46,
-        "draw": 3.09,
+        "draw": 3.1,
         "away": 1.97
       },
       "probability": {
@@ -3449,11 +3148,11 @@
         "draw": {
           "median_odds": 3.15,
           "median_prob": 0.3175,
-          "mean_odds": 3.09,
-          "mean_prob": 0.3232,
+          "mean_odds": 3.1,
+          "mean_prob": 0.3228,
           "best_odds": 3.25,
           "best_prob": 0.3077,
-          "best_bookmaker": "BoyleSports"
+          "best_bookmaker": "Betfair"
         },
         "away": {
           "median_odds": 1.96,
@@ -3659,8 +3358,8 @@
         {
           "bookmaker": "888sport",
           "bookmaker_key": "sport888",
-          "home": 2.5,
-          "draw": 3.2,
+          "home": 2.62,
+          "draw": 3.25,
           "away": 2.5
         },
         {
@@ -3673,23 +3372,23 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 2.5,
+          "home": 2.55,
           "draw": 3.5,
           "away": 2.45
         },
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 2.45,
+          "home": 2.5,
           "draw": 3.5,
-          "away": 2.45
+          "away": 2.38
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 2.38,
+          "home": 2.45,
           "draw": 3.25,
-          "away": 2.38
+          "away": 2.3
         },
         {
           "bookmaker": "Smarkets",
@@ -3701,45 +3400,45 @@
         {
           "bookmaker": "William Hill",
           "bookmaker_key": "williamhill",
-          "home": 2.5,
-          "draw": 3.2,
+          "home": 2.62,
+          "draw": 3.25,
           "away": 2.5
         }
       ],
       "best_odds": {
-        "home": 2.5,
+        "home": 2.62,
         "draw": 3.5,
         "away": 2.5
       },
       "avg_odds": {
-        "home": 2.44,
-        "draw": 3.3,
-        "away": 2.42
+        "home": 2.49,
+        "draw": 3.31,
+        "away": 2.4
       },
       "probability": {
         "home": {
-          "median_odds": 2.45,
-          "median_prob": 0.4082,
-          "mean_odds": 2.44,
-          "mean_prob": 0.4106,
-          "best_odds": 2.5,
-          "best_prob": 0.4,
+          "median_odds": 2.5,
+          "median_prob": 0.4,
+          "mean_odds": 2.49,
+          "mean_prob": 0.4009,
+          "best_odds": 2.62,
+          "best_prob": 0.3817,
           "best_bookmaker": "888sport"
         },
         "draw": {
           "median_odds": 3.25,
           "median_prob": 0.3077,
-          "mean_odds": 3.3,
-          "mean_prob": 0.303,
+          "mean_odds": 3.31,
+          "mean_prob": 0.3017,
           "best_odds": 3.5,
           "best_prob": 0.2857,
           "best_bookmaker": "LeoVegas"
         },
         "away": {
-          "median_odds": 2.45,
-          "median_prob": 0.4082,
-          "mean_odds": 2.42,
-          "mean_prob": 0.4132,
+          "median_odds": 2.38,
+          "median_prob": 0.4202,
+          "mean_odds": 2.4,
+          "mean_prob": 0.4169,
           "best_odds": 2.5,
           "best_prob": 0.4,
           "best_bookmaker": "888sport"
@@ -4752,8 +4451,8 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 3.3,
-          "draw": 3.25,
-          "away": 2.0
+          "draw": 3.3,
+          "away": 1.98
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -4799,7 +4498,7 @@
       "avg_odds": {
         "home": 3.35,
         "draw": 3.31,
-        "away": 1.99
+        "away": 1.98
       },
       "probability": {
         "home": {
@@ -4815,7 +4514,7 @@
           "median_odds": 3.25,
           "median_prob": 0.3077,
           "mean_odds": 3.31,
-          "mean_prob": 0.3022,
+          "mean_prob": 0.3018,
           "best_odds": 3.5,
           "best_prob": 0.2857,
           "best_bookmaker": "888sport"
@@ -4823,8 +4522,8 @@
         "away": {
           "median_odds": 1.98,
           "median_prob": 0.5051,
-          "mean_odds": 1.99,
-          "mean_prob": 0.5034,
+          "mean_odds": 1.98,
+          "mean_prob": 0.5039,
           "best_odds": 2.05,
           "best_prob": 0.4878,
           "best_bookmaker": "Betfred (UK)"
@@ -4878,8 +4577,8 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 2.7,
-          "draw": 3.4,
-          "away": 2.25
+          "draw": 3.25,
+          "away": 2.3
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -4924,7 +4623,7 @@
       },
       "avg_odds": {
         "home": 2.73,
-        "draw": 3.39,
+        "draw": 3.37,
         "away": 2.26
       },
       "probability": {
@@ -4940,8 +4639,8 @@
         "draw": {
           "median_odds": 3.4,
           "median_prob": 0.2941,
-          "mean_odds": 3.39,
-          "mean_prob": 0.2953,
+          "mean_odds": 3.37,
+          "mean_prob": 0.2965,
           "best_odds": 3.5,
           "best_prob": 0.2857,
           "best_bookmaker": "Betfred (UK)"
@@ -4950,7 +4649,7 @@
           "median_odds": 2.25,
           "median_prob": 0.4444,
           "mean_odds": 2.26,
-          "mean_prob": 0.4432,
+          "mean_prob": 0.4423,
           "best_odds": 2.4,
           "best_prob": 0.4167,
           "best_bookmaker": "Betfred (UK)"
@@ -5003,7 +4702,7 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 2.1,
+          "home": 2.08,
           "draw": 3.15,
           "away": 3.2
         },
@@ -5049,7 +4748,7 @@
         "away": 3.4
       },
       "avg_odds": {
-        "home": 2.12,
+        "home": 2.11,
         "draw": 3.17,
         "away": 3.17
       },
@@ -5057,8 +4756,8 @@
         "home": {
           "median_odds": 2.12,
           "median_prob": 0.4717,
-          "mean_odds": 2.12,
-          "mean_prob": 0.4725,
+          "mean_odds": 2.11,
+          "mean_prob": 0.4729,
           "best_odds": 2.2,
           "best_prob": 0.4545,
           "best_bookmaker": "888sport"
@@ -5459,7 +5158,7 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.24,
-          "draw": 2.86,
+          "draw": 3.0,
           "away": 2.44
         },
         {
@@ -5554,7 +5253,7 @@
       },
       "avg_odds": {
         "home": 2.41,
-        "draw": 3.16,
+        "draw": 3.17,
         "away": 2.66
       },
       "probability": {
@@ -5570,8 +5269,8 @@
         "draw": {
           "median_odds": 3.15,
           "median_prob": 0.3175,
-          "mean_odds": 3.16,
-          "mean_prob": 0.3165,
+          "mean_odds": 3.17,
+          "mean_prob": 0.3155,
           "best_odds": 3.4,
           "best_prob": 0.2941,
           "best_bookmaker": "Betfred (UK)"
@@ -5593,7 +5292,7 @@
       "away_team": "Lincoln City",
       "commence_time": "2026-08-15T14:00:00+00:00",
       "league": "EFL Championship",
-      "bookmaker_count": 14,
+      "bookmaker_count": 13,
       "odds": [
         {
           "bookmaker": "888sport",
@@ -5601,13 +5300,6 @@
           "home": 1.29,
           "draw": 5.5,
           "away": 7.5
-        },
-        {
-          "bookmaker": "Betfair",
-          "bookmaker_key": "betfair_ex_uk",
-          "home": 1.31,
-          "draw": 4.9,
-          "away": 8.0
         },
         {
           "bookmaker": "Betfred (UK)",
@@ -5695,30 +5387,30 @@
         }
       ],
       "best_odds": {
-        "home": 1.31,
+        "home": 1.3,
         "draw": 5.5,
         "away": 10.0
       },
       "avg_odds": {
-        "home": 1.28,
-        "draw": 5.11,
-        "away": 8.3
+        "home": 1.27,
+        "draw": 5.13,
+        "away": 8.32
       },
       "probability": {
         "home": {
           "median_odds": 1.27,
-          "median_prob": 0.7843,
-          "mean_odds": 1.28,
-          "mean_prob": 0.783,
-          "best_odds": 1.31,
-          "best_prob": 0.7634,
-          "best_bookmaker": "Betfair"
+          "median_prob": 0.7874,
+          "mean_odds": 1.27,
+          "mean_prob": 0.7846,
+          "best_odds": 1.3,
+          "best_prob": 0.7692,
+          "best_bookmaker": "Betfred (UK)"
         },
         "draw": {
           "median_odds": 5.1,
           "median_prob": 0.1961,
-          "mean_odds": 5.11,
-          "mean_prob": 0.1955,
+          "mean_odds": 5.13,
+          "mean_prob": 0.1949,
           "best_odds": 5.5,
           "best_prob": 0.1818,
           "best_bookmaker": "888sport"
@@ -5726,8 +5418,8 @@
         "away": {
           "median_odds": 8.0,
           "median_prob": 0.125,
-          "mean_odds": 8.3,
-          "mean_prob": 0.1205,
+          "mean_odds": 8.32,
+          "mean_prob": 0.1201,
           "best_odds": 10.0,
           "best_prob": 0.1,
           "best_bookmaker": "Betfred (UK)"
@@ -5753,7 +5445,7 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.02,
-          "draw": 3.0,
+          "draw": 3.05,
           "away": 2.92
         },
         {
@@ -5865,7 +5557,7 @@
           "median_odds": 3.35,
           "median_prob": 0.2985,
           "mean_odds": 3.34,
-          "mean_prob": 0.2998,
+          "mean_prob": 0.2995,
           "best_odds": 3.5,
           "best_prob": 0.2857,
           "best_bookmaker": "Betfred (UK)"
@@ -5899,9 +5591,9 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.18,
-          "draw": 2.54,
-          "away": 2.74
+          "home": 2.2,
+          "draw": 3.5,
+          "away": 3.5
         },
         {
           "bookmaker": "Betfred (UK)",
@@ -5982,30 +5674,30 @@
         }
       ],
       "best_odds": {
-        "home": 2.18,
+        "home": 2.2,
         "draw": 3.6,
-        "away": 3.3
+        "away": 3.5
       },
       "avg_odds": {
         "home": 2.07,
-        "draw": 3.35,
-        "away": 3.12
+        "draw": 3.42,
+        "away": 3.18
       },
       "probability": {
         "home": {
           "median_odds": 2.05,
           "median_prob": 0.4878,
           "mean_odds": 2.07,
-          "mean_prob": 0.4831,
-          "best_odds": 2.18,
-          "best_prob": 0.4587,
+          "mean_prob": 0.4827,
+          "best_odds": 2.2,
+          "best_prob": 0.4545,
           "best_bookmaker": "Betfair"
         },
         "draw": {
           "median_odds": 3.4,
           "median_prob": 0.2941,
-          "mean_odds": 3.35,
-          "mean_prob": 0.2986,
+          "mean_odds": 3.42,
+          "mean_prob": 0.2921,
           "best_odds": 3.6,
           "best_prob": 0.2778,
           "best_bookmaker": "Betfred (UK)"
@@ -6013,11 +5705,11 @@
         "away": {
           "median_odds": 3.15,
           "median_prob": 0.3175,
-          "mean_odds": 3.12,
-          "mean_prob": 0.3207,
-          "best_odds": 3.3,
-          "best_prob": 0.303,
-          "best_bookmaker": "Betfred (UK)"
+          "mean_odds": 3.18,
+          "mean_prob": 0.3148,
+          "best_odds": 3.5,
+          "best_prob": 0.2857,
+          "best_bookmaker": "Betfair"
         }
       }
     },
@@ -6040,7 +5732,7 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.18,
-          "draw": 2.9,
+          "draw": 3.0,
           "away": 2.62
         },
         {
@@ -6135,7 +5827,7 @@
       },
       "avg_odds": {
         "home": 2.31,
-        "draw": 3.13,
+        "draw": 3.14,
         "away": 2.82
       },
       "probability": {
@@ -6151,8 +5843,8 @@
         "draw": {
           "median_odds": 3.15,
           "median_prob": 0.3175,
-          "mean_odds": 3.13,
-          "mean_prob": 0.3191,
+          "mean_odds": 3.14,
+          "mean_prob": 0.3183,
           "best_odds": 3.3,
           "best_prob": 0.303,
           "best_bookmaker": "Betfred (UK)"
@@ -6215,8 +5907,8 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 1.75,
-          "draw": 3.65,
-          "away": 3.8
+          "draw": 3.6,
+          "away": 3.75
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -6261,8 +5953,8 @@
       },
       "avg_odds": {
         "home": 1.75,
-        "draw": 3.63,
-        "away": 3.94
+        "draw": 3.62,
+        "away": 3.93
       },
       "probability": {
         "home": {
@@ -6277,8 +5969,8 @@
         "draw": {
           "median_odds": 3.6,
           "median_prob": 0.2778,
-          "mean_odds": 3.63,
-          "mean_prob": 0.2757,
+          "mean_odds": 3.62,
+          "mean_prob": 0.276,
           "best_odds": 3.75,
           "best_prob": 0.2667,
           "best_bookmaker": "888sport"
@@ -6286,8 +5978,8 @@
         "away": {
           "median_odds": 3.8,
           "median_prob": 0.2632,
-          "mean_odds": 3.94,
-          "mean_prob": 0.2539,
+          "mean_odds": 3.93,
+          "mean_prob": 0.2542,
           "best_odds": 4.33,
           "best_prob": 0.2309,
           "best_bookmaker": "Betfred (UK)"
@@ -6340,9 +6032,9 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 2.15,
-          "draw": 3.45,
-          "away": 2.8
+          "home": 2.18,
+          "draw": 3.35,
+          "away": 2.85
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -6386,7 +6078,7 @@
         "away": 3.0
       },
       "avg_odds": {
-        "home": 2.16,
+        "home": 2.17,
         "draw": 3.4,
         "away": 2.86
       },
@@ -6394,17 +6086,17 @@
         "home": {
           "median_odds": 2.15,
           "median_prob": 0.4651,
-          "mean_odds": 2.16,
-          "mean_prob": 0.462,
+          "mean_odds": 2.17,
+          "mean_prob": 0.4614,
           "best_odds": 2.25,
           "best_prob": 0.4444,
           "best_bookmaker": "888sport"
         },
         "draw": {
-          "median_odds": 3.45,
-          "median_prob": 0.2899,
+          "median_odds": 3.4,
+          "median_prob": 0.2941,
           "mean_odds": 3.4,
-          "mean_prob": 0.2937,
+          "mean_prob": 0.2945,
           "best_odds": 3.6,
           "best_prob": 0.2778,
           "best_bookmaker": "Betfred (UK)"
@@ -6413,7 +6105,7 @@
           "median_odds": 2.85,
           "median_prob": 0.3509,
           "mean_odds": 2.86,
-          "mean_prob": 0.3497,
+          "mean_prob": 0.3491,
           "best_odds": 3.0,
           "best_prob": 0.3333,
           "best_bookmaker": "Betfred (UK)"
@@ -6438,9 +6130,9 @@
         {
           "bookmaker": "Betfred (UK)",
           "bookmaker_key": "betfred_uk",
-          "home": 1.83,
+          "home": 1.9,
           "draw": 3.6,
-          "away": 4.33
+          "away": 4.0
         },
         {
           "bookmaker": "BoyleSports",
@@ -6466,8 +6158,8 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 1.8,
-          "draw": 3.4,
+          "home": 1.83,
+          "draw": 3.35,
           "away": 3.85
         },
         {
@@ -6480,16 +6172,16 @@
         {
           "bookmaker": "Paddy Power",
           "bookmaker_key": "paddypower",
-          "home": 1.75,
-          "draw": 3.5,
+          "home": 1.8,
+          "draw": 3.4,
           "away": 4.0
         },
         {
           "bookmaker": "Sky Bet",
           "bookmaker_key": "skybet",
-          "home": 1.75,
-          "draw": 3.4,
-          "away": 3.9
+          "home": 1.8,
+          "draw": 3.3,
+          "away": 3.75
         },
         {
           "bookmaker": "Virgin Bet",
@@ -6509,28 +6201,28 @@
       "best_odds": {
         "home": 1.91,
         "draw": 3.6,
-        "away": 4.33
+        "away": 4.0
       },
       "avg_odds": {
-        "home": 1.79,
-        "draw": 3.42,
-        "away": 3.92
+        "home": 1.81,
+        "draw": 3.4,
+        "away": 3.88
       },
       "probability": {
         "home": {
-          "median_odds": 1.76,
-          "median_prob": 0.5682,
-          "mean_odds": 1.79,
-          "mean_prob": 0.5572,
+          "median_odds": 1.8,
+          "median_prob": 0.5556,
+          "mean_odds": 1.81,
+          "mean_prob": 0.5517,
           "best_odds": 1.91,
           "best_prob": 0.5236,
           "best_bookmaker": "888sport"
         },
         "draw": {
-          "median_odds": 3.45,
-          "median_prob": 0.2899,
-          "mean_odds": 3.42,
-          "mean_prob": 0.2926,
+          "median_odds": 3.4,
+          "median_prob": 0.2941,
+          "mean_odds": 3.4,
+          "mean_prob": 0.2945,
           "best_odds": 3.6,
           "best_prob": 0.2778,
           "best_bookmaker": "Betfred (UK)"
@@ -6538,10 +6230,10 @@
         "away": {
           "median_odds": 3.95,
           "median_prob": 0.2532,
-          "mean_odds": 3.92,
-          "mean_prob": 0.255,
-          "best_odds": 4.33,
-          "best_prob": 0.2309,
+          "mean_odds": 3.88,
+          "mean_prob": 0.2579,
+          "best_odds": 4.0,
+          "best_prob": 0.25,
           "best_bookmaker": "Betfred (UK)"
         }
       }
@@ -6593,7 +6285,7 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 2.18,
-          "draw": 3.15,
+          "draw": 3.1,
           "away": 3.0
         },
         {
@@ -6639,7 +6331,7 @@
       },
       "avg_odds": {
         "home": 2.21,
-        "draw": 3.1,
+        "draw": 3.09,
         "away": 3.05
       },
       "probability": {
@@ -6655,8 +6347,8 @@
         "draw": {
           "median_odds": 3.1,
           "median_prob": 0.3226,
-          "mean_odds": 3.1,
-          "mean_prob": 0.3231,
+          "mean_odds": 3.09,
+          "mean_prob": 0.3235,
           "best_odds": 3.2,
           "best_prob": 0.3125,
           "best_bookmaker": "Betfred (UK)"
@@ -6718,9 +6410,9 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 2.35,
-          "draw": 3.15,
-          "away": 2.75
+          "home": 2.4,
+          "draw": 3.1,
+          "away": 2.7
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -6765,7 +6457,7 @@
       },
       "avg_odds": {
         "home": 2.39,
-        "draw": 3.12,
+        "draw": 3.11,
         "away": 2.76
       },
       "probability": {
@@ -6773,7 +6465,7 @@
           "median_odds": 2.38,
           "median_prob": 0.4202,
           "mean_odds": 2.39,
-          "mean_prob": 0.419,
+          "mean_prob": 0.4183,
           "best_odds": 2.5,
           "best_prob": 0.4,
           "best_bookmaker": "Betfred (UK)"
@@ -6781,8 +6473,8 @@
         "draw": {
           "median_odds": 3.1,
           "median_prob": 0.3226,
-          "mean_odds": 3.12,
-          "mean_prob": 0.3207,
+          "mean_odds": 3.11,
+          "mean_prob": 0.3212,
           "best_odds": 3.25,
           "best_prob": 0.3077,
           "best_bookmaker": "Betfred (UK)"
@@ -6791,7 +6483,7 @@
           "median_odds": 2.75,
           "median_prob": 0.3636,
           "mean_odds": 2.76,
-          "mean_prob": 0.3621,
+          "mean_prob": 0.3627,
           "best_odds": 2.88,
           "best_prob": 0.3472,
           "best_bookmaker": "Betfred (UK)"
@@ -6972,7 +6664,7 @@
           "bookmaker_key": "leovegas",
           "home": 1.57,
           "draw": 3.75,
-          "away": 4.75
+          "away": 4.7
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -7043,7 +6735,7 @@
           "median_odds": 4.75,
           "median_prob": 0.2105,
           "mean_odds": 4.78,
-          "mean_prob": 0.2091,
+          "mean_prob": 0.2093,
           "best_odds": 5.0,
           "best_prob": 0.2,
           "best_bookmaker": "888sport"
@@ -7097,8 +6789,8 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 3.05,
-          "draw": 3.4,
-          "away": 2.05
+          "draw": 3.35,
+          "away": 2.08
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -7160,7 +6852,7 @@
           "median_odds": 3.4,
           "median_prob": 0.2941,
           "mean_odds": 3.38,
-          "mean_prob": 0.2957,
+          "mean_prob": 0.2961,
           "best_odds": 3.5,
           "best_prob": 0.2857,
           "best_bookmaker": "Betfred (UK)"
@@ -7169,7 +6861,7 @@
           "median_odds": 2.05,
           "median_prob": 0.4878,
           "mean_odds": 2.06,
-          "mean_prob": 0.4861,
+          "mean_prob": 0.4854,
           "best_odds": 2.15,
           "best_prob": 0.4651,
           "best_bookmaker": "Betfred (UK)"
@@ -7194,9 +6886,9 @@
         {
           "bookmaker": "Betfred (UK)",
           "bookmaker_key": "betfred_uk",
-          "home": 2.2,
+          "home": 2.25,
           "draw": 3.6,
-          "away": 3.1
+          "away": 3.0
         },
         {
           "bookmaker": "BoyleSports",
@@ -7222,9 +6914,9 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 2.08,
-          "draw": 3.5,
-          "away": 2.9
+          "home": 2.15,
+          "draw": 3.4,
+          "away": 2.85
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -7263,30 +6955,30 @@
         }
       ],
       "best_odds": {
-        "home": 2.2,
+        "home": 2.25,
         "draw": 3.6,
-        "away": 3.1
+        "away": 3.0
       },
       "avg_odds": {
-        "home": 2.12,
+        "home": 2.13,
         "draw": 3.45,
-        "away": 2.88
+        "away": 2.87
       },
       "probability": {
         "home": {
           "median_odds": 2.1,
           "median_prob": 0.4762,
-          "mean_odds": 2.12,
-          "mean_prob": 0.4715,
-          "best_odds": 2.2,
-          "best_prob": 0.4545,
-          "best_bookmaker": "888sport"
+          "mean_odds": 2.13,
+          "mean_prob": 0.4691,
+          "best_odds": 2.25,
+          "best_prob": 0.4444,
+          "best_bookmaker": "Betfred (UK)"
         },
         "draw": {
           "median_odds": 3.45,
           "median_prob": 0.2899,
           "mean_odds": 3.45,
-          "mean_prob": 0.2895,
+          "mean_prob": 0.2902,
           "best_odds": 3.6,
           "best_prob": 0.2778,
           "best_bookmaker": "Betfred (UK)"
@@ -7294,10 +6986,10 @@
         "away": {
           "median_odds": 2.9,
           "median_prob": 0.3448,
-          "mean_odds": 2.88,
-          "mean_prob": 0.3467,
-          "best_odds": 3.1,
-          "best_prob": 0.3226,
+          "mean_odds": 2.87,
+          "mean_prob": 0.3483,
+          "best_odds": 3.0,
+          "best_prob": 0.3333,
           "best_bookmaker": "Betfred (UK)"
         }
       }
@@ -8539,7 +8231,7 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 2.52,
-          "draw": 2.58,
+          "draw": 2.9,
           "away": 2.86
         },
         {
@@ -8634,7 +8326,7 @@
       },
       "avg_odds": {
         "home": 2.42,
-        "draw": 3.11,
+        "draw": 3.13,
         "away": 2.72
       },
       "probability": {
@@ -8650,8 +8342,8 @@
         "draw": {
           "median_odds": 3.15,
           "median_prob": 0.3175,
-          "mean_odds": 3.11,
-          "mean_prob": 0.3218,
+          "mean_odds": 3.13,
+          "mean_prob": 0.3194,
           "best_odds": 3.4,
           "best_prob": 0.2941,
           "best_bookmaker": "Betfred (UK)"
@@ -8946,7 +8638,7 @@
       "away_team": "Getafe",
       "commence_time": "2026-08-16T19:00:00+00:00",
       "league": "La Liga",
-      "bookmaker_count": 11,
+      "bookmaker_count": 12,
       "odds": [
         {
           "bookmaker": "Bet Victor",
@@ -9012,6 +8704,13 @@
           "away": 3.3
         },
         {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 2.2,
+          "draw": 2.5,
+          "away": 3.4
+        },
+        {
           "bookmaker": "Unibet (UK)",
           "bookmaker_key": "unibet_uk",
           "home": 2.3,
@@ -9033,7 +8732,7 @@
       },
       "avg_odds": {
         "home": 2.29,
-        "draw": 2.86,
+        "draw": 2.83,
         "away": 3.35
       },
       "probability": {
@@ -9041,25 +8740,25 @@
           "median_odds": 2.3,
           "median_prob": 0.4348,
           "mean_odds": 2.29,
-          "mean_prob": 0.4358,
+          "mean_prob": 0.4373,
           "best_odds": 2.4,
           "best_prob": 0.4167,
           "best_bookmaker": "Betfair"
         },
         "draw": {
-          "median_odds": 2.85,
-          "median_prob": 0.3509,
-          "mean_odds": 2.86,
-          "mean_prob": 0.3497,
+          "median_odds": 2.83,
+          "median_prob": 0.354,
+          "mean_odds": 2.83,
+          "mean_prob": 0.3534,
           "best_odds": 3.0,
           "best_prob": 0.3333,
           "best_bookmaker": "Betfred (UK)"
         },
         "away": {
-          "median_odds": 3.35,
-          "median_prob": 0.2985,
+          "median_odds": 3.38,
+          "median_prob": 0.2963,
           "mean_odds": 3.35,
-          "mean_prob": 0.2989,
+          "mean_prob": 0.2985,
           "best_odds": 3.45,
           "best_prob": 0.2899,
           "best_bookmaker": "Betfair"
@@ -9198,7 +8897,7 @@
       "away_team": "M\u00e1laga",
       "commence_time": "2026-08-16T19:00:00+00:00",
       "league": "La Liga",
-      "bookmaker_count": 10,
+      "bookmaker_count": 11,
       "odds": [
         {
           "bookmaker": "Bet Victor",
@@ -9257,6 +8956,13 @@
           "away": 10.5
         },
         {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 1.21,
+          "draw": 5.4,
+          "away": 10.5
+        },
+        {
           "bookmaker": "Unibet (UK)",
           "bookmaker_key": "unibet_uk",
           "home": 1.22,
@@ -9277,34 +8983,34 @@
         "away": 12.0
       },
       "avg_odds": {
-        "home": 1.27,
+        "home": 1.26,
         "draw": 5.35,
-        "away": 9.4
+        "away": 9.5
       },
       "probability": {
         "home": {
-          "median_odds": 1.27,
-          "median_prob": 0.7874,
-          "mean_odds": 1.27,
-          "mean_prob": 0.7899,
+          "median_odds": 1.25,
+          "median_prob": 0.8,
+          "mean_odds": 1.26,
+          "mean_prob": 0.7931,
           "best_odds": 1.32,
           "best_prob": 0.7576,
           "best_bookmaker": "Casumo"
         },
         "draw": {
-          "median_odds": 5.38,
-          "median_prob": 0.186,
+          "median_odds": 5.4,
+          "median_prob": 0.1852,
           "mean_odds": 5.35,
-          "mean_prob": 0.1869,
+          "mean_prob": 0.1868,
           "best_odds": 5.6,
           "best_prob": 0.1786,
           "best_bookmaker": "Casumo"
         },
         "away": {
-          "median_odds": 10.25,
-          "median_prob": 0.0976,
-          "mean_odds": 9.4,
-          "mean_prob": 0.1064,
+          "median_odds": 10.5,
+          "median_prob": 0.0952,
+          "mean_odds": 9.5,
+          "mean_prob": 0.1053,
           "best_odds": 12.0,
           "best_prob": 0.0833,
           "best_bookmaker": "Unibet (UK)"
@@ -9443,7 +9149,7 @@
       "away_team": "Elche CF",
       "commence_time": "2026-08-16T19:00:00+00:00",
       "league": "La Liga",
-      "bookmaker_count": 10,
+      "bookmaker_count": 11,
       "odds": [
         {
           "bookmaker": "Bet Victor",
@@ -9509,6 +9215,13 @@
           "away": 3.1
         },
         {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 2.34,
+          "draw": 2.76,
+          "away": 3.45
+        },
+        {
           "bookmaker": "Virgin Bet",
           "bookmaker_key": "virginbet",
           "home": 2.2,
@@ -9522,16 +9235,16 @@
         "away": 3.45
       },
       "avg_odds": {
-        "home": 2.25,
-        "draw": 3.1,
-        "away": 3.16
+        "home": 2.26,
+        "draw": 3.07,
+        "away": 3.19
       },
       "probability": {
         "home": {
           "median_odds": 2.25,
           "median_prob": 0.4444,
-          "mean_odds": 2.25,
-          "mean_prob": 0.4446,
+          "mean_odds": 2.26,
+          "mean_prob": 0.443,
           "best_odds": 2.34,
           "best_prob": 0.4274,
           "best_bookmaker": "Betfair"
@@ -9539,17 +9252,17 @@
         "draw": {
           "median_odds": 3.1,
           "median_prob": 0.3226,
-          "mean_odds": 3.1,
-          "mean_prob": 0.3221,
+          "mean_odds": 3.07,
+          "mean_prob": 0.3253,
           "best_odds": 3.25,
           "best_prob": 0.3077,
           "best_bookmaker": "Betfred (UK)"
         },
         "away": {
-          "median_odds": 3.13,
-          "median_prob": 0.319,
-          "mean_odds": 3.16,
-          "mean_prob": 0.3163,
+          "median_odds": 3.15,
+          "median_prob": 0.3175,
+          "mean_odds": 3.19,
+          "mean_prob": 0.3137,
           "best_odds": 3.45,
           "best_prob": 0.2899,
           "best_bookmaker": "Betfair"
@@ -9623,7 +9336,7 @@
         {
           "bookmaker": "Unibet (UK)",
           "bookmaker_key": "unibet_uk",
-          "home": 1.9,
+          "home": 1.91,
           "draw": 3.3,
           "away": 3.8
         },
@@ -9650,7 +9363,7 @@
           "median_odds": 1.95,
           "median_prob": 0.5128,
           "mean_odds": 1.95,
-          "mean_prob": 0.512,
+          "mean_prob": 0.5118,
           "best_odds": 2.0,
           "best_prob": 0.5,
           "best_bookmaker": "Betfred (UK)"
@@ -9933,13 +9646,13 @@
       "away_team": "Real Sociedad",
       "commence_time": "2026-08-16T19:00:00+00:00",
       "league": "La Liga",
-      "bookmaker_count": 11,
+      "bookmaker_count": 12,
       "odds": [
         {
           "bookmaker": "Bet Victor",
           "bookmaker_key": "betvictor",
           "home": 1.4,
-          "draw": 4.4,
+          "draw": 4.5,
           "away": 6.5
         },
         {
@@ -9973,9 +9686,9 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 1.4,
-          "draw": 4.7,
-          "away": 6.0
+          "home": 1.42,
+          "draw": 4.55,
+          "away": 6.1
         },
         {
           "bookmaker": "LiveScore Bet",
@@ -9999,10 +9712,17 @@
           "away": 7.0
         },
         {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 1.4,
+          "draw": 4.9,
+          "away": 7.0
+        },
+        {
           "bookmaker": "Unibet (UK)",
           "bookmaker_key": "unibet_uk",
           "home": 1.42,
-          "draw": 4.6,
+          "draw": 4.5,
           "away": 6.0
         },
         {
@@ -10020,15 +9740,15 @@
       },
       "avg_odds": {
         "home": 1.39,
-        "draw": 4.5,
-        "away": 6.77
+        "draw": 4.53,
+        "away": 6.8
       },
       "probability": {
         "home": {
-          "median_odds": 1.38,
-          "median_prob": 0.7246,
+          "median_odds": 1.39,
+          "median_prob": 0.7194,
           "mean_odds": 1.39,
-          "mean_prob": 0.7213,
+          "mean_prob": 0.7199,
           "best_odds": 1.46,
           "best_prob": 0.6849,
           "best_bookmaker": "Betfair"
@@ -10036,8 +9756,8 @@
         "draw": {
           "median_odds": 4.5,
           "median_prob": 0.2222,
-          "mean_odds": 4.5,
-          "mean_prob": 0.222,
+          "mean_odds": 4.53,
+          "mean_prob": 0.221,
           "best_odds": 5.0,
           "best_prob": 0.2,
           "best_bookmaker": "Betfred (UK)"
@@ -10045,8 +9765,8 @@
         "away": {
           "median_odds": 7.0,
           "median_prob": 0.1429,
-          "mean_odds": 6.77,
-          "mean_prob": 0.1477,
+          "mean_odds": 6.8,
+          "mean_prob": 0.1471,
           "best_odds": 8.0,
           "best_prob": 0.125,
           "best_bookmaker": "Casumo"
@@ -10059,7 +9779,7 @@
       "away_team": "Villarreal",
       "commence_time": "2026-08-16T19:00:00+00:00",
       "league": "La Liga",
-      "bookmaker_count": 11,
+      "bookmaker_count": 12,
       "odds": [
         {
           "bookmaker": "Bet Victor",
@@ -10099,7 +9819,7 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 3.4,
+          "home": 3.45,
           "draw": 3.35,
           "away": 2.0
         },
@@ -10125,6 +9845,13 @@
           "away": 2.05
         },
         {
+          "bookmaker": "Smarkets",
+          "bookmaker_key": "smarkets",
+          "home": 3.35,
+          "draw": 3.3,
+          "away": 1.85
+        },
+        {
           "bookmaker": "Unibet (UK)",
           "bookmaker_key": "unibet_uk",
           "home": 3.5,
@@ -10147,14 +9874,14 @@
       "avg_odds": {
         "home": 3.36,
         "draw": 3.37,
-        "away": 2.04
+        "away": 2.02
       },
       "probability": {
         "home": {
           "median_odds": 3.4,
           "median_prob": 0.2941,
           "mean_odds": 3.36,
-          "mean_prob": 0.2977,
+          "mean_prob": 0.2974,
           "best_odds": 3.6,
           "best_prob": 0.2778,
           "best_bookmaker": "Betfred (UK)"
@@ -10163,7 +9890,7 @@
           "median_odds": 3.4,
           "median_prob": 0.2941,
           "mean_odds": 3.37,
-          "mean_prob": 0.2965,
+          "mean_prob": 0.297,
           "best_odds": 3.5,
           "best_prob": 0.2857,
           "best_bookmaker": "Betfred (UK)"
@@ -10171,8 +9898,8 @@
         "away": {
           "median_odds": 2.05,
           "median_prob": 0.4878,
-          "mean_odds": 2.04,
-          "mean_prob": 0.4909,
+          "mean_odds": 2.02,
+          "mean_prob": 0.4946,
           "best_odds": 2.1,
           "best_prob": 0.4762,
           "best_bookmaker": "Casumo"
@@ -10520,7 +10247,7 @@
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
           "home": 7.8,
-          "draw": 4.5,
+          "draw": 4.6,
           "away": 1.44
         },
         {
@@ -10597,7 +10324,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 5.7,
-          "draw": 3.95,
+          "draw": 4.0,
           "away": 1.36
         },
         {
@@ -10629,7 +10356,7 @@
       },
       "avg_odds": {
         "home": 6.39,
-        "draw": 4.48,
+        "draw": 4.49,
         "away": 1.43
       },
       "probability": {
@@ -10645,8 +10372,8 @@
         "draw": {
           "median_odds": 4.5,
           "median_prob": 0.2222,
-          "mean_odds": 4.48,
-          "mean_prob": 0.2234,
+          "mean_odds": 4.49,
+          "mean_prob": 0.2229,
           "best_odds": 4.8,
           "best_prob": 0.2083,
           "best_bookmaker": "Coral"
@@ -10841,7 +10568,7 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 4.2,
+          "home": 4.15,
           "draw": 3.4,
           "away": 1.8
         },
@@ -10869,9 +10596,9 @@
         {
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
-          "home": 4.2,
-          "draw": 3.2,
-          "away": 1.79
+          "home": 4.7,
+          "draw": 3.25,
+          "away": 1.82
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -10894,16 +10621,16 @@
         "away": 1.85
       },
       "avg_odds": {
-        "home": 4.37,
-        "draw": 3.33,
+        "home": 4.4,
+        "draw": 3.34,
         "away": 1.78
       },
       "probability": {
         "home": {
           "median_odds": 4.3,
           "median_prob": 0.2326,
-          "mean_odds": 4.37,
-          "mean_prob": 0.229,
+          "mean_odds": 4.4,
+          "mean_prob": 0.2271,
           "best_odds": 4.8,
           "best_prob": 0.2083,
           "best_bookmaker": "Betfair"
@@ -10911,17 +10638,17 @@
         "draw": {
           "median_odds": 3.3,
           "median_prob": 0.303,
-          "mean_odds": 3.33,
-          "mean_prob": 0.3,
+          "mean_odds": 3.34,
+          "mean_prob": 0.2996,
           "best_odds": 3.4,
           "best_prob": 0.2941,
           "best_bookmaker": "Betfair"
         },
         "away": {
           "median_odds": 1.77,
-          "median_prob": 0.565,
+          "median_prob": 0.5634,
           "mean_odds": 1.78,
-          "mean_prob": 0.5631,
+          "mean_prob": 0.5623,
           "best_odds": 1.85,
           "best_prob": 0.5405,
           "best_bookmaker": "Betfair"
@@ -11137,7 +10864,7 @@
           "bookmaker_key": "smarkets",
           "home": 1.21,
           "draw": 5.4,
-          "away": 10.5
+          "away": 11.49
         },
         {
           "bookmaker": "Unibet (UK)",
@@ -11162,7 +10889,7 @@
       "avg_odds": {
         "home": 1.2,
         "draw": 5.76,
-        "away": 12.33
+        "away": 12.42
       },
       "probability": {
         "home": {
@@ -11186,8 +10913,8 @@
         "away": {
           "median_odds": 12.5,
           "median_prob": 0.08,
-          "mean_odds": 12.33,
-          "mean_prob": 0.0811,
+          "mean_odds": 12.42,
+          "mean_prob": 0.0805,
           "best_odds": 17.0,
           "best_prob": 0.0588,
           "best_bookmaker": "Betfair"
@@ -11394,7 +11121,7 @@
         {
           "bookmaker": "Betfred (UK)",
           "bookmaker_key": "betfred_uk",
-          "home": 2.6,
+          "home": 2.62,
           "draw": 3.5,
           "away": 2.6
         },
@@ -11505,7 +11232,7 @@
           "median_odds": 2.62,
           "median_prob": 0.3817,
           "mean_odds": 2.62,
-          "mean_prob": 0.3817,
+          "mean_prob": 0.3815,
           "best_odds": 2.8,
           "best_prob": 0.3571,
           "best_bookmaker": "Betfair"
@@ -11723,8 +11450,8 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 3.9,
-          "draw": 3.8,
+          "home": 3.95,
+          "draw": 3.7,
           "away": 1.75
         },
         {
@@ -11746,7 +11473,7 @@
           "bookmaker_key": "unibet_uk",
           "home": 4.0,
           "draw": 3.75,
-          "away": 1.75
+          "away": 1.78
         }
       ],
       "best_odds": {
@@ -11755,16 +11482,16 @@
         "away": 1.8
       },
       "avg_odds": {
-        "home": 3.97,
-        "draw": 3.84,
-        "away": 1.75
+        "home": 3.98,
+        "draw": 3.82,
+        "away": 1.76
       },
       "probability": {
         "home": {
           "median_odds": 4.0,
           "median_prob": 0.25,
-          "mean_odds": 3.97,
-          "mean_prob": 0.2521,
+          "mean_odds": 3.98,
+          "mean_prob": 0.2516,
           "best_odds": 4.0,
           "best_prob": 0.25,
           "best_bookmaker": "Betfred (UK)"
@@ -11772,8 +11499,8 @@
         "draw": {
           "median_odds": 3.8,
           "median_prob": 0.2632,
-          "mean_odds": 3.84,
-          "mean_prob": 0.2603,
+          "mean_odds": 3.83,
+          "mean_prob": 0.2614,
           "best_odds": 4.0,
           "best_prob": 0.25,
           "best_bookmaker": "Betfred (UK)"
@@ -11781,8 +11508,8 @@
         "away": {
           "median_odds": 1.75,
           "median_prob": 0.5714,
-          "mean_odds": 1.75,
-          "mean_prob": 0.5698,
+          "mean_odds": 1.76,
+          "mean_prob": 0.5682,
           "best_odds": 1.8,
           "best_prob": 0.5556,
           "best_bookmaker": "Betfred (UK)"
@@ -12451,7 +12178,7 @@
         {
           "bookmaker": "Betfair",
           "bookmaker_key": "betfair_ex_uk",
-          "home": 2.6,
+          "home": 2.58,
           "draw": 3.8,
           "away": 2.64
         },
@@ -12569,10 +12296,10 @@
           "median_odds": 2.5,
           "median_prob": 0.4,
           "mean_odds": 2.49,
-          "mean_prob": 0.4019,
+          "mean_prob": 0.4021,
           "best_odds": 2.6,
           "best_prob": 0.3846,
-          "best_bookmaker": "Betfair"
+          "best_bookmaker": "Coral"
         },
         "draw": {
           "median_odds": 3.5,
@@ -12887,7 +12614,7 @@
           "bookmaker_key": "betfair_ex_uk",
           "home": 1.48,
           "draw": 5.1,
-          "away": 6.0
+          "away": 6.4
         },
         {
           "bookmaker": "Betfred (UK)",
@@ -12963,7 +12690,7 @@
           "bookmaker": "Smarkets",
           "bookmaker_key": "smarkets",
           "home": 1.39,
-          "draw": 4.2,
+          "draw": 4.3,
           "away": 4.8
         },
         {
@@ -12996,7 +12723,7 @@
       "avg_odds": {
         "home": 1.41,
         "draw": 4.95,
-        "away": 6.09
+        "away": 6.11
       },
       "probability": {
         "home": {
@@ -13012,7 +12739,7 @@
           "median_odds": 5.0,
           "median_prob": 0.2,
           "mean_odds": 4.95,
-          "mean_prob": 0.2021,
+          "mean_prob": 0.2019,
           "best_odds": 5.25,
           "best_prob": 0.1905,
           "best_bookmaker": "Coral"
@@ -13020,8 +12747,8 @@
         "away": {
           "median_odds": 6.25,
           "median_prob": 0.16,
-          "mean_odds": 6.09,
-          "mean_prob": 0.1643,
+          "mean_odds": 6.11,
+          "mean_prob": 0.1637,
           "best_odds": 6.5,
           "best_prob": 0.1538,
           "best_bookmaker": "888sport"
@@ -14215,9 +13942,9 @@
         {
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
-          "home": 1.93,
-          "draw": 3.8,
-          "away": 3.25
+          "home": 1.95,
+          "draw": 3.75,
+          "away": 3.2
         },
         {
           "bookmaker": "Paddy Power",
@@ -14256,32 +13983,32 @@
       "avg_odds": {
         "home": 1.95,
         "draw": 3.77,
-        "away": 3.21
+        "away": 3.2
       },
       "probability": {
         "home": {
           "median_odds": 1.95,
           "median_prob": 0.5128,
           "mean_odds": 1.95,
-          "mean_prob": 0.5133,
+          "mean_prob": 0.5124,
           "best_odds": 2.0,
           "best_prob": 0.5,
           "best_bookmaker": "Betfred (UK)"
         },
         "draw": {
-          "median_odds": 3.8,
-          "median_prob": 0.2632,
+          "median_odds": 3.77,
+          "median_prob": 0.2649,
           "mean_odds": 3.77,
-          "mean_prob": 0.2649,
+          "mean_prob": 0.2655,
           "best_odds": 4.0,
           "best_prob": 0.25,
           "best_bookmaker": "Betfred (UK)"
         },
         "away": {
-          "median_odds": 3.25,
-          "median_prob": 0.3077,
-          "mean_odds": 3.21,
-          "mean_prob": 0.3117,
+          "median_odds": 3.23,
+          "median_prob": 0.3101,
+          "mean_odds": 3.2,
+          "mean_prob": 0.3125,
           "best_odds": 3.3,
           "best_prob": 0.303,
           "best_bookmaker": "Betfred (UK)"
@@ -14580,7 +14307,7 @@
           "bookmaker": "LeoVegas",
           "bookmaker_key": "leovegas",
           "home": 2.45,
-          "draw": 3.45,
+          "draw": 3.5,
           "away": 2.55
         },
         {
@@ -14633,10 +14360,10 @@
           "best_bookmaker": "Betfred (UK)"
         },
         "draw": {
-          "median_odds": 3.53,
-          "median_prob": 0.2837,
-          "mean_odds": 3.47,
-          "mean_prob": 0.2885,
+          "median_odds": 3.55,
+          "median_prob": 0.2817,
+          "mean_odds": 3.48,
+          "mean_prob": 0.2878,
           "best_odds": 3.6,
           "best_prob": 0.2778,
           "best_bookmaker": "Betfred (UK)"
